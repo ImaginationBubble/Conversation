@@ -1,2 +1,1 @@
-# Conversation
-Jabber Client
+Our Client

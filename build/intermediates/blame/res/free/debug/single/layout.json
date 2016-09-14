@@ -1,0 +1,262 @@
+[
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/message_status.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/layout/message_status.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/form_text.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/layout/form_text.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/activity_set_presence.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/layout/activity_set_presence.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/conversation_list_row.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/layout/conversation_list_row.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/activity_start_conversation.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/layout/activity_start_conversation.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/keys_card.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/layout/keys_card.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/certificate_information.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/layout/certificate_information.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/crop__activity_crop.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.soundcloud.android/android-crop/1.0.1/res/layout/crop__activity_crop.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/contact_key.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/layout/contact_key.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/abc_simple_dropdown_hint.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_simple_dropdown_hint.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/activity_trust_keys.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/layout/activity_trust_keys.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/message_received.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/layout/message_received.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/presence_template.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/layout/presence_template.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/activity_verify_otr.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/layout/activity_verify_otr.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/abc_activity_chooser_view_include.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_activity_chooser_view_include.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/activity_contact_details.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/layout/activity_contact_details.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/simple_list_item.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/layout/simple_list_item.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/abc_screen_toolbar.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/activity_edit_account.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/layout/activity_edit_account.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/activity_choose_contact.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/layout/activity_choose_contact.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/join_conference_dialog.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/layout/join_conference_dialog.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/activity_change_password.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/layout/activity_change_password.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/magic_create.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/layout/magic_create.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/manage_accounts.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/layout/manage_accounts.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/fragment_conversations_overview.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/layout/fragment_conversations_overview.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/actionview_search.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/layout/actionview_search.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/activity_publish_profile_picture.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/layout/activity_publish_profile_picture.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/dialog_clear_history.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/layout/dialog_clear_history.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/elv_undo_popup.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/de.timroes.android/EnhancedListView/0.3.4/res/layout/elv_undo_popup.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/contact.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/layout/contact.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/welcome.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/layout/welcome.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/crop__layout_done_cancel.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.soundcloud.android/android-crop/1.0.1/res/layout/crop__layout_done_cancel.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/quickedit.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/layout/quickedit.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/list_item_tag.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/layout/list_item_tag.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/captcha.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/layout/captcha.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/activity_about.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/layout/activity_about.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/abc_search_view.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/create_conference_dialog.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/layout/create_conference_dialog.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/share_with.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/layout/share_with.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/message_sent.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/layout/message_sent.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/form_boolean.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/layout/form_boolean.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/dialog_show_password.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/layout/dialog_show_password.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/activity_muc_details.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/layout/activity_muc_details.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/fragment_conversation.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/layout/fragment_conversation.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/account_row.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/layout/account_row.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/enter_jid_dialog.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/layout/enter_jid_dialog.xml"
+    },
+    {
+        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_mode_close_item_material.xml"
+    }
+]

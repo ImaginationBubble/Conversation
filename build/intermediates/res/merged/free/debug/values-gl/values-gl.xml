@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="accept">Aceptar</string>
+    <string name="account_status_connecting">Conectando\u2026</string>
+    <string name="account_status_disabled">Deshabilitado temporalmente</string>
+    <string name="account_status_no_internet">Sen conectividade</string>
+    <string name="account_status_not_found">Servidor non atopado</string>
+    <string name="account_status_offline">Desconectado</string>
+    <string name="account_status_online">Conectado</string>
+    <string name="account_status_regis_conflict">O identificador xa está en uso</string>
+    <string name="account_status_regis_fail">Erro no rexistro</string>
+    <string name="account_status_regis_not_sup">O servidor non soporta rexistros</string>
+    <string name="account_status_regis_success">Rexistro completado</string>
+    <string name="account_status_unauthorized">Non autorizado</string>
+    <string name="account_status_unknown">Descoñecido</string>
+    <string name="action_accounts">Xestionar contas</string>
+    <string name="action_add">Nova conversa</string>
+    <string name="action_add_account">Engadir conta</string>
+    <string name="action_clear_history">Limpar historial</string>
+    <string name="action_contact_details">Detalles do contacto</string>
+    <string name="action_delete_contact">Eliminar contacto da lista</string>
+    <string name="action_edit_contact">Editar contacto</string>
+    <string name="action_end_conversation">Terminar conversa</string>
+    <string name="action_muc_details">Detalles da conferencia</string>
+    <string name="action_secure">Conversa segura</string>
+    <string name="action_settings">Axustes</string>
+    <string name="add_contact">Engadir contacto</string>
+    <string name="ask_for_presence_updates">Solicitar actualizacións de presencia</string>
+    <string name="attach_choose_picture">Seleccionar imaxe</string>
+    <string name="attach_file">Adxuntar</string>
+    <string name="attach_record_voice">Grabar audio</string>
+    <string name="attach_take_picture">Facer foto</string>
+    <string name="cancel">Cancelar</string>
+    <string name="clear_conversation_history">Limpar historial de conversa</string>
+    <string name="clear_histor_msg">¿Queres borrar todas as mensaxes desta conversa?\n\n<b>Ollo:</b> Isto non afectará ás mensaxes gardadas noutros dispositivos ou servidores.</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Activar"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> non funcionará a menos que actives os servizos de Google Play."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Activar servizos de Google Play"</string>
+    <string msgid="7118643132557593940" name="common_google_play_services_install_button">"Descargar servizos de Google Play"</string>
+    <string msgid="1666261992894286769" name="common_google_play_services_install_text_phone">"<ns1:g id="APP_NAME">%1$s</ns1:g> non se executará se o teu teléfono non ten instalados os servizos de Google Play."</string>
+    <string msgid="1701766622451829291" name="common_google_play_services_install_text_tablet">"<ns1:g id="APP_NAME">%1$s</ns1:g> non se executará se a túa tableta non ten instalados os servizos de Google Play."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Descargar servizos de Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Erro nos servizos de Google Play"</string>
+    <string msgid="9089562800660647919" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> ten problemas cos servizos de Google Play. Se o problema continúa, ponte en contacto co programador para obter axuda."</string>
+    <string msgid="1064791666906610763" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> confía nos servizos de Google Play, que non son compatibles co teu dispositivo. Ponte en contacto co fabricante para obter axuda."</string>
+    <string msgid="539866123733096737" name="common_google_play_services_unsupported_title">"Servizos de Google Play"</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Actualizar"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> non se executará a menos que actualices os servizos de Google Play."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Actualizar os servizos de Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> non se executará sen os servizos de Google Play, que se están actualizando neste momento."</string>
+    <string msgid="2270671469198016014" name="common_google_play_services_updating_title">"Actualizando os servizos de Google Play"</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Necesítase a nova versión dos servizos de Google Play. Actualizarase en breve."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Abrir no teléfono"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Iniciar sesión"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Iniciar sesión con Google"</string>
+    <string name="contact_has_no_pgp_key">Conversations non foi quen de cifrar as túas mensaxes porque o teu contactos non está anunciando a súa clave pública.\n\n<small>Por favor, pídelle ao teu contacto que configure OpenPGP.</small></string>
+    <string name="crash_report_message">Enviando volcados de pilas axudas ao desenrolo de Conversations\n<b>Aviso:</b> Isto empregará a túa conta XMPP para enviar o volcado de pila ao desenrolador.</string>
+    <string name="crash_report_title">Conversations deteuse.</string>
+    <string name="decryption_failed">Fallou o descifrado. Quizábeis non teñas a clave privada apropiada.</string>
+    <string name="delete_messages">Borrar mensaxes</string>
+    <string name="encryption_choice_otr">OTR</string>
+    <string name="encryption_choice_pgp">OpenPGP</string>
+    <string name="error">Produciuse un erro</string>
+    <string name="error_compressing_image">Erro convertindo o arquivo de imaxe</string>
+    <string name="error_decrypting_file">I/O Erro descifrando arquivo</string>
+    <string name="error_file_not_found">Arquivo non atopado</string>
+    <string name="error_io_exception">Erro xeral de I/O. ¿Quedaches sen espazo no disco?</string>
+    <string name="error_not_an_image_file">O arquivo seleccionado non é unha imaxe</string>
+    <string name="error_security_exception_during_image_copy">A aplicación que usas para seleccionar imaxes non proporciona suficientes permisos para leer o arquivo.\n\n<small>Utiliza un explorador de arquivos diferente para seleccionar a imaxe</small></string>
+    <string name="install">Instalar</string>
+    <string name="invalid_jid">O identificador non é un identificador de Jabber válido</string>
+    <string name="just_now">agora</string>
+    <string name="keys">Chaves</string>
+    <string name="mgmt_account_delete">Eliminar conta</string>
+    <string name="mgmt_account_disable">Deshabilitar temporalmente</string>
+    <string name="mgmt_account_edit">Editar conta</string>
+    <string name="mgmt_account_enable">Habilitar</string>
+    <string name="minutes_ago">min</string>
+    <string name="moderator">Moderador</string>
+    <string name="nick_in_use">O apodo xa está en uso</string>
+    <string name="no_pgp_key">Clave OpenPGP non atopada</string>
+    <string name="not_in_roster">O contacto non está na túa lista. ¿Queres engadilo?</string>
+    <string name="offering">ofrecendo…</string>
+    <string name="openkeychain_required">OpenKeychain</string>
+    <string name="openkeychain_required_long">Conversations emprega unha aplicación de terceiros chamada <b>OpenKeychain</b> para cifrar e descifrar mensaxes e xestionar as túas claves públicas.\n\nOpenKeychain está publicado baixo licencia GPLv3 e disponible en F-Droid e Google Play.\n\n<small>(Por favor, reinicie Conversations despois.)</small></string>
+    <string name="openpgp_error">OpenKeychain reportou un erro</string>
+    <string name="participant">Participante</string>
+    <string name="passwords_do_not_match">As contrasinais non coinciden</string>
+    <string name="preemptively_grant">Por defecto otorgar peticiones de suscripción</string>
+    <string name="pref_accept_files">Aceptar arquivos</string>
+    <string name="pref_accept_files_summary">De forma automática aceptar arquivos menores de…</string>
+    <string name="pref_grant_presence_updates">Suscripción de presencia</string>
+    <string name="pref_grant_presence_updates_summary">Por defecto otorgar e pedir suscripcións de presencia dos contactos que creaches</string>
+    <string name="pref_never_send_crash">Nunca enviar informe de erros</string>
+    <string name="pref_never_send_crash_summary">Enviando volcados de pilas axudas al desenrolo de Conversations</string>
+    <string name="pref_notifications">Notificacións</string>
+    <string name="pref_notifications_summary">Notifica cuando chega unha nova mensaxe</string>
+    <string name="pref_vibrate">Tremer</string>
+    <string name="pref_xmpp_resource">Recurso</string>
+    <string name="pref_xmpp_resource_summary">O nome que identifica o cliente que estás a empregar</string>
+    <string name="preparing_image">Preparando imaxe para enviar</string>
+    <string name="problem_connecting_to_account">Erro na conexión á conta</string>
+    <string name="problem_connecting_to_accounts">Erro na conexión a múltiples contas</string>
+    <string name="receive_presence_updates">Recibir actualizacións de presencia</string>
+    <string name="register_account">Rexistrar nova conta no servidor</string>
+    <string name="remove_contact_text">¿Queres eliminar a %s da túa lista?. A conversa asociada a esta conta non se eliminará.</string>
+    <string name="restart">Reiniciar</string>
+    <string name="save">Gardar</string>
+    <string name="send_failed">Erro ao enviar</string>
+    <string name="send_never">Non preguntar de novo</string>
+    <string name="send_now">Enviar agora</string>
+    <string name="send_otr_message">Enviar mensaxe cifrado con OTR</string>
+    <string name="send_pgp_message">Enviar mensaxe cifrado con OpenPGP</string>
+    <string name="send_presence_updates">Enviar actualizacións de presencia</string>
+    <string name="send_rejected">rechazado</string>
+    <string name="send_unencrypted">Enviar sen cifrar</string>
+    <string name="sending">enviando…</string>
+    <string name="share_with">Compartir con</string>
+    <string name="start_conversation">Comeza conversa</string>
+    <string name="subscriptions">Suscripcións</string>
+    <string name="touch_to_fix">Pulsa aquí para xestionar as túas contass</string>
+    <string name="unread_conversations">conversas sen ler</string>
+    <string name="visitor">Visitante</string>
+    <string name="your_account">A túa conta</string>
+    <string name="your_nick_has_been_changed">Modificouse o teu apodo</string>
+</resources>
