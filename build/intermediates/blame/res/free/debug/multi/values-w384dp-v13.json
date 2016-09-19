@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\res\\merged\\free\\debug\\values-w384dp-v13\\values-w384dp-v13.xml",
+        "outputFile": "E:\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\values-w384dp-v13\\values-w384dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 111
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-w384dp\\dimens.xml",
+                    "file": "E:\\Conversation\\src\\main\\res\\values-w384dp\\dimens.xml",
                     "position": {
                         "startLine": 1,
                         "startColumn": 1,

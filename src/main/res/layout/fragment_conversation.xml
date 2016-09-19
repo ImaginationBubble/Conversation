@@ -73,6 +73,19 @@
             android:clickable="true"
             android:drawableBottom="@drawable/ic_send_voice_offline" />
 
+        <Button
+            android:id="@+id/voiceStopButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="2dp"
+            android:background="@null"
+            android:clickable="true"
+            android:drawableBottom="@drawable/ic_send_voice_online"
+            android:visibility="invisible"/>
+
     </RelativeLayout>
 
     <RelativeLayout

@@ -11,7 +11,9 @@ import android.content.Intent;
 import android.content.IntentSender.SendIntentException;
 import android.os.Bundle;
 import android.os.Handler;
+import android.text.Editable;
 import android.text.InputType;
+import android.text.TextWatcher;
 import android.util.Log;
 import android.util.Pair;
 import android.view.ContextMenu;
@@ -120,6 +122,7 @@ public class ConversationFragment extends Fragment implements EditMessage.Keyboa
 	private Toast messageLoaderToast;
 
 	private Button voiceRecordButton;
+	private Button voiceStopButton;
     AudioOutputBase64 audioOutputBase64 = new AudioOutputBase64() ;
     AudioInputBase64 audioInputBase64 ;
     String str = null;
@@ -437,22 +440,26 @@ public class ConversationFragment extends Fragment implements EditMessage.Keyboa
         audioOutputBase64 = new AudioOutputBase64() ;
         str = null;
 
+        voiceStopButton = (Button) view.findViewById(R.id.voiceStopButton);
+		voiceStopButton.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				audioOutputBase64.stopRecording();
+				activity.sendVoiceFuckingMessage();
+				voiceStopButton.setVisibility(View.INVISIBLE);
+				voiceRecordButton.setVisibility(View.VISIBLE);
+				return;
+			}
+		});
+
         voiceRecordButton = (Button) view.findViewById(R.id.voiceRecordButton);
         voiceRecordButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(((Button)v).getText().toString().equals("Stop")){
-                    audioOutputBase64.stopRecording();
 
-					activity.sendVoiceFuckingMessage();
-
-                    ((Button)v).setText("Record");
-                    return;
-
-                }
-
+				voiceRecordButton.setVisibility(View.INVISIBLE);
+				voiceStopButton.setVisibility(View.VISIBLE);
                 audioOutputBase64.startRecording();
-                ((Button)v).setText("Stop");
 
             }
 
@@ -1151,7 +1158,7 @@ public class ConversationFragment extends Fragment implements EditMessage.Keyboa
 			status = Presence.Status.OFFLINE;
 		}
 		this.mSendButton.setTag(action);
-		this.mSendButton.setImageResource(getSendButtonImageResource(action, status));
+//		this.mSendButton.setBackgroundResource(getSendButtonImageResource(action, status));
 	}
 
 	protected void updateStatusMessages() {
