@@ -55,6 +55,7 @@ import javax.net.ssl.X509TrustManager;
 import de.duenndns.ssl.MemorizingTrustManager;
 import eu.siacs.conversations.Config;
 import eu.siacs.conversations.crypto.XmppDomainVerifier;
+import eu.siacs.conversations.crypto.sasl.Anonymous;
 import eu.siacs.conversations.crypto.sasl.DigestMd5;
 import eu.siacs.conversations.crypto.sasl.External;
 import eu.siacs.conversations.crypto.sasl.Plain;
@@ -268,7 +269,7 @@ public class XmppConnection implements Runnable {
 				} else {
 					destination = account.getHostname();
 				}
-				Log.d(Config.LOGTAG, account.getJid().toBareJid() + ": connect to " + destination + " via TOR");
+				Log.d(Config.LOGTAG, account.getJid().toBareJid() + ": connect to " + destination + " via Tor");
 				socket = SocksSocketFactory.createSocketOverTor(destination, account.getPort());
 				startXmpp();
 			} else if (extended && account.getHostname() != null && !account.getHostname().isEmpty()) {
@@ -841,6 +842,8 @@ public class XmppConnection implements Runnable {
 			saslMechanism = new Plain(tagWriter, account);
 		} else if (mechanisms.contains("DIGEST-MD5")) {
 			saslMechanism = new DigestMd5(tagWriter, account, mXmppConnectionService.getRNG());
+		} else if (mechanisms.contains("ANONYMOUS")) {
+			saslMechanism = new Anonymous(tagWriter, account, mXmppConnectionService.getRNG());
 		}
 		if (saslMechanism != null) {
 			final JSONObject keys = account.getKeys();
@@ -978,7 +981,7 @@ public class XmppConnection implements Runnable {
 					final Element jid = bind.findChild("jid");
 					if (jid != null && jid.getContent() != null) {
 						try {
-							account.setResource(Jid.fromString(jid.getContent()).getResourcepart());
+							account.setJid(Jid.fromString(jid.getContent()));
 							if (streamFeatures.hasChild("session")
 									&& !streamFeatures.findChild("session").hasChild("optional")) {
 								sendStartSession();
@@ -1381,8 +1384,10 @@ public class XmppConnection implements Runnable {
 			try {
 				socket.close();
 			} catch (IOException e) {
-				e.printStackTrace();
+				Log.d(Config.LOGTAG,account.getJid().toBareJid()+": io exception "+e.getMessage()+" during force close");
 			}
+		} else {
+			Log.d(Config.LOGTAG,account.getJid().toBareJid()+": socket was null during force close");
 		}
 	}
 
@@ -1407,7 +1412,11 @@ public class XmppConnection implements Runnable {
 							Log.d(Config.LOGTAG, account.getJid().toBareJid()+": waiting for tag writer to finish");
 							warned = true;
 						}
-						Thread.sleep(200);
+						try {
+							Thread.sleep(200);
+						} catch(InterruptedException e) {
+							Log.d(Config.LOGTAG,account.getJid().toBareJid()+": sleep interrupted");
+						}
 						i++;
 					}
 					if (warned) {
@@ -1417,8 +1426,8 @@ public class XmppConnection implements Runnable {
 					tagWriter.writeTag(Tag.end("stream:stream"));
 				} catch (final IOException e) {
 					Log.d(Config.LOGTAG,account.getJid().toBareJid()+": io exception during disconnect ("+e.getMessage()+")");
-				} catch (final InterruptedException e) {
-					Log.d(Config.LOGTAG, "interrupted");
+				} finally {
+					forceCloseSocket();
 				}
 			}
 		}

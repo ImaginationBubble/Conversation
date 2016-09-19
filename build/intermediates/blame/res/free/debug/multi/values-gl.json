@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/values-gl/values-gl.xml",
+        "outputFile": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\res\\merged\\free\\debug\\values-gl\\values-gl.xml",
         "map": [
             {
                 "to": {
@@ -11,13 +11,13 @@
                     "endOffset": 143
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 66,
                         "startColumn": 2,
-                        "startOffset": 4980,
+                        "startOffset": 5046,
                         "endColumn": 40,
-                        "endOffset": 5018
+                        "endOffset": 5084
                     }
                 }
             },
@@ -30,13 +30,13 @@
                     "endOffset": 214
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 87,
                         "startColumn": 2,
-                        "startOffset": 6705,
+                        "startOffset": 6792,
                         "endColumn": 68,
-                        "endOffset": 6771
+                        "endOffset": 6858
                     }
                 }
             },
@@ -49,13 +49,13 @@
                     "endOffset": 294
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 85,
                         "startColumn": 2,
-                        "startOffset": 6569,
+                        "startOffset": 6654,
                         "endColumn": 77,
-                        "endOffset": 6644
+                        "endOffset": 6729
                     }
                 }
             },
@@ -68,13 +68,13 @@
                     "endOffset": 367
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 91,
                         "startColumn": 2,
-                        "startOffset": 6977,
+                        "startOffset": 7068,
                         "endColumn": 70,
-                        "endOffset": 7045
+                        "endOffset": 7136
                     }
                 }
             },
@@ -87,13 +87,13 @@
                     "endOffset": 441
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 90,
                         "startColumn": 2,
-                        "startOffset": 6905,
+                        "startOffset": 6995,
                         "endColumn": 71,
-                        "endOffset": 6974
+                        "endOffset": 7064
                     }
                 }
             },
@@ -106,13 +106,13 @@
                     "endOffset": 505
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 88,
                         "startColumn": 2,
-                        "startOffset": 6774,
+                        "startOffset": 6862,
                         "endColumn": 61,
-                        "endOffset": 6833
+                        "endOffset": 6921
                     }
                 }
             },
@@ -125,13 +125,13 @@
                     "endOffset": 565
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 86,
                         "startColumn": 2,
-                        "startOffset": 6647,
+                        "startOffset": 6733,
                         "endColumn": 57,
-                        "endOffset": 6702
+                        "endOffset": 6788
                     }
                 }
             },
@@ -144,13 +144,13 @@
                     "endOffset": 654
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 93,
                         "startColumn": 2,
-                        "startOffset": 7117,
+                        "startOffset": 7210,
                         "endColumn": 86,
-                        "endOffset": 7201
+                        "endOffset": 7294
                     }
                 }
             },
@@ -163,13 +163,13 @@
                     "endOffset": 725
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 92,
                         "startColumn": 2,
-                        "startOffset": 7048,
+                        "startOffset": 7140,
                         "endColumn": 68,
-                        "endOffset": 7114
+                        "endOffset": 7206
                     }
                 }
             },
@@ -182,13 +182,13 @@
                     "endOffset": 815
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 95,
                         "startColumn": 2,
-                        "startOffset": 7279,
+                        "startOffset": 7374,
                         "endColumn": 87,
-                        "endOffset": 7364
+                        "endOffset": 7459
                     }
                 }
             },
@@ -201,13 +201,13 @@
                     "endOffset": 892
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 94,
                         "startColumn": 2,
-                        "startOffset": 7204,
+                        "startOffset": 7298,
                         "endColumn": 74,
-                        "endOffset": 7276
+                        "endOffset": 7370
                     }
                 }
             },
@@ -220,13 +220,13 @@
                     "endOffset": 963
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 89,
                         "startColumn": 2,
-                        "startOffset": 6836,
+                        "startOffset": 6925,
                         "endColumn": 68,
-                        "endOffset": 6902
+                        "endOffset": 6991
                     }
                 }
             },
@@ -239,13 +239,13 @@
                     "endOffset": 1026
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 84,
                         "startColumn": 2,
-                        "startOffset": 6508,
+                        "startOffset": 6592,
                         "endColumn": 60,
-                        "endOffset": 6566
+                        "endOffset": 6650
                     }
                 }
             },
@@ -258,13 +258,13 @@
                     "endOffset": 1087
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 2,
-                        "startOffset": 154,
+                        "startOffset": 158,
                         "endColumn": 58,
-                        "endOffset": 210
+                        "endOffset": 214
                     }
                 }
             },
@@ -277,13 +277,13 @@
                     "endOffset": 1140
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 2,
-                        "startOffset": 103,
+                        "startOffset": 106,
                         "endColumn": 50,
-                        "endOffset": 151
+                        "endOffset": 154
                     }
                 }
             },
@@ -296,13 +296,13 @@
                     "endOffset": 1201
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 2,
-                        "startOffset": 476,
+                        "startOffset": 485,
                         "endColumn": 58,
-                        "endOffset": 532
+                        "endOffset": 541
                     }
                 }
             },
@@ -315,13 +315,13 @@
                     "endOffset": 1267
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 39,
                         "startColumn": 2,
-                        "startOffset": 2471,
+                        "startOffset": 2510,
                         "endColumn": 63,
-                        "endOffset": 2532
+                        "endOffset": 2571
                     }
                 }
             },
@@ -334,13 +334,13 @@
                     "endOffset": 1339
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 2,
-                        "startOffset": 281,
+                        "startOffset": 287,
                         "endColumn": 69,
-                        "endOffset": 348
+                        "endOffset": 354
                     }
                 }
             },
@@ -353,13 +353,13 @@
                     "endOffset": 1416
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 2,
-                        "startOffset": 597,
+                        "startOffset": 608,
                         "endColumn": 74,
-                        "endOffset": 669
+                        "endOffset": 680
                     }
                 }
             },
@@ -372,13 +372,13 @@
                     "endOffset": 1480
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 2,
-                        "startOffset": 535,
+                        "startOffset": 545,
                         "endColumn": 61,
-                        "endOffset": 594
+                        "endOffset": 604
                     }
                 }
             },
@@ -391,13 +391,13 @@
                     "endOffset": 1550
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 2,
-                        "startOffset": 213,
+                        "startOffset": 218,
                         "endColumn": 67,
-                        "endOffset": 278
+                        "endOffset": 283
                     }
                 }
             },
@@ -410,13 +410,13 @@
                     "endOffset": 1621
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 2,
-                        "startOffset": 351,
+                        "startOffset": 358,
                         "endColumn": 68,
-                        "endOffset": 417
+                        "endOffset": 424
                     }
                 }
             },
@@ -429,13 +429,13 @@
                     "endOffset": 1679
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 2,
-                        "startOffset": 420,
+                        "startOffset": 428,
                         "endColumn": 55,
-                        "endOffset": 473
+                        "endOffset": 481
                     }
                 }
             },
@@ -448,13 +448,13 @@
                     "endOffset": 1731
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 2,
-                        "startOffset": 53,
+                        "startOffset": 55,
                         "endColumn": 49,
-                        "endOffset": 100
+                        "endOffset": 102
                     }
                 }
             },
@@ -467,13 +467,13 @@
                     "endOffset": 1788
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 35,
                         "startColumn": 2,
-                        "startOffset": 2242,
+                        "startOffset": 2277,
                         "endColumn": 54,
-                        "endOffset": 2294
+                        "endOffset": 2329
                     }
                 }
             },
@@ -486,13 +486,13 @@
                     "endOffset": 1879
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 75,
                         "startColumn": 2,
-                        "startOffset": 5606,
+                        "startOffset": 5681,
                         "endColumn": 88,
-                        "endOffset": 5692
+                        "endOffset": 5767
                     }
                 }
             },
@@ -505,13 +505,13 @@
                     "endOffset": 1947
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 76,
                         "startColumn": 2,
-                        "startOffset": 5695,
+                        "startOffset": 5771,
                         "endColumn": 65,
-                        "endOffset": 5758
+                        "endOffset": 5834
                     }
                 }
             },
@@ -524,13 +524,13 @@
                     "endOffset": 1996
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 33,
                         "startColumn": 2,
-                        "startOffset": 2103,
+                        "startOffset": 2136,
                         "endColumn": 46,
-                        "endOffset": 2147
+                        "endOffset": 2180
                     }
                 }
             },
@@ -543,13 +543,13 @@
                     "endOffset": 2057
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 102,
                         "startColumn": 2,
-                        "startOffset": 7723,
+                        "startOffset": 7825,
                         "endColumn": 58,
-                        "endOffset": 7779
+                        "endOffset": 7881
                     }
                 }
             },
@@ -562,13 +562,13 @@
                     "endOffset": 2116
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 77,
                         "startColumn": 2,
-                        "startOffset": 5761,
+                        "startOffset": 5838,
                         "endColumn": 56,
-                        "endOffset": 5815
+                        "endOffset": 5892
                     }
                 }
             },
@@ -581,13 +581,13 @@
                     "endOffset": 2160
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 2,
-                        "startOffset": 1388,
+                        "startOffset": 1412,
                         "endColumn": 41,
-                        "endOffset": 1427
+                        "endOffset": 1451
                     }
                 }
             },
@@ -600,13 +600,13 @@
                     "endOffset": 2244
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 40,
                         "startColumn": 2,
-                        "startOffset": 2535,
+                        "startOffset": 2575,
                         "endColumn": 81,
-                        "endOffset": 2614
+                        "endOffset": 2654
                     }
                 }
             },
@@ -619,13 +619,13 @@
                     "endOffset": 2429
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 41,
                         "startColumn": 2,
-                        "startOffset": 2617,
+                        "startOffset": 2658,
                         "endColumn": 182,
-                        "endOffset": 2797
+                        "endOffset": 2838
                     }
                 }
             },
@@ -638,7 +638,7 @@
                     "endOffset": 2537
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-gl/values.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -657,7 +657,7 @@
                     "endOffset": 2732
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-gl/values.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -676,7 +676,7 @@
                     "endOffset": 2863
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-gl/values.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -695,7 +695,7 @@
                     "endOffset": 2998
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-gl/values.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -714,7 +714,7 @@
                     "endOffset": 3219
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-gl/values.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -733,7 +733,7 @@
                     "endOffset": 3440
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-gl/values.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -752,7 +752,7 @@
                     "endOffset": 3574
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-gl/values.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -771,7 +771,7 @@
                     "endOffset": 3712
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-gl/values.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -790,7 +790,7 @@
                     "endOffset": 3964
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.4.0/res/values-gl/values.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\9.4.0\\res\\values-gl\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -809,7 +809,7 @@
                     "endOffset": 4231
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-gl/values.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -828,7 +828,7 @@
                     "endOffset": 4358
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-gl/values.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -847,7 +847,7 @@
                     "endOffset": 4469
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-gl/values.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -866,7 +866,7 @@
                     "endOffset": 4669
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-gl/values.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -885,7 +885,7 @@
                     "endOffset": 4806
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-gl/values.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -904,7 +904,7 @@
                     "endOffset": 5030
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-gl/values.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -923,7 +923,7 @@
                     "endOffset": 5171
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-gl/values.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -942,7 +942,7 @@
                     "endOffset": 5353
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-gl/values.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -961,7 +961,7 @@
                     "endOffset": 5450
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-gl/values.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -980,7 +980,7 @@
                     "endOffset": 5549
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-gl/values.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -999,7 +999,7 @@
                     "endOffset": 5663
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-gl/values.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -1018,13 +1018,13 @@
                     "endOffset": 5908
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 54,
                         "startColumn": 2,
-                        "startOffset": 3873,
+                        "startOffset": 3927,
                         "endColumn": 242,
-                        "endOffset": 4113
+                        "endOffset": 4167
                     }
                 }
             },
@@ -1037,13 +1037,13 @@
                     "endOffset": 6115
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 2,
-                        "startOffset": 1536,
+                        "startOffset": 1563,
                         "endColumn": 204,
-                        "endOffset": 1738
+                        "endOffset": 1765
                     }
                 }
             },
@@ -1056,13 +1056,13 @@
                     "endOffset": 6185
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 2,
-                        "startOffset": 1468,
+                        "startOffset": 1494,
                         "endColumn": 67,
-                        "endOffset": 1533
+                        "endOffset": 1559
                     }
                 }
             },
@@ -1075,13 +1075,13 @@
                     "endOffset": 6299
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 47,
                         "startColumn": 2,
-                        "startOffset": 3148,
+                        "startOffset": 3195,
                         "endColumn": 111,
-                        "endOffset": 3257
+                        "endOffset": 3304
                     }
                 }
             },
@@ -1094,13 +1094,13 @@
                     "endOffset": 6359
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 42,
                         "startColumn": 2,
-                        "startOffset": 2800,
+                        "startOffset": 2842,
                         "endColumn": 57,
-                        "endOffset": 2855
+                        "endOffset": 2897
                     }
                 }
             },
@@ -1113,13 +1113,13 @@
                     "endOffset": 6413
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 96,
                         "startColumn": 2,
-                        "startOffset": 7367,
+                        "startOffset": 7463,
                         "endColumn": 51,
-                        "endOffset": 7416
+                        "endOffset": 7512
                     }
                 }
             },
@@ -1132,13 +1132,13 @@
                     "endOffset": 6471
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 97,
                         "startColumn": 2,
-                        "startOffset": 7419,
+                        "startOffset": 7516,
                         "endColumn": 55,
-                        "endOffset": 7472
+                        "endOffset": 7569
                     }
                 }
             },
@@ -1151,13 +1151,13 @@
                     "endOffset": 6524
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 67,
                         "startColumn": 2,
-                        "startOffset": 5021,
+                        "startOffset": 5088,
                         "endColumn": 50,
-                        "endOffset": 5069
+                        "endOffset": 5136
                     }
                 }
             },
@@ -1170,13 +1170,13 @@
                     "endOffset": 6612
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 80,
                         "startColumn": 2,
-                        "startOffset": 5999,
+                        "startOffset": 6079,
                         "endColumn": 85,
-                        "endOffset": 6082
+                        "endOffset": 6162
                     }
                 }
             },
@@ -1189,13 +1189,13 @@
                     "endOffset": 6691
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 65,
                         "startColumn": 2,
-                        "startOffset": 4903,
+                        "startOffset": 4968,
                         "endColumn": 76,
-                        "endOffset": 4977
+                        "endOffset": 5042
                     }
                 }
             },
@@ -1208,13 +1208,13 @@
                     "endOffset": 6760
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 81,
                         "startColumn": 2,
-                        "startOffset": 6085,
+                        "startOffset": 6166,
                         "endColumn": 66,
-                        "endOffset": 6149
+                        "endOffset": 6230
                     }
                 }
             },
@@ -1227,13 +1227,13 @@
                     "endOffset": 6858
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 82,
                         "startColumn": 2,
-                        "startOffset": 6152,
+                        "startOffset": 6234,
                         "endColumn": 95,
-                        "endOffset": 6245
+                        "endOffset": 6327
                     }
                 }
             },
@@ -1246,13 +1246,13 @@
                     "endOffset": 6950
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 79,
                         "startColumn": 2,
-                        "startOffset": 5909,
+                        "startOffset": 5988,
                         "endColumn": 89,
-                        "endOffset": 5996
+                        "endOffset": 6075
                     }
                 }
             },
@@ -1265,13 +1265,13 @@
                     "endOffset": 7212
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 83,
                         "startColumn": 2,
-                        "startOffset": 6248,
+                        "startOffset": 6331,
                         "endColumn": 259,
-                        "endOffset": 6505
+                        "endOffset": 6588
                     }
                 }
             },
@@ -1284,13 +1284,13 @@
                     "endOffset": 7257
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 51,
                         "startColumn": 2,
-                        "startOffset": 3721,
+                        "startOffset": 3772,
                         "endColumn": 42,
-                        "endOffset": 3761
+                        "endOffset": 3812
                     }
                 }
             },
@@ -1303,13 +1303,13 @@
                     "endOffset": 7353
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 104,
                         "startColumn": 2,
-                        "startOffset": 7861,
+                        "startOffset": 7965,
                         "endColumn": 93,
-                        "endOffset": 7952
+                        "endOffset": 8056
                     }
                 }
             },
@@ -1322,13 +1322,13 @@
                     "endOffset": 7396
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 2,
-                        "startOffset": 672,
+                        "startOffset": 684,
                         "endColumn": 40,
-                        "endOffset": 710
+                        "endOffset": 722
                     }
                 }
             },
@@ -1341,13 +1341,13 @@
                     "endOffset": 7436
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 72,
                         "startColumn": 2,
-                        "startOffset": 5398,
+                        "startOffset": 5470,
                         "endColumn": 37,
-                        "endOffset": 5433
+                        "endOffset": 5505
                     }
                 }
             },
@@ -1360,13 +1360,13 @@
                     "endOffset": 7499
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 99,
                         "startColumn": 2,
-                        "startOffset": 7532,
+                        "startOffset": 7631,
                         "endColumn": 60,
-                        "endOffset": 7590
+                        "endOffset": 7689
                     }
                 }
             },
@@ -1379,13 +1379,13 @@
                     "endOffset": 7575
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 100,
                         "startColumn": 2,
-                        "startOffset": 7593,
+                        "startOffset": 7693,
                         "endColumn": 73,
-                        "endOffset": 7664
+                        "endOffset": 7764
                     }
                 }
             },
@@ -1398,13 +1398,13 @@
                     "endOffset": 7634
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 98,
                         "startColumn": 2,
-                        "startOffset": 7475,
+                        "startOffset": 7573,
                         "endColumn": 56,
-                        "endOffset": 7529
+                        "endOffset": 7627
                     }
                 }
             },
@@ -1417,13 +1417,13 @@
                     "endOffset": 7692
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 101,
                         "startColumn": 2,
-                        "startOffset": 7667,
+                        "startOffset": 7768,
                         "endColumn": 55,
-                        "endOffset": 7720
+                        "endOffset": 7821
                     }
                 }
             },
@@ -1436,13 +1436,13 @@
                     "endOffset": 7736
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 2,
-                        "startOffset": 713,
+                        "startOffset": 726,
                         "endColumn": 41,
-                        "endOffset": 752
+                        "endOffset": 765
                     }
                 }
             },
@@ -1455,13 +1455,13 @@
                     "endOffset": 7784
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 2,
-                        "startOffset": 925,
+                        "startOffset": 942,
                         "endColumn": 45,
-                        "endOffset": 968
+                        "endOffset": 985
                     }
                 }
             },
@@ -1474,13 +1474,13 @@
                     "endOffset": 7847
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 2,
-                        "startOffset": 864,
+                        "startOffset": 880,
                         "endColumn": 60,
-                        "endOffset": 922
+                        "endOffset": 938
                     }
                 }
             },
@@ -1493,13 +1493,13 @@
                     "endOffset": 7912
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 53,
                         "startColumn": 2,
-                        "startOffset": 3810,
+                        "startOffset": 3863,
                         "endColumn": 62,
-                        "endOffset": 3870
+                        "endOffset": 3923
                     }
                 }
             },
@@ -1512,13 +1512,13 @@
                     "endOffset": 8006
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 34,
                         "startColumn": 2,
-                        "startOffset": 2150,
+                        "startOffset": 2184,
                         "endColumn": 91,
-                        "endOffset": 2239
+                        "endOffset": 2273
                     }
                 }
             },
@@ -1531,13 +1531,13 @@
                     "endOffset": 8054
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 52,
                         "startColumn": 2,
-                        "startOffset": 3764,
+                        "startOffset": 3816,
                         "endColumn": 45,
-                        "endOffset": 3807
+                        "endOffset": 3859
                     }
                 }
             },
@@ -1550,13 +1550,13 @@
                     "endOffset": 8117
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 48,
                         "startColumn": 2,
-                        "startOffset": 3260,
+                        "startOffset": 3308,
                         "endColumn": 60,
-                        "endOffset": 3318
+                        "endOffset": 3366
                     }
                 }
             },
@@ -1569,13 +1569,13 @@
                     "endOffset": 8475
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 49,
                         "startColumn": 2,
-                        "startOffset": 3321,
+                        "startOffset": 3370,
                         "endColumn": 355,
-                        "endOffset": 3674
+                        "endOffset": 3723
                     }
                 }
             },
@@ -1588,13 +1588,13 @@
                     "endOffset": 8547
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 64,
                         "startColumn": 2,
-                        "startOffset": 4833,
+                        "startOffset": 4897,
                         "endColumn": 69,
-                        "endOffset": 4900
+                        "endOffset": 4964
                     }
                 }
             },
@@ -1607,13 +1607,13 @@
                     "endOffset": 8600
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 2,
-                        "startOffset": 971,
+                        "startOffset": 989,
                         "endColumn": 50,
-                        "endOffset": 1019
+                        "endOffset": 1037
                     }
                 }
             },
@@ -1626,13 +1626,13 @@
                     "endOffset": 8681
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 103,
                         "startColumn": 2,
-                        "startOffset": 7782,
+                        "startOffset": 7885,
                         "endColumn": 78,
-                        "endOffset": 7858
+                        "endOffset": 7961
                     }
                 }
             },
@@ -1645,13 +1645,13 @@
                     "endOffset": 8774
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 78,
                         "startColumn": 2,
-                        "startOffset": 5818,
+                        "startOffset": 5896,
                         "endColumn": 90,
-                        "endOffset": 5906
+                        "endOffset": 5984
                     }
                 }
             },
@@ -1664,13 +1664,13 @@
                     "endOffset": 8837
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 57,
                         "startColumn": 2,
-                        "startOffset": 4275,
+                        "startOffset": 4332,
                         "endColumn": 60,
-                        "endOffset": 4333
+                        "endOffset": 4390
                     }
                 }
             },
@@ -1683,13 +1683,13 @@
                     "endOffset": 8940
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 58,
                         "startColumn": 2,
-                        "startOffset": 4336,
+                        "startOffset": 4394,
                         "endColumn": 100,
-                        "endOffset": 4434
+                        "endOffset": 4492
                     }
                 }
             },
@@ -1702,13 +1702,13 @@
                     "endOffset": 9021
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 68,
                         "startColumn": 2,
-                        "startOffset": 5072,
+                        "startOffset": 5140,
                         "endColumn": 78,
-                        "endOffset": 5148
+                        "endOffset": 5216
                     }
                 }
             },
@@ -1721,13 +1721,13 @@
                     "endOffset": 9166
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 69,
                         "startColumn": 2,
-                        "startOffset": 5151,
+                        "startOffset": 5220,
                         "endColumn": 142,
-                        "endOffset": 5291
+                        "endOffset": 5360
                     }
                 }
             },
@@ -1740,13 +1740,13 @@
                     "endOffset": 9246
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 62,
                         "startColumn": 2,
-                        "startOffset": 4635,
+                        "startOffset": 4697,
                         "endColumn": 77,
-                        "endOffset": 4710
+                        "endOffset": 4772
                     }
                 }
             },
@@ -1759,13 +1759,13 @@
                     "endOffset": 9368
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 63,
                         "startColumn": 2,
-                        "startOffset": 4713,
+                        "startOffset": 4776,
                         "endColumn": 119,
-                        "endOffset": 4830
+                        "endOffset": 4893
                     }
                 }
             },
@@ -1778,13 +1778,13 @@
                     "endOffset": 9429
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 59,
                         "startColumn": 2,
-                        "startOffset": 4437,
+                        "startOffset": 4496,
                         "endColumn": 58,
-                        "endOffset": 4493
+                        "endOffset": 4552
                     }
                 }
             },
@@ -1797,13 +1797,13 @@
                     "endOffset": 9524
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 60,
                         "startColumn": 2,
-                        "startOffset": 4496,
+                        "startOffset": 4556,
                         "endColumn": 92,
-                        "endOffset": 4586
+                        "endOffset": 4646
                     }
                 }
             },
@@ -1816,13 +1816,13 @@
                     "endOffset": 9572
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 61,
                         "startColumn": 2,
-                        "startOffset": 4589,
+                        "startOffset": 4650,
                         "endColumn": 45,
-                        "endOffset": 4632
+                        "endOffset": 4693
                     }
                 }
             },
@@ -1835,13 +1835,13 @@
                     "endOffset": 9627
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 55,
                         "startColumn": 2,
-                        "startOffset": 4116,
+                        "startOffset": 4171,
                         "endColumn": 52,
-                        "endOffset": 4166
+                        "endOffset": 4221
                     }
                 }
             },
@@ -1854,13 +1854,13 @@
                     "endOffset": 9735
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 56,
                         "startColumn": 2,
-                        "startOffset": 4169,
+                        "startOffset": 4225,
                         "endColumn": 105,
-                        "endOffset": 4272
+                        "endOffset": 4328
                     }
                 }
             },
@@ -1873,13 +1873,13 @@
                     "endOffset": 9808
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 38,
                         "startColumn": 2,
-                        "startOffset": 2400,
+                        "startOffset": 2438,
                         "endColumn": 70,
-                        "endOffset": 2468
+                        "endOffset": 2506
                     }
                 }
             },
@@ -1892,13 +1892,13 @@
                     "endOffset": 9891
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 30,
                         "startColumn": 2,
-                        "startOffset": 1848,
+                        "startOffset": 1878,
                         "endColumn": 80,
-                        "endOffset": 1926
+                        "endOffset": 1956
                     }
                 }
             },
@@ -1911,13 +1911,13 @@
                     "endOffset": 9986
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 31,
                         "startColumn": 2,
-                        "startOffset": 1929,
+                        "startOffset": 1960,
                         "endColumn": 92,
-                        "endOffset": 2019
+                        "endOffset": 2050
                     }
                 }
             },
@@ -1930,13 +1930,13 @@
                     "endOffset": 10075
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 74,
                         "startColumn": 2,
-                        "startOffset": 5519,
+                        "startOffset": 5593,
                         "endColumn": 86,
-                        "endOffset": 5603
+                        "endOffset": 5677
                     }
                 }
             },
@@ -1949,13 +1949,13 @@
                     "endOffset": 10153
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 2,
-                        "startOffset": 1200,
+                        "startOffset": 1221,
                         "endColumn": 75,
-                        "endOffset": 1273
+                        "endOffset": 1294
                     }
                 }
             },
@@ -1968,13 +1968,13 @@
                     "endOffset": 10289
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 2,
-                        "startOffset": 1066,
+                        "startOffset": 1086,
                         "endColumn": 133,
-                        "endOffset": 1197
+                        "endOffset": 1217
                     }
                 }
             },
@@ -1987,13 +1987,13 @@
                     "endOffset": 10335
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 50,
                         "startColumn": 2,
-                        "startOffset": 3677,
+                        "startOffset": 3727,
                         "endColumn": 43,
-                        "endOffset": 3718
+                        "endOffset": 3768
                     }
                 }
             },
@@ -2006,13 +2006,13 @@
                     "endOffset": 10375
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 2,
-                        "startOffset": 1430,
+                        "startOffset": 1455,
                         "endColumn": 37,
-                        "endOffset": 1465
+                        "endOffset": 1490
                     }
                 }
             },
@@ -2025,13 +2025,13 @@
                     "endOffset": 10430
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 36,
                         "startColumn": 2,
-                        "startOffset": 2297,
+                        "startOffset": 2333,
                         "endColumn": 52,
-                        "endOffset": 2347
+                        "endOffset": 2383
                     }
                 }
             },
@@ -2044,13 +2044,13 @@
                     "endOffset": 10491
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 2,
-                        "startOffset": 1789,
+                        "startOffset": 1818,
                         "endColumn": 58,
-                        "endOffset": 1845
+                        "endOffset": 1874
                     }
                 }
             },
@@ -2063,13 +2063,13 @@
                     "endOffset": 10541
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 2,
-                        "startOffset": 1741,
+                        "startOffset": 1769,
                         "endColumn": 47,
-                        "endOffset": 1786
+                        "endOffset": 1814
                     }
                 }
             },
@@ -2082,13 +2082,13 @@
                     "endOffset": 10617
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 43,
                         "startColumn": 2,
-                        "startOffset": 2858,
+                        "startOffset": 2901,
                         "endColumn": 73,
-                        "endOffset": 2929
+                        "endOffset": 2972
                     }
                 }
             },
@@ -2101,13 +2101,13 @@
                     "endOffset": 10697
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 44,
                         "startColumn": 2,
-                        "startOffset": 2932,
+                        "startOffset": 2976,
                         "endColumn": 77,
-                        "endOffset": 3007
+                        "endOffset": 3051
                     }
                 }
             },
@@ -2120,13 +2120,13 @@
                     "endOffset": 10782
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 73,
                         "startColumn": 2,
-                        "startOffset": 5436,
+                        "startOffset": 5509,
                         "endColumn": 82,
-                        "endOffset": 5516
+                        "endOffset": 5589
                     }
                 }
             },
@@ -2139,13 +2139,13 @@
                     "endOffset": 10834
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 37,
                         "startColumn": 2,
-                        "startOffset": 2350,
+                        "startOffset": 2387,
                         "endColumn": 49,
-                        "endOffset": 2397
+                        "endOffset": 2434
                     }
                 }
             },
@@ -2158,13 +2158,13 @@
                     "endOffset": 10897
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 46,
                         "startColumn": 2,
-                        "startOffset": 3087,
+                        "startOffset": 3133,
                         "endColumn": 60,
-                        "endOffset": 3145
+                        "endOffset": 3191
                     }
                 }
             },
@@ -2177,13 +2177,13 @@
                     "endOffset": 10943
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 2,
-                        "startOffset": 820,
+                        "startOffset": 835,
                         "endColumn": 43,
-                        "endOffset": 861
+                        "endOffset": 876
                     }
                 }
             },
@@ -2196,13 +2196,13 @@
                     "endOffset": 10996
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 2,
-                        "startOffset": 1276,
+                        "startOffset": 1298,
                         "endColumn": 50,
-                        "endOffset": 1324
+                        "endOffset": 1346
                     }
                 }
             },
@@ -2215,13 +2215,13 @@
                     "endOffset": 11059
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 2,
-                        "startOffset": 1327,
+                        "startOffset": 1350,
                         "endColumn": 60,
-                        "endOffset": 1385
+                        "endOffset": 1408
                     }
                 }
             },
@@ -2234,13 +2234,13 @@
                     "endOffset": 11114
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 70,
                         "startColumn": 2,
-                        "startOffset": 5294,
+                        "startOffset": 5364,
                         "endColumn": 52,
-                        "endOffset": 5344
+                        "endOffset": 5414
                     }
                 }
             },
@@ -2253,13 +2253,13 @@
                     "endOffset": 11197
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 32,
                         "startColumn": 2,
-                        "startOffset": 2022,
+                        "startOffset": 2054,
                         "endColumn": 80,
-                        "endOffset": 2100
+                        "endOffset": 2132
                     }
                 }
             },
@@ -2272,13 +2272,13 @@
                     "endOffset": 11264
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 2,
-                        "startOffset": 755,
+                        "startOffset": 769,
                         "endColumn": 64,
-                        "endOffset": 817
+                        "endOffset": 831
                     }
                 }
             },
@@ -2291,13 +2291,13 @@
                     "endOffset": 11310
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 2,
-                        "startOffset": 1022,
+                        "startOffset": 1041,
                         "endColumn": 43,
-                        "endOffset": 1063
+                        "endOffset": 1082
                     }
                 }
             },
@@ -2310,13 +2310,13 @@
                     "endOffset": 11363
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 71,
                         "startColumn": 2,
-                        "startOffset": 5347,
+                        "startOffset": 5418,
                         "endColumn": 50,
-                        "endOffset": 5395
+                        "endOffset": 5466
                     }
                 }
             },
@@ -2329,13 +2329,13 @@
                     "endOffset": 11442
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-gl/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 45,
                         "startColumn": 2,
-                        "startOffset": 3010,
+                        "startOffset": 3055,
                         "endColumn": 76,
-                        "endOffset": 3084
+                        "endOffset": 3129
                     }
                 }
             }

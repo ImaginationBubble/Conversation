@@ -68,6 +68,7 @@
     <string name="admin">Administrador</string>
     <string name="advanced_mode">Modo avançado</string>
     <string name="all_accounts_on_this_device">Definir para todas as contas deste dispositivo</string>
+    <string name="allow">Permitir</string>
     <string name="also_end_conversation">Encerrar essa conversa em seguida</string>
     <string name="always">Sempre</string>
     <string name="apk">Aplicativo Android</string>
@@ -293,6 +294,7 @@
     <string name="mam_prefs">Preferências de arquivamento</string>
     <string name="manual_verification_explanation">Compare cuidadosamente a impressão digital abaixo com aquela do seu contato.\nVocê pode usar qualquer forma de comunicação segura, como um e-mail criptografado ou uma ligação telefônica para efetuar a troca.</string>
     <string name="manually_verify">Verificado manualmente</string>
+    <string name="me">Eu</string>
     <string name="member">Membro</string>
     <string name="members_only">Privada, somente para membros</string>
     <string name="message_copied_to_clipboard">A mensagem foi copiada para a área de transferência</string>
@@ -309,6 +311,7 @@
     <string name="mgmt_account_publish_pgp">Publicar a chave pública OpenPGP</string>
     <string name="minute_ago">1 minuto atrás</string>
     <string name="minutes_ago">%d minutos atrás</string>
+    <string name="missing_internet_permission">Permissões de Internet ausentes</string>
     <string name="missing_presence_updates">Sem atualizações de presença do contato</string>
     <string name="missing_public_keys">Avisos de ausência de chave pública</string>
     <string name="moderated">Moderada</string>
@@ -330,6 +333,7 @@
     <string name="no_keys_just_confirm">Você já confia nesse contato. Ao selecionar \'Concluído\', você está apenas confirmando que %s é parte dessa conferência.</string>
     <string name="no_more_history_on_server">Nenhum outro histórico do servidor</string>
     <string name="no_otr_session_found">Não foi encontrada nenhuma sessão OTR válida!</string>
+    <string name="no_permission_to_access_x">Sem permissão para acessar %s</string>
     <string name="no_pgp_key">Não foi encontrada nenhuma chave OpenPGP</string>
     <string name="no_pgp_keys">Não foi encontrada nenhuma chave OpenPGP</string>
     <string name="no_role">Desconectado</string>
@@ -410,6 +414,8 @@
     <string name="pref_expert_options">Configurações avançadas</string>
     <string name="pref_expert_options_other">Outras</string>
     <string name="pref_expert_options_summary">Por favor, use com cuidado.</string>
+    <string name="pref_export_logs">Exportar histórico</string>
+    <string name="pref_export_logs_summary">Escrever os históricos das conversas no cartão SD</string>
     <string name="pref_force_encryption">Forçar criptografia ponto-a-ponto</string>
     <string name="pref_force_encryption_summary">Sempre envie mensagem criptografada (exceto para conferências).</string>
     <string name="pref_general">Geral</string>
@@ -503,6 +509,7 @@
     <string name="registration_password_too_weak">Falha no registro: Senha muito fraca</string>
     <string name="registration_please_wait">Não foi possível efetuar o registro. Por favor, tente novamente mais tarde</string>
     <string name="remote_fingerprint">Impressão digital remota</string>
+    <string name="remote_server_not_found">O servidor remoto não foi encontrado</string>
     <string name="remove_admin_privileges">Revogar os privilégios de administrador</string>
     <string name="remove_bookmark_text">Você deseja remover %s dos favoritos? As conversas associadas a esse favorito não serão removidas.</string>
     <string name="remove_contact_text">Deseja remover %s da sua lista de contatos? As conversas associadas a esse contato não serão removidas.</string>

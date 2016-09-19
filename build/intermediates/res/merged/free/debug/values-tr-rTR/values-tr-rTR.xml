@@ -65,6 +65,7 @@
     <string name="admin">Yönetici</string>
     <string name="advanced_mode">Gelişmiş kip</string>
     <string name="all_accounts_on_this_device">Bu cihazdaki tüm hesaplara uygula</string>
+    <string name="allow">İzin ver</string>
     <string name="also_end_conversation">Sonrasında bu sohbeti sonlandır</string>
     <string name="always">Her zaman</string>
     <string name="apk">Android uygulaması</string>
@@ -136,6 +137,7 @@
     <string name="connected_accounts"> %2$d hesabın %1$ kadarı bağlandı</string>
     <string name="contact_added_you">Kişi sizi listesine ekledi</string>
     <string name="contact_already_exists">Kişi zaten mevcut</string>
+    <string name="contact_asks_for_presence_subscription">Kişi sizi eklemek istiyor</string>
     <string name="contact_blocked">Kişi engellendi</string>
     <string name="contact_has_no_pgp_key">Kişi ortak anahtarını yayınlamadığı için Conversations iletilerinizi şifreleyemiyor.\n\n<small>Lütfen kişiden OpenPGP’yi ayarlamasını isteyin.</small></string>
     <string name="contact_has_read_up_to_this_point">%s buraya kadar okudu</string>
@@ -270,6 +272,7 @@
     <string name="mam_prefs">Arşivleme tercihleri</string>
     <string name="manual_verification_explanation">Aşağıdaki parmak izini, karşınızdaki kişinin parmak iziyle dikkatlice karşılaştırın. \n\nŞifreli eposta veya telefon gibi güvenilir bir iletişim kanalı üzerinden bilgi alışverişi yapabilirsiniz.</string>
     <string name="manually_verify">Bizzat doğrula</string>
+    <string name="me">Ben</string>
     <string name="member">Üye</string>
     <string name="members_only">Özel, sadece üyeler</string>
     <string name="message_copied_to_clipboard">Panoya kopyalanan ileti</string>
@@ -286,6 +289,7 @@
     <string name="mgmt_account_publish_pgp">OpenPGP genel anahtarını yayınla</string>
     <string name="minute_ago">1 dakika önce</string>
     <string name="minutes_ago">%d dakika önc</string>
+    <string name="missing_internet_permission">Eksik internet yetkisi</string>
     <string name="missing_presence_updates">Kişinin çevrimiçi durum bildirimi güncellemesi kayıp</string>
     <string name="missing_public_keys">Kayıp genel anahtar bildirimleri</string>
     <string name="moderated">Denetli</string>
@@ -307,6 +311,7 @@
     <string name="no_keys_just_confirm">Bu kişiye zaten güveniyor durumdasınız. \"tamam\" seçeneğini işaretleyerek, sadece %s \'in bu grup sohbete katılabileceğini teyid ediyorsunuz.</string>
     <string name="no_more_history_on_server">Sunucuda başka geçmiş kalmadı</string>
     <string name="no_otr_session_found">Geçerli bir OTR oturumu bulunamadı!</string>
+    <string name="no_permission_to_access_x">%s e erişim hakkınız yok</string>
     <string name="no_pgp_key">Herhangi bir OpenPGP anahtarı bulunamadı</string>
     <string name="no_pgp_keys">Herhangi bir OpenPGP anahtarı bulunamadı</string>
     <string name="no_role">Çevrimdışı</string>
@@ -387,6 +392,8 @@
     <string name="pref_expert_options">Uzman seçenekleri</string>
     <string name="pref_expert_options_other">Diğer</string>
     <string name="pref_expert_options_summary">Lütfen dikkatli olun</string>
+    <string name="pref_export_logs">Geçmişi dışarı aktar</string>
+    <string name="pref_export_logs_summary">Conversations geçmiş kayıtlarını SD karta yaz</string>
     <string name="pref_force_encryption">Uçtan uca şifrelemeye zorla</string>
     <string name="pref_force_encryption_summary">Her zaman şifrelenmiş ileti gönder (Conversations hariç)</string>
     <string name="pref_general">Genel</string>

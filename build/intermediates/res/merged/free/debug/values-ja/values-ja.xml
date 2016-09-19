@@ -80,6 +80,7 @@
     <string name="admin">管理者</string>
     <string name="advanced_mode">詳細モード</string>
     <string name="all_accounts_on_this_device">このデバイス上のすべてのアカウントに対して設定</string>
+    <string name="allow">許可</string>
     <string name="also_end_conversation">その後、この会話を終了</string>
     <string name="always">常に</string>
     <string name="apk">Android アプリ</string>
@@ -171,6 +172,7 @@
     <string name="connected_accounts">%1$d / %2$d アカウントが接続しました</string>
     <string name="contact_added_you">連絡先があなたを連絡先リストに追加しました</string>
     <string name="contact_already_exists">連絡先はすでに存在します</string>
+    <string name="contact_asks_for_presence_subscription">連絡先が、参加サブスクリプションを問い合わせしています</string>
     <string name="contact_blocked">連絡先をブロックしました</string>
     <string name="contact_has_no_pgp_key">連絡先が公開鍵を通知しないため、Conversations はあなたのメッセージを暗号化することができません。\n\n<small>連絡先に OpenPGP をセットアップするように依頼してください。</small></string>
     <string name="contact_has_read_up_to_this_point">%s はここまで読みました</string>
@@ -310,6 +312,7 @@
     <string name="mam_prefs">アーカイブの設定</string>
     <string name="manual_verification_explanation">慎重に、連絡先のフィンガープリントと、以下に表示されるフィンガープリントを比較してください。\nこれを交換するためには、暗号化されたメールや、電話のような信頼できる形式の通信を使用することができます。</string>
     <string name="manually_verify">手動で検証</string>
+    <string name="me">自分</string>
     <string name="member">メンバー</string>
     <string name="members_only">プライベート、メンバーのみ</string>
     <string name="message_copied_to_clipboard">メッセージをクリップボードにコピーしました</string>
@@ -326,6 +329,7 @@
     <string name="mgmt_account_publish_pgp">OpenPGP 公開鍵を公開</string>
     <string name="minute_ago">1 分前</string>
     <string name="minutes_ago">%d 分前</string>
+    <string name="missing_internet_permission">インターネットアクセス許可が不足しています</string>
     <string name="missing_presence_updates">連絡先からの参加アップデートがありません</string>
     <string name="missing_public_keys">公開鍵の通知がありません</string>
     <string name="moderated">司会</string>
@@ -347,6 +351,7 @@
     <string name="no_keys_just_confirm">既にこの連絡先を信頼しています。\'完了\' を選択すると、%s がこの会議の参加者であることを確認します。</string>
     <string name="no_more_history_on_server">サーバーにこれ以上履歴はありません</string>
     <string name="no_otr_session_found">有効な OTR セッションが見つかりません!</string>
+    <string name="no_permission_to_access_x">%s にアクセスする権限がありません</string>
     <string name="no_pgp_key">OpenPGP の鍵はありません</string>
     <string name="no_pgp_keys">OpenPGP の鍵はありません</string>
     <string name="no_role">オフライン</string>
@@ -431,6 +436,8 @@
     <string name="pref_expert_options">エキスパート設定</string>
     <string name="pref_expert_options_other">その他</string>
     <string name="pref_expert_options_summary">ご利用は注意してください</string>
+    <string name="pref_export_logs">履歴をエクスポート</string>
+    <string name="pref_export_logs_summary">会話履歴ログを SD カードに書き込みます</string>
     <string name="pref_force_encryption">強制的にエンドツーエンド暗号化を使用する</string>
     <string name="pref_force_encryption_summary">常に暗号化されたメッセージを送信します (会議を除く)</string>
     <string name="pref_general">全般</string>
@@ -524,6 +531,7 @@
     <string name="registration_password_too_weak">登録に失敗しました: パスワードが弱すぎます</string>
     <string name="registration_please_wait">登録に失敗しました: 後でもう一度試してください</string>
     <string name="remote_fingerprint">リモート フィンガープリント</string>
+    <string name="remote_server_not_found">リモートサーバーが見つかりません</string>
     <string name="remove_admin_privileges">管理者権限を取消</string>
     <string name="remove_bookmark_text">ブックマークとして %s を削除しますか? このブックマークに関連した会話は削除されません。</string>
     <string name="remove_contact_text">あなたの名簿から %s を削除しますか? この連絡先と関連した会話は削除されません。</string>

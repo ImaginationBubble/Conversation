@@ -1,7 +1,6 @@
 package eu.siacs.conversations.services;
 
 import android.app.Notification;
-import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
@@ -13,6 +12,7 @@ import android.os.SystemClock;
 import android.support.v4.app.NotificationCompat;
 import android.support.v4.app.NotificationCompat.BigPictureStyle;
 import android.support.v4.app.NotificationCompat.Builder;
+import android.support.v4.app.NotificationManagerCompat;
 import android.support.v4.app.RemoteInput;
 import android.support.v4.app.TaskStackBuilder;
 import android.text.Html;
@@ -70,28 +70,6 @@ public class NotificationService {
 				&& (message.getConversation().alwaysNotify() || wasHighlightedOrPrivate(message)
 		);
 	}
-
-	public void notifyPebble(final Message message) {
-		final Intent i = new Intent("com.getpebble.action.SEND_NOTIFICATION");
-
-		final Conversation conversation = message.getConversation();
-		final JSONObject jsonData = new JSONObject(new HashMap<String, String>(2) {{
-			put("title", conversation.getName());
-			put("body", message.getBody());
-		}});
-		final String notificationData = new JSONArray().put(jsonData).toString();
-
-		i.putExtra("messageType", "PEBBLE_ALERT");
-		i.putExtra("sender", "Conversations"); /* XXX: Shouldn't be hardcoded, e.g., AbstractGenerator.APP_NAME); */
-		i.putExtra("notificationData", notificationData);
-		// notify Pebble App
-		i.setPackage("com.getpebble.android");
-		mXmppConnectionService.sendBroadcast(i);
-		// notify Gadgetbridge
-		i.setPackage("nodomain.freeyourgadget.gadgetbridge");
-		mXmppConnectionService.sendBroadcast(i);
-	}
-
 
 	public boolean notificationsEnabled() {
 		return mXmppConnectionService.getPreferences().getBoolean("show_notification", true);
@@ -163,9 +141,6 @@ public class NotificationService {
 					&& !account.inGracePeriod()
 					&& !this.inMiniGracePeriod(account);
 			updateNotification(doNotify);
-			if (doNotify) {
-				notifyPebble(message);
-			}
 		}
 	}
 
@@ -183,8 +158,8 @@ public class NotificationService {
 		synchronized (notifications) {
 			markAsReadIfHasDirectReply(conversation);
 			notifications.remove(conversation.getUuid());
-			final NotificationManager nm = (NotificationManager) mXmppConnectionService.getSystemService(Context.NOTIFICATION_SERVICE);
-			nm.cancel(conversation.getUuid(), NOTIFICATION_ID);
+			final NotificationManagerCompat notificationManager = NotificationManagerCompat.from(mXmppConnectionService);
+			notificationManager.cancel(conversation.getUuid(), NOTIFICATION_ID);
 			updateNotification(false);
 		}
 	}
@@ -207,8 +182,7 @@ public class NotificationService {
 	}
 
 	public void updateNotification(final boolean notify) {
-		final NotificationManager notificationManager = (NotificationManager) mXmppConnectionService
-				.getSystemService(Context.NOTIFICATION_SERVICE);
+		final NotificationManagerCompat notificationManager = NotificationManagerCompat.from(mXmppConnectionService);
 		final SharedPreferences preferences = mXmppConnectionService.getPreferences();
 
 		if (notifications.size() == 0) {
@@ -322,19 +296,21 @@ public class NotificationService {
 				} else {
 					modifyForTextOnly(mBuilder, messages);
 				}
+				RemoteInput remoteInput = new RemoteInput.Builder("text_reply").setLabel(UIHelper.getMessageHint(mXmppConnectionService, conversation)).build();
+				NotificationCompat.Action action = new NotificationCompat.Action.Builder(R.drawable.ic_send_text_offline, "Reply", createReplyIntent(conversation)).addRemoteInput(remoteInput).build();
 				if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-					RemoteInput remoteInput = new RemoteInput.Builder("text_reply").setLabel(UIHelper.getMessageHint(mXmppConnectionService, conversation)).build();
-					NotificationCompat.Action action = new NotificationCompat.Action.Builder(R.drawable.ic_send_text_offline, "Reply", createReplyIntent(conversation)).addRemoteInput(remoteInput).build();
 					mBuilder.addAction(action);
-					if ((message = getFirstDownloadableMessage(messages)) != null) {
-						mBuilder.addAction(
-								Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP ?
-										R.drawable.ic_file_download_white_24dp : R.drawable.ic_action_download,
-								mXmppConnectionService.getResources().getString(R.string.download_x_file,
-										UIHelper.getFileDescriptionString(mXmppConnectionService, message)),
-								createDownloadIntent(message)
-						);
-					}
+				} else {
+					mBuilder.extend(new NotificationCompat.WearableExtender().addAction(action));
+				}
+				if ((message = getFirstDownloadableMessage(messages)) != null) {
+					mBuilder.addAction(
+							Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP ?
+									R.drawable.ic_file_download_white_24dp : R.drawable.ic_action_download,
+							mXmppConnectionService.getResources().getString(R.string.download_x_file,
+									UIHelper.getFileDescriptionString(mXmppConnectionService, message)),
+							createDownloadIntent(message)
+					);
 				}
 				if ((message = getFirstLocationMessage(messages)) != null) {
 					mBuilder.addAction(R.drawable.ic_room_white_24dp,
@@ -400,7 +376,7 @@ public class NotificationService {
 			builder.setStyle(messagingStyle);
 		} else {
 			builder.setStyle(new NotificationCompat.BigTextStyle().bigText(getMergedBodies(messages)));
-			builder.setContentText(UIHelper.getMessagePreview(mXmppConnectionService, messages.get(0)).first);
+			builder.setContentText(UIHelper.getMessagePreview(mXmppConnectionService, messages.get((messages.size()-1))).first);
 		}
 	}
 
@@ -613,7 +589,7 @@ public class NotificationService {
 	}
 
 	public void updateErrorNotification() {
-		final NotificationManager notificationManager = (NotificationManager) mXmppConnectionService.getSystemService(Context.NOTIFICATION_SERVICE);
+		final NotificationManagerCompat notificationManager = NotificationManagerCompat.from(mXmppConnectionService);
 		final List<Account> errors = new ArrayList<>();
 		for (final Account account : mXmppConnectionService.getAccounts()) {
 			if (account.hasErrorStatus()) {

@@ -40,16 +40,19 @@
     <string name="account_status_bind_failure">Bindungsfehler</string>
     <string name="account_status_connecting">Verbinde…</string>
     <string name="account_status_disabled">Vorübergehend abgeschaltet</string>
+    <string name="account_status_host_unknown">Server haftet nicht für die Domain</string>
     <string name="account_status_incompatible_server">Inkompatibler Server</string>
     <string name="account_status_no_internet">Keine Internetverbindung</string>
     <string name="account_status_not_found">Server nicht gefunden</string>
     <string name="account_status_offline">Offline</string>
     <string name="account_status_online">Online</string>
+    <string name="account_status_policy_violation">Verstoß gegen die Richtlinien</string>
     <string name="account_status_regis_conflict">Benutzername wird bereits verwendet</string>
     <string name="account_status_regis_fail">Registrierung fehlgeschlagen</string>
     <string name="account_status_regis_not_sup">Der Server unterstützt keine Registrierung</string>
     <string name="account_status_regis_success">Registrierung abgeschlossen</string>
     <string name="account_status_security_error">Sicherheitsfehler</string>
+    <string name="account_status_stream_error">Datenstromfehler</string>
     <string name="account_status_tor_unavailable">Tor-Netzwerk nicht verfügbar</string>
     <string name="account_status_unauthorized">Ungültige Zugangsdaten</string>
     <string name="account_status_unknown">Unbekannt</string>
@@ -80,6 +83,7 @@
     <string name="admin">Administrator</string>
     <string name="advanced_mode">Erweiterter Modus</string>
     <string name="all_accounts_on_this_device">Für alle Konten dieses Gerätes festlegen</string>
+    <string name="allow">Erlauben</string>
     <string name="also_end_conversation">Diese Unterhaltung danach beenden</string>
     <string name="always">Immer</string>
     <string name="apk">Android App</string>
@@ -305,6 +309,7 @@
     <string name="mam_prefs">Archivierungseinstellungen</string>
     <string name="manual_verification_explanation">Vergleiche den angezeigten Fingerabdruck sorgfältig mit dem deines Kontakts.\nDu kannst dazu einen sicheren Kommunikationsweg (z.B. verschlüsselte E-Mail oder Telefonanruf) zum Austausch nutzen.</string>
     <string name="manually_verify">Manuell überprüfen</string>
+    <string name="me">Ich</string>
     <string name="member">Mitglied</string>
     <string name="members_only">Privat, nur Mitglieder</string>
     <string name="message_copied_to_clipboard">Nachricht in Zwischenablage kopiert</string>
@@ -321,6 +326,7 @@
     <string name="mgmt_account_publish_pgp">Öffentlichen OpenPGP-Schlüssel veröffentlichen</string>
     <string name="minute_ago">vor einer Minute</string>
     <string name="minutes_ago">vor %d Minuten</string>
+    <string name="missing_internet_permission">Keine Berechtigungen für den Zugriff auf das Internet</string>
     <string name="missing_presence_updates">Fehlender Online-Status des Kontakts</string>
     <string name="missing_public_keys">Öffentlicher Schlüssel fehlt</string>
     <string name="moderated">Moderiert</string>
@@ -353,6 +359,7 @@
     <string name="no_keys_just_confirm">Du vertraust diesem Kontakt bereits. Durch Auswählen von \"Fertig\" bestätigst du, dass %s Teil dieser Konferenz ist.</string>
     <string name="no_more_history_on_server">Keine weiteren Nachrichten vorhanden</string>
     <string name="no_otr_session_found">Keine gültige OTR-Sitzung gefunden!</string>
+    <string name="no_permission_to_access_x">Keine Berechtigung um auf %s zuzugreifen</string>
     <string name="no_pgp_key">Kein OpenPGP-Schlüssel gefunden</string>
     <string name="no_pgp_keys">Keine OpenPGP-Schlüssel gefunden</string>
     <string name="no_role">Offline</string>
@@ -437,6 +444,8 @@
     <string name="pref_expert_options">Experteneinstellungen</string>
     <string name="pref_expert_options_other">Sonstiges</string>
     <string name="pref_expert_options_summary">Hier bitte vorsichtig sein</string>
+    <string name="pref_export_logs">Nachrichtenverlauf exportieren</string>
+    <string name="pref_export_logs_summary">Chatverlauf auf SD-Karte schreiben</string>
     <string name="pref_force_encryption">Ende-zu-Ende-Verschlüsselung erzwingen</string>
     <string name="pref_force_encryption_summary">Nachrichten immer verschlüsseln (außer für Konferenzen)</string>
     <string name="pref_general">Allgemeines</string>
@@ -530,6 +539,7 @@
     <string name="registration_password_too_weak">Registrierung fehlgeschlagen; Passwort zu schwach</string>
     <string name="registration_please_wait">Fehlgeschlagen: Bitte später versuchen.</string>
     <string name="remote_fingerprint">Fingerabdruck der Gegenseite</string>
+    <string name="remote_server_not_found">Remote-Server nicht gefunden</string>
     <string name="remove_admin_privileges">Administratorrechte entziehen</string>
     <string name="remove_bookmark_text">Möchtest du %s von deiner Kontaktliste entfernen? Die Unterhaltung mit dieser Konferenz wird dabei nicht entfernt.</string>
     <string name="remove_contact_text">Möchtest du %s von deiner Kontaktliste entfernen? Die Unterhaltung mit diesem Kontakt wird dabei nicht entfernt.</string>

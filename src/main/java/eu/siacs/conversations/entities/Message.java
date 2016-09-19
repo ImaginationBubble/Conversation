@@ -85,6 +85,7 @@ public class Message extends AbstractEntity {
 	private Message mPreviousMessage = null;
 	private String axolotlFingerprint = null;
 
+
 	private Message() {
 
 	}

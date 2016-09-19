@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="23"
+    density="xxhdpi"
+    format="7"
+    timestamp="6021834222205"
+    token="8776614350868237058" >
+
+    <task
+        name="javac"
+        duration="4121" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="2934" />
+    <task
+        name="verifier"
+        duration="708" />
+
+    <artifact
+        location="C:\AndroidProjects\Conversations\build\intermediates\res\resources-free-debug.ap_"
+        type="RESOURCES" />
+    <artifact
+        location="C:\AndroidProjects\Conversations\build\intermediates\res\resources-free-debug.ap_"
+        type="RESOURCES" />
+    <artifact
+        location="C:\AndroidProjects\Conversations\build\intermediates\transforms\dex\free\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.4.0_3c9d4a1eea8de5f4db90fd72a4c11250799120ce\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\AndroidProjects\Conversations\build\intermediates\transforms\dex\free\debug\folders\1000\10\com.android.support-support-media-compat-24.2.0_3c81d8f6bcd6cc35c4924c4c84bae49514238aa9\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\AndroidProjects\Conversations\build\intermediates\transforms\dex\free\debug\folders\1000\10\com.android.support-support-fragment-24.2.0_f4cff6563392dc65f0e89bdcab96dbb2357faac8\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\AndroidProjects\Conversations\build\intermediates\transforms\dex\free\debug\folders\1000\10\core-3.2.1_666314161d20b37ffdd70412bb9d165f446c9360\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\AndroidProjects\Conversations\build\intermediates\transforms\dex\free\debug\folders\1000\10\internal_impl-24.2.0_00cf599517672adfc3ea5b9aea83193950289c91\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\AndroidProjects\Conversations\build\intermediates\transforms\dex\free\debug\folders\1000\10\minidns-0.1.7_bc3655d862bac57099027c33f9ca0978ba4737e8\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\AndroidProjects\Conversations\build\intermediates\transforms\dex\free\debug\folders\1000\10\com.android.support-support-compat-24.2.0_ddef6d668124f8eaf60b5d731dc843d6e764ae26\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\AndroidProjects\Conversations\build\intermediates\transforms\dex\free\debug\folders\1000\10\library-2.4.0_5e0392a001ddf254f0dab928d8911445ac626550\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\AndroidProjects\Conversations\build\intermediates\transforms\dex\free\debug\folders\1000\10\com.android.support-support-core-ui-24.2.0_bd95d6389e6cc75633a571fcf518a29200cc495b\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\AndroidProjects\Conversations\build\intermediates\transforms\dex\free\debug\folders\1000\10\com.android.support-support-core-utils-24.2.0_838c5f3cd9446d65fb8394b9e1fc3e06014e0f08\classes.dex"
+        type="DEX" />
+
+</instant-run>

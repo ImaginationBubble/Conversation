@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/values-w360dp-v13/values-w360dp-v13.xml",
+        "outputFile": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\res\\merged\\free\\debug\\values-w360dp-v13\\values-w360dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,13 +11,13 @@
                     "endOffset": 111
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-w360dp/dimens.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-w360dp\\dimens.xml",
                     "position": {
                         "startLine": 1,
                         "startColumn": 1,
-                        "startOffset": 13,
+                        "startOffset": 14,
                         "endColumn": 57,
-                        "endOffset": 69
+                        "endOffset": 70
                     }
                 }
             },
@@ -30,7 +30,7 @@
                     "endOffset": 166
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-w360dp/values.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values-w360dp\\values.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,

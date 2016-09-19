@@ -1124,10 +1124,18 @@ public class XmppConnectionService extends Service {
 						String decryptedBody = message.getBody();
 						message.setBody(pgpBody);
 						message.setEncryption(Message.ENCRYPTION_PGP);
-						databaseBackend.createMessage(message);
-						saveInDb = false;
-						message.setBody(decryptedBody);
-						message.setEncryption(Message.ENCRYPTION_DECRYPTED);
+						if (message.edited()) {
+							message.setBody(decryptedBody);
+							message.setEncryption(Message.ENCRYPTION_DECRYPTED);
+							databaseBackend.updateMessage(message, message.getEditedId());
+							updateConversationUi();
+							return;
+						} else {
+							databaseBackend.createMessage(message);
+							saveInDb = false;
+							message.setBody(decryptedBody);
+							message.setEncryption(Message.ENCRYPTION_DECRYPTED);
+						}
 					}
 					break;
 				case Message.ENCRYPTION_OTR:
@@ -1634,12 +1642,17 @@ public class XmppConnectionService extends Service {
 		}
 	}
 
-	public void updateAccount(final Account account) {
-		this.statusListener.onStatusChanged(account);
-		databaseBackend.updateAccount(account);
-		reconnectAccountInBackground(account);
-		updateAccountUi();
-		getNotificationService().updateErrorNotification();
+	public boolean updateAccount(final Account account) {
+		if (databaseBackend.updateAccount(account)) {
+			this.statusListener.onStatusChanged(account);
+			databaseBackend.updateAccount(account);
+			reconnectAccountInBackground(account);
+			updateAccountUi();
+			getNotificationService().updateErrorNotification();
+			return true;
+		} else {
+			return false;
+		}
 	}
 
 	public void updateAccountPasswordOnServer(final Account account, final String newPassword, final OnAccountPasswordChanged callback) {
@@ -1677,12 +1690,14 @@ public class XmppConnectionService extends Service {
 					public void run() {
 						disconnect(account, true);
 					}
-				});
+				}).start();
 			}
 			Runnable runnable = new Runnable() {
 				@Override
 				public void run() {
-					databaseBackend.deleteAccount(account);
+					if (!databaseBackend.deleteAccount(account)) {
+						Log.d(Config.LOGTAG,account.getJid().toBareJid()+": unable to delete account");
+					}
 				}
 			};
 			mDatabaseExecutor.execute(runnable);
@@ -2020,8 +2035,12 @@ public class XmppConnectionService extends Service {
 
 				@Override
 				public void onFetchFailed(final Conversation conversation, Element error) {
-					join(conversation);
-					fetchConferenceConfiguration(conversation);
+					if (error != null && "remote-server-not-found".equals(error.getName())) {
+						conversation.getMucOptions().setError(MucOptions.Error.SERVER_NOT_FOUND);
+					} else {
+						join(conversation);
+						fetchConferenceConfiguration(conversation);
+					}
 				}
 			});
 			updateConversationUi();
@@ -2720,12 +2739,19 @@ public class XmppConnectionService extends Service {
 							Log.d(Config.LOGTAG, account.getJid().toBareJid()
 									+ ": successfully fetched vCard avatar for " + avatar.owner);
 							if (avatar.owner.isBareJid()) {
-								Contact contact = account.getRoster()
-										.getContact(avatar.owner);
-								contact.setAvatar(avatar);
-								getAvatarService().clear(contact);
+								if (account.getJid().toBareJid().equals(avatar.owner) && account.getAvatar() == null) {
+									Log.d(Config.LOGTAG,account.getJid().toBareJid()+": had no avatar. replacing with vcard");
+									account.setAvatar(avatar.getFilename());
+									databaseBackend.updateAccount(account);
+									getAvatarService().clear(account);
+									updateAccountUi();
+								} else {
+									Contact contact = account.getRoster().getContact(avatar.owner);
+									contact.setAvatar(avatar);
+									getAvatarService().clear(contact);
+									updateRosterUi();
+								}
 								updateConversationUi();
-								updateRosterUi();
 							} else {
 								Conversation conversation = find(account, avatar.owner.toBareJid());
 								if (conversation != null && conversation.getMode() == Conversation.MODE_MULTI) {
@@ -3228,7 +3254,8 @@ public class XmppConnectionService extends Service {
 		}
 	}
 
-	public void sendOfflinePresence(final Account account) {
+	private void sendOfflinePresence(final Account account) {
+		Log.d(Config.LOGTAG,account.getJid().toBareJid()+": sending offline presence");
 		sendPresencePacket(account, mPresenceGenerator.sendOfflinePresence(account));
 	}
 

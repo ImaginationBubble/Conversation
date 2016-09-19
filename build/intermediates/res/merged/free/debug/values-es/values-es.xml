@@ -83,6 +83,7 @@
     <string name="admin">Administrador</string>
     <string name="advanced_mode">Modo avanzado</string>
     <string name="all_accounts_on_this_device">Establecer para todas mis cuentas en este dispositivo</string>
+    <string name="allow">Permitir</string>
     <string name="also_end_conversation">Además, terminar esta conversación</string>
     <string name="always">Siempre</string>
     <string name="apk">Android App</string>
@@ -174,6 +175,7 @@
     <string name="connected_accounts">%1$d de %2$d cuentas conectadas</string>
     <string name="contact_added_you">El contacto te ha añadido a su lista de contactos</string>
     <string name="contact_already_exists">El contacto ya existe</string>
+    <string name="contact_asks_for_presence_subscription">El contacto solicita ver tus actualizaciones de estado</string>
     <string name="contact_blocked">Contacto bloqueado</string>
     <string name="contact_has_no_pgp_key">Conversations no ha podido cifrar tus mensajes porque tu contacto no está anunciando su clave publica.\n\n<small>Por favor, pide a tu contacto que configure OpenPGP.</small></string>
     <string name="contact_has_read_up_to_this_point">%s ha leído hasta aquí</string>
@@ -313,6 +315,7 @@
     <string name="mam_prefs">Preferencias de archivado</string>
     <string name="manual_verification_explanation">Compara detenidamente la huella digital mostrada abajo con la de tu contacto.\nPuedes usar cualquier forma de comunicación segura como un correo electrónico cifrado o conversación telefónica para verificarlo.</string>
     <string name="manually_verify">Verificar manualmente</string>
+    <string name="me">Yo</string>
     <string name="member">Miembro</string>
     <string name="members_only">Privada, solo miembros</string>
     <string name="message_copied_to_clipboard">Mensaje copiado al portapapeles</string>
@@ -329,6 +332,7 @@
     <string name="mgmt_account_publish_pgp">Publicar clave pública OpenPGP</string>
     <string name="minute_ago">hace 1 min</string>
     <string name="minutes_ago">hace %d min</string>
+    <string name="missing_internet_permission">Falta permiso de acceso a internet</string>
     <string name="missing_presence_updates">Suscripción de actualizaciones de presencia del contacto perdida</string>
     <string name="missing_public_keys">Se han perdido las claves de anuncio públicas</string>
     <string name="moderated">Moderada</string>
@@ -361,6 +365,7 @@
     <string name="no_keys_just_confirm">Ya confías en este contacto. Seleccionando \'hecho\', estás confirmando que %s es parte de esta conversación.</string>
     <string name="no_more_history_on_server">No hay más historial en el servidor</string>
     <string name="no_otr_session_found">¡No se ha encontrado una sesión OTR válida!</string>
+    <string name="no_permission_to_access_x">Sin permiso de acceso a %s</string>
     <string name="no_pgp_key">Clave OpenPGP no encontrada</string>
     <string name="no_pgp_keys">Claves OpenPGP no encontradas</string>
     <string name="no_role">Desconectado</string>
@@ -445,6 +450,8 @@
     <string name="pref_expert_options">Opciones para expertos</string>
     <string name="pref_expert_options_other">Otros</string>
     <string name="pref_expert_options_summary">Por favor, cuidado con estas opciones</string>
+    <string name="pref_export_logs">Exportar historial</string>
+    <string name="pref_export_logs_summary">Escribir historial de conversación en la tarjeta SD</string>
     <string name="pref_force_encryption">Forzar cifrado end-to-end</string>
     <string name="pref_force_encryption_summary">Siempre enviar mensajes cifrados (excepto para conversaciones en grupo)</string>
     <string name="pref_general">General</string>
@@ -538,6 +545,7 @@
     <string name="registration_password_too_weak">Error en el registro: La contraseña es demasiado débil</string>
     <string name="registration_please_wait">El registro falló. Prueba de nuevo más tarde</string>
     <string name="remote_fingerprint">Huella digital remota</string>
+    <string name="remote_server_not_found">Servidor no encontrado</string>
     <string name="remove_admin_privileges">Revocar privilegios de administrador</string>
     <string name="remove_bookmark_text">¿Quieres eliminar %s de tus marcadores? La conversación asociada con este marcador no se eliminará.</string>
     <string name="remove_contact_text">¿Quieres eliminar a %s de tu lista? La conversación asociada a esta cuenta no se eliminará.</string>

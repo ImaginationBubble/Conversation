@@ -1,0 +1,87 @@
+//package eu.siacs.conversations.voicemessage;
+//
+//
+//import android.support.v7.app.AppCompatActivity;
+//import android.os.Bundle;
+//import android.util.Log;
+//import android.view.View;
+//import android.widget.Button;
+//
+//import eu.siacs.conversations.R;
+//
+//
+//public class MainActivity extends AppCompatActivity {
+//    Button player = null;
+//    Button recorder = null;
+//    AudioOutputBase64 audioOutputBase64 = new AudioOutputBase64() ;
+//    AudioInputBase64 audioInputBase64 ;
+//    String str = null;
+//
+//    @Override
+//    protected void onCreate(Bundle savedInstanceState) {
+//        super.onCreate(savedInstanceState);
+//        setContentView(R.layout.activity_main);
+//        player = (Button) findViewById(R.id.player);
+//        recorder = (Button) findViewById(R.id.recorder);
+//
+//
+//
+//        audioOutputBase64.setDelegate(new AudioOutputDelegate() {
+//            @Override
+//            public void finish(String base64) {
+//                Log.d("result " ,base64);
+//
+//                str = base64;
+//
+//            }
+//        });
+//
+//        recorder.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                if(((Button)v).getText().toString().equals("Stop")){
+//                    audioOutputBase64.stopRecording();
+//                    ((Button)v).setText("Record");
+//                    return;
+//
+//                }
+//
+//
+//
+//
+//                audioOutputBase64.startRecording();
+//
+//                ((Button)v).setText("Stop");
+//            }
+//
+//        });
+//
+//        player.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//
+//                if(((Button)v).getText().toString().equals("Stop")){
+//                    audioInputBase64.stopAudio();
+//                    return;
+//                }
+//
+//            audioInputBase64 = new AudioInputBase64(str);
+//                audioInputBase64.setDelegate(new AudioInputDelegate() {
+//                    @Override
+//                    public void afterPlay() {
+//                        //      Toast.makeText(MainActivity.this,"Audio stopped",Toast.LENGTH_LONG).show();
+//                        if(player!=null)  player.setText("Play");
+//                    }
+//                });
+//
+//                audioInputBase64.playAudio();
+//                ((Button)v).setText("Stop");
+//            }
+//        });
+//
+//
+//    }
+//
+//
+//
+//}

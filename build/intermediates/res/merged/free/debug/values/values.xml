@@ -686,6 +686,8 @@
     <string name="minute_ago">1 min ago</string>
     <string name="minutes_ago">%d mins ago</string>
     <string name="missing_internet_permission">Missing internet permission</string>
+    <string name="missing_keys_from_x">Missing OMEMO keys from %s.</string>
+    <string name="missing_presence_subscription_with_x">Missing presence subscription with %s.</string>
     <string name="missing_presence_updates">Missing presence updates from contact</string>
     <string name="missing_public_keys">Missing public key announcements</string>
     <string name="moderated">Moderated</string>
@@ -718,6 +720,7 @@
     <string name="no_keys_just_confirm">You already trust this contact. By selecting \'done\' you are just confirming that %s is part of this conference.</string>
     <string name="no_more_history_on_server">No more history on server</string>
     <string name="no_otr_session_found">No valid OTR session has been found!</string>
+    <string name="no_permission_to_access_x">No permission to access %s</string>
     <string name="no_pgp_key">No OpenPGP Key found</string>
     <string name="no_pgp_keys">No OpenPGP Keys found</string>
     <string name="no_role">Offline</string>
@@ -928,6 +931,7 @@
     <string name="registration_password_too_weak">Registration failed: Password too weak</string>
     <string name="registration_please_wait">Registration failed: Try again later</string>
     <string name="remote_fingerprint">Remote Fingerprint</string>
+    <string name="remote_server_not_found">Remote server not found</string>
     <string name="remove_admin_privileges">Revoke admin privileges</string>
     <string name="remove_bookmark_text">Would you like to remove %s as a bookmark? The conversation associated with this bookmark will not be removed.</string>
     <string name="remove_contact_text">Would you like to remove %s from your roster? The conversation associated with this contact will not be removed.</string>
@@ -1017,6 +1021,7 @@
     <string name="sync_with_contacts_long">Conversations wants to match your XMPP roster with your contacts to show their full names and avatars.\n\nConversations will only read your contacts and match them locally without uploading them to your server.\n\nYou will now be asked to grant permission to access your contacts.</string>
     <string name="thirty_minutes">30 minutes</string>
     <string name="this_account_is_disabled">You have disabled this account</string>
+    <string name="this_conference_has_no_members">There are no members in this conference.</string>
     <string name="this_device_is_no_longer_in_use">This device is no longer in use</string>
     <string name="this_device_omemo_fingerprint">Own OMEMO fingerprint</string>
     <string name="this_field_is_required">This field is required</string>
@@ -1052,6 +1057,7 @@
     <string name="unable_to_connect_to_keychain">Unable to connect to OpenKeychain</string>
     <string name="unable_to_fetch_mam_prefs">Unable to fetch archiving preferences</string>
     <string name="unable_to_parse_certificate">Unable to parse certificate</string>
+    <string name="unable_to_update_account">Unable to update account</string>
     <string name="unblock">Unblock</string>
     <string name="unblock_contact">Unblock contact</string>
     <string name="unblock_contact_text">Would you like to unblock %s and allow them to send you messages?</string>
@@ -1079,6 +1085,7 @@
     <string name="welcome_text">XMPP is a provider independent protocol. You can use this client with what ever XMPP server you choose.\nHowever for your convenience we made it easy to create an account on conversations.im; a provider specially suited for the use with Conversations.</string>
     <string name="wipe_omemo_pep">Wipe other devices from PEP</string>
     <string name="without_mutual_presence_updates"><b>Warning:</b> Sending this without mutual presence updates could cause unexpected problems.\n\n<small>Go to contact details to verify your presence subscriptions.</small></string>
+    <string name="wrong_conference_configuration">This is not a private, non-anonymous conference.</string>
     <string name="x_file_offered_for_download">%s offered for download</string>
     <string name="you">You</string>
     <string name="you_are_not_participating">You are not participating</string>

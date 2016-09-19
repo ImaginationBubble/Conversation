@@ -329,6 +329,7 @@
     <string name="mgmt_account_publish_pgp">Publicera OpenPGP publik nyckel</string>
     <string name="minute_ago">1 min sedan</string>
     <string name="minutes_ago">%d min sedan</string>
+    <string name="missing_internet_permission">Saknar internet-tillåtelse</string>
     <string name="missing_presence_updates">Saknar tillgänglighetsuppdateringar från kontakt</string>
     <string name="missing_public_keys">Annonsering om publik nyckel saknas</string>
     <string name="moderated">Modererad</string>
@@ -432,6 +433,8 @@
     <string name="pref_expert_options">Expertinställningar</string>
     <string name="pref_expert_options_other">Annat</string>
     <string name="pref_expert_options_summary">Var försiktig med dem</string>
+    <string name="pref_export_logs">Exportera historik</string>
+    <string name="pref_export_logs_summary">Skriv loggar av konversationer till SD-kort</string>
     <string name="pref_force_encryption">Tvinga kryptering</string>
     <string name="pref_force_encryption_summary">Sänd alltid krypterade meddelanden (utom för konferenser)</string>
     <string name="pref_general">Generellt</string>

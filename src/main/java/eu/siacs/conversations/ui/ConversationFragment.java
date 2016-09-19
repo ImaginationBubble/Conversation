@@ -12,6 +12,8 @@ import android.content.IntentSender.SendIntentException;
 import android.os.Bundle;
 import android.os.Handler;
 import android.text.InputType;
+import android.util.Log;
+import android.util.Pair;
 import android.view.ContextMenu;
 import android.view.ContextMenu.ContextMenuInfo;
 import android.view.Gravity;
@@ -27,6 +29,7 @@ import android.widget.AbsListView;
 import android.widget.AbsListView.OnScrollListener;
 import android.widget.AdapterView;
 import android.widget.AdapterView.AdapterContextMenuInfo;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
@@ -36,6 +39,7 @@ import android.widget.Toast;
 
 import net.java.otr4j.session.SessionStatus;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -43,7 +47,6 @@ import java.util.UUID;
 
 import eu.siacs.conversations.Config;
 import eu.siacs.conversations.R;
-import eu.siacs.conversations.crypto.axolotl.AxolotlService;
 import eu.siacs.conversations.entities.Account;
 import eu.siacs.conversations.entities.Contact;
 import eu.siacs.conversations.entities.Conversation;
@@ -63,6 +66,8 @@ import eu.siacs.conversations.ui.adapter.MessageAdapter.OnContactPictureClicked;
 import eu.siacs.conversations.ui.adapter.MessageAdapter.OnContactPictureLongClicked;
 import eu.siacs.conversations.utils.GeoHelper;
 import eu.siacs.conversations.utils.UIHelper;
+import eu.siacs.conversations.voicemessage.AudioInputBase64;
+import eu.siacs.conversations.voicemessage.AudioOutputBase64;
 import eu.siacs.conversations.xmpp.XmppConnection;
 import eu.siacs.conversations.xmpp.chatstate.ChatState;
 import eu.siacs.conversations.xmpp.jid.Jid;
@@ -114,6 +119,11 @@ public class ConversationFragment extends Fragment implements EditMessage.Keyboa
 	private boolean messagesLoaded = true;
 	private Toast messageLoaderToast;
 
+	private Button voiceRecordButton;
+    AudioOutputBase64 audioOutputBase64 = new AudioOutputBase64() ;
+    AudioInputBase64 audioInputBase64 ;
+    String str = null;
+
 	private OnScrollListener mOnScrollListener = new OnScrollListener() {
 
 		@Override
@@ -154,7 +164,11 @@ public class ConversationFragment extends Fragment implements EditMessage.Keyboa
 									View v = messagesView.getChildAt(0);
 									final int pxOffset = (v == null) ? 0 : v.getTop();
 									ConversationFragment.this.conversation.populateWithMessages(ConversationFragment.this.messageList);
-									updateStatusMessages();
+									try {
+										updateStatusMessages();
+									} catch (IllegalStateException e) {
+										Log.d(Config.LOGTAG,"caught illegal state exception while updating status messages");
+									}
 									messageListAdapter.notifyDataSetChanged();
 									int pos = Math.max(getIndexOf(uuid,messageList),0);
 									messagesView.setSelectionFromTop(pos, pxOffset);
@@ -211,6 +225,28 @@ public class ConversationFragment extends Fragment implements EditMessage.Keyboa
 		}
 		return -1;
 	}
+
+	public Pair<Integer,Integer> getScrollPosition() {
+		if (this.messagesView.getCount() == 0 ||
+				this.messagesView.getLastVisiblePosition() == this.messagesView.getCount() - 1) {
+			return null;
+		} else {
+			final int pos = messagesView.getFirstVisiblePosition();
+			final View view = messagesView.getChildAt(0);
+			if (view == null) {
+				return null;
+			} else {
+				return new Pair<>(pos, view.getTop());
+			}
+		}
+	}
+
+	public void setScrollPosition(Pair<Integer,Integer> scrollPosition) {
+		if (scrollPosition != null) {
+			this.messagesView.setSelectionFromTop(scrollPosition.first, scrollPosition.second);
+		}
+	}
+
 	protected OnClickListener clickToDecryptListener = new OnClickListener() {
 
 		@Override
@@ -397,6 +433,33 @@ public class ConversationFragment extends Fragment implements EditMessage.Keyboa
 				}
 			}
 		});
+
+        audioOutputBase64 = new AudioOutputBase64() ;
+        str = null;
+
+        voiceRecordButton = (Button) view.findViewById(R.id.voiceRecordButton);
+        voiceRecordButton.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(((Button)v).getText().toString().equals("Stop")){
+                    audioOutputBase64.stopRecording();
+
+					activity.sendVoiceFuckingMessage();
+
+                    ((Button)v).setText("Record");
+                    return;
+
+                }
+
+                audioOutputBase64.startRecording();
+                ((Button)v).setText("Stop");
+
+            }
+
+
+        });
+
+
 		mEditMessage.setOnEditorActionListener(mEditorActionListener);
 
 		mSendButton = (ImageButton) view.findViewById(R.id.textSendButton);
@@ -494,6 +557,8 @@ public class ConversationFragment extends Fragment implements EditMessage.Keyboa
 			populateContextMenu(menu);
 		}
 	}
+
+
 
 	private void populateContextMenu(ContextMenu menu) {
 		final Message m = this.selectedMessage;
@@ -737,9 +802,9 @@ public class ConversationFragment extends Fragment implements EditMessage.Keyboa
 		}
 	}
 
-	public void reInit(Conversation conversation) {
+	public boolean reInit(Conversation conversation) {
 		if (conversation == null) {
-			return;
+			return false;
 		}
 		this.activity = (ConversationActivity) getActivity();
 		setupIme();
@@ -775,6 +840,7 @@ public class ConversationFragment extends Fragment implements EditMessage.Keyboa
 				pos = i < 0 ? bottom : i;
 			}
 			messagesView.setSelection(pos);
+			return pos == bottom;
 		}
 	}
 
@@ -864,6 +930,9 @@ public class ConversationFragment extends Fragment implements EditMessage.Keyboa
 					break;
 				case NO_RESPONSE:
 					showSnackbar(R.string.joining_conference, 0, null);
+					break;
+				case SERVER_NOT_FOUND:
+					showSnackbar(R.string.remote_server_not_found,R.string.leave, leaveMuc);
 					break;
 				case PASSWORD_REQUIRED:
 					showSnackbar(R.string.conference_requires_password, R.string.enter_password, enterPassword);

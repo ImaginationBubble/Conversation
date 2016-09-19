@@ -83,6 +83,7 @@
     <string name="admin">Администратор</string>
     <string name="advanced_mode">Разширен режим</string>
     <string name="all_accounts_on_this_device">Задаване за всички профили на това устройство</string>
+    <string name="allow">Позволяване</string>
     <string name="also_end_conversation">Приключване на този разговор след това</string>
     <string name="always">Винаги</string>
     <string name="apk">Приложение за Андроид</string>
@@ -174,6 +175,7 @@
     <string name="connected_accounts">%1$d от %2$d свързани профила</string>
     <string name="contact_added_you">Контактът е добавен във Вашия списък от контакти</string>
     <string name="contact_already_exists">Контактът вече съществува</string>
+    <string name="contact_asks_for_presence_subscription">Контакт моли за абонамент за присъствието</string>
     <string name="contact_blocked">Контактът е блокиран</string>
     <string name="contact_has_no_pgp_key">Conversations не може да шифрова съобщенията Ви, тъй като Вашият контакт не обявява публичния си ключ.\n\n<small>Моля, помолете го/я да инсталира и настрои OpenPGP.</small></string>
     <string name="contact_has_read_up_to_this_point">%s е прочел до тук</string>
@@ -324,6 +326,7 @@
     <string name="mgmt_account_publish_pgp">Публикуване на публичния OpenPGP ключ</string>
     <string name="minute_ago">преди 1 минута</string>
     <string name="minutes_ago">преди %d минути</string>
+    <string name="missing_internet_permission">Липсва разрешение за използване на връзката с Интернет</string>
     <string name="missing_presence_updates">Липсват актуализации за присъствието на контакта</string>
     <string name="missing_public_keys">Липсват обявления за публичен ключ</string>
     <string name="moderated">С модератор</string>
@@ -345,6 +348,7 @@
     <string name="no_keys_just_confirm">Вие вече имате доверие на този контакт. Избирайки „готово“, Вие просто потвърждавате, че %s е част от тази беседа.</string>
     <string name="no_more_history_on_server">Няма повече история на сървъра</string>
     <string name="no_otr_session_found">Няма открита OTR сесия!</string>
+    <string name="no_permission_to_access_x">Няма позволение за достъп до %s</string>
     <string name="no_pgp_key">Не е открит OpenPGP ключ</string>
     <string name="no_pgp_keys">Не са открити OpenPGP ключове</string>
     <string name="no_role">Извън линия</string>
@@ -425,6 +429,8 @@
     <string name="pref_expert_options">Експертни настройки</string>
     <string name="pref_expert_options_other">Други</string>
     <string name="pref_expert_options_summary">Моля, бъдете внимателни с тези</string>
+    <string name="pref_export_logs">Изнасяне на историята</string>
+    <string name="pref_export_logs_summary">Записване на журналите на разговорите в картата с памет</string>
     <string name="pref_force_encryption">Налагане на шифроване в двете посоки</string>
     <string name="pref_force_encryption_summary">Съобщенията да се изпращат винаги шифровани (освен в беседите)</string>
     <string name="pref_general">Общи</string>
@@ -518,6 +524,7 @@
     <string name="registration_password_too_weak">Неуспешна регистрация: паролата е твърде слаба</string>
     <string name="registration_please_wait">Неуспешна регистрация. Опитайте отново по-късно</string>
     <string name="remote_fingerprint">Отдалечен отпечатък</string>
+    <string name="remote_server_not_found">Отдалеченият сървър не е намерен</string>
     <string name="remove_admin_privileges">Отмяна на администраторските права</string>
     <string name="remove_bookmark_text">Искате ли да премахнете отметката за %s? Разговорът, свързан с тази отметка, няма да бъде премахнат.</string>
     <string name="remove_contact_text">Искате ли да премахнете %s от списъка си? Разговорът с него няма да бъде премахнат.</string>

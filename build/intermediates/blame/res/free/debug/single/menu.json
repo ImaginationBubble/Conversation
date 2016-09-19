@@ -1,82 +1,82 @@
 [
     {
-        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/menu/select_multiple.xml",
-        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/menu/select_multiple.xml"
+        "merged": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\res\\merged\\free\\debug\\menu\\verify_otr.xml",
+        "source": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\menu\\verify_otr.xml"
     },
     {
-        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/menu/muc_details_context.xml",
-        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/menu/muc_details_context.xml"
+        "merged": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\res\\merged\\free\\debug\\menu\\select_multiple.xml",
+        "source": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\menu\\select_multiple.xml"
     },
     {
-        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/menu/message_context.xml",
-        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/menu/message_context.xml"
+        "merged": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\res\\merged\\free\\debug\\menu\\conference_context.xml",
+        "source": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\menu\\conference_context.xml"
     },
     {
-        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/menu/muc_details.xml",
-        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/menu/muc_details.xml"
+        "merged": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\res\\merged\\free\\debug\\menu\\manageaccounts.xml",
+        "source": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\menu\\manageaccounts.xml"
     },
     {
-        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/menu/conference_context.xml",
-        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/menu/conference_context.xml"
+        "merged": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\res\\merged\\free\\debug\\menu\\encryption_choices.xml",
+        "source": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\menu\\encryption_choices.xml"
     },
     {
-        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/menu/choose_contact.xml",
-        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/menu/choose_contact.xml"
+        "merged": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\res\\merged\\free\\debug\\menu\\muc_details_context.xml",
+        "source": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\menu\\muc_details_context.xml"
     },
     {
-        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/menu/verification_choices.xml",
-        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/menu/verification_choices.xml"
+        "merged": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\res\\merged\\free\\debug\\menu\\message_context.xml",
+        "source": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\menu\\message_context.xml"
     },
     {
-        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/menu/contact_context.xml",
-        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/menu/contact_context.xml"
+        "merged": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\res\\merged\\free\\debug\\menu\\verification_choices.xml",
+        "source": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\menu\\verification_choices.xml"
     },
     {
-        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/menu/start_conversation.xml",
-        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/menu/start_conversation.xml"
+        "merged": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\res\\merged\\free\\debug\\menu\\attachment_choices.xml",
+        "source": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\menu\\attachment_choices.xml"
     },
     {
-        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/menu/attachment_choices.xml",
-        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/menu/attachment_choices.xml"
+        "merged": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\res\\merged\\free\\debug\\menu\\conversations.xml",
+        "source": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\menu\\conversations.xml"
     },
     {
-        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/menu/contact_details.xml",
-        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/menu/contact_details.xml"
+        "merged": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\res\\merged\\free\\debug\\menu\\start_conversation.xml",
+        "source": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\menu\\start_conversation.xml"
     },
     {
-        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/menu/encryption_choices.xml",
-        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/menu/encryption_choices.xml"
+        "merged": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\res\\merged\\free\\debug\\menu\\contact_details.xml",
+        "source": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\menu\\contact_details.xml"
     },
     {
-        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/menu/share_with.xml",
-        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/menu/share_with.xml"
+        "merged": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\res\\merged\\free\\debug\\menu\\publish_avatar.xml",
+        "source": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\menu\\publish_avatar.xml"
     },
     {
-        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/menu/publish_avatar.xml",
-        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/menu/publish_avatar.xml"
+        "merged": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\res\\merged\\free\\debug\\menu\\contact_context.xml",
+        "source": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\menu\\contact_context.xml"
     },
     {
-        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/menu/manageaccounts_context.xml",
-        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/menu/manageaccounts_context.xml"
+        "merged": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\res\\merged\\free\\debug\\menu\\manageaccounts_context.xml",
+        "source": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\menu\\manageaccounts_context.xml"
     },
     {
-        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/menu/manageaccounts.xml",
-        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/menu/manageaccounts.xml"
+        "merged": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\res\\merged\\free\\debug\\menu\\choose_contact.xml",
+        "source": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\menu\\choose_contact.xml"
     },
     {
-        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/menu/verify_otr.xml",
-        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/menu/verify_otr.xml"
+        "merged": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\res\\merged\\free\\debug\\menu\\muc_details.xml",
+        "source": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\menu\\muc_details.xml"
     },
     {
-        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/menu/change_presence.xml",
-        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/menu/change_presence.xml"
+        "merged": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\res\\merged\\free\\debug\\menu\\editaccount.xml",
+        "source": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\menu\\editaccount.xml"
     },
     {
-        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/menu/conversations.xml",
-        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/menu/conversations.xml"
+        "merged": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\res\\merged\\free\\debug\\menu\\share_with.xml",
+        "source": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\menu\\share_with.xml"
     },
     {
-        "merged": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/menu/editaccount.xml",
-        "source": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/menu/editaccount.xml"
+        "merged": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\res\\merged\\free\\debug\\menu\\change_presence.xml",
+        "source": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\menu\\change_presence.xml"
     }
 ]

@@ -128,6 +128,7 @@
     <string name="checking_x">Vérification de %s sur l\'hôte HTTP</string>
     <string name="choose_file">Choix du fichier</string>
     <string name="choose_participants">Choisir les participants</string>
+    <string name="choose_presence">Choisir l\'appareil</string>
     <string name="choose_quick_action">Sélectionner l\'action rapide</string>
     <string name="clear_conversation_history">Vider l\'historique de la conversation</string>
     <string name="clear_histor_msg">Voulez-vous supprimer tous les messages de cette conversation ?\n\n<b>Attention :</b> Les messages seront supprimés uniquement sur cet appareil.</string>
@@ -328,6 +329,7 @@
     <string name="mgmt_account_publish_pgp">Publier la clef publique OpenPGP</string>
     <string name="minute_ago">Il y a 1 minute</string>
     <string name="minutes_ago">Il y a %d minutes</string>
+    <string name="missing_internet_permission">Permission Internet Manquante</string>
     <string name="missing_presence_updates">Mises à jour de disponibilité manquantes pour ce contact</string>
     <string name="missing_public_keys">Annonce de clef publique manquante</string>
     <string name="moderated">Modéré</string>
@@ -406,6 +408,7 @@
     <string name="password_changed">Mot de passe modifié !</string>
     <string name="password_should_not_be_empty">Le mot de passe ne doit pas être vide</string>
     <string name="passwords_do_not_match">Les deux mots de passe ne correspondent pas.</string>
+    <string name="payment_required">Paiement Obligatoire</string>
     <string name="pdf_document">document PDF</string>
     <string name="perform_action_with">Faire une action avec</string>
     <string name="pgp_message">Message chiffré avec OpenPGP</string>
@@ -442,6 +445,8 @@
     <string name="pref_expert_options">Paramètres avancés</string>
     <string name="pref_expert_options_other">Autres</string>
     <string name="pref_expert_options_summary">À utiliser avec précaution.</string>
+    <string name="pref_export_logs">Exporter l\'historique</string>
+    <string name="pref_export_logs_summary">Sauvegarder l\'historique des conversations sur la carte SD</string>
     <string name="pref_force_encryption">Forcer le chiffrement de bout en bout</string>
     <string name="pref_force_encryption_summary">Toujours envoyer des messages chiffrés (sauf pour les conférences)</string>
     <string name="pref_general">Général</string>
@@ -651,6 +656,11 @@
     <string name="trust_omemo_fingerprints">Faire confiance aux empreintes OMEMO</string>
     <string name="try_again">Réessayer</string>
     <string name="two_hours">2 heures</string>
+    <string name="type_console">Console</string>
+    <string name="type_pc">Ordinateur</string>
+    <string name="type_phone">Smartphone</string>
+    <string name="type_tablet">Tablette</string>
+    <string name="type_web">Navigateur Internet</string>
     <string name="unable_to_connect_to_keychain">Connection à OpenKeychain impossible</string>
     <string name="unable_to_fetch_mam_prefs">Impossible de récupérer les paramètres d\'archivage</string>
     <string name="unable_to_parse_certificate">Impossible d\'analyser le certificat</string>

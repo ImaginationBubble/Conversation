@@ -324,6 +324,7 @@
     <string name="mgmt_account_publish_pgp">Publiceer OpenPGP publieke sleutel</string>
     <string name="minute_ago">1 min. geleden</string>
     <string name="minutes_ago">%d min. geleden</string>
+    <string name="missing_internet_permission">Internetmachtiging ontbreekt</string>
     <string name="missing_presence_updates">Ontbrekende aanwezigheidsupdates van contact</string>
     <string name="missing_public_keys">Ontbrekende publieke sleutel-aankondigingen</string>
     <string name="moderated">Gemodereerd</string>
@@ -411,7 +412,7 @@
     <string name="pref_away_when_screen_off_summary">Stelt je bron in als even weg wanneer het scherm uitgeschakeld is</string>
     <string name="pref_broadcast_last_activity">Laatste gebruikersinteractie uitzenden</string>
     <string name="pref_broadcast_last_activity_summary">Laat al je contacten weten wanneer je Conversations gebruikt</string>
-    <string name="pref_chat_states">Aan-het-typen-meldingen</string>
+    <string name="pref_chat_states">\'Aan het typen\' meldingen</string>
     <string name="pref_chat_states_summary">Laat je contacten weten wanneer je een nieuw bericht aan het schrijven bent</string>
     <string name="pref_conference_name">Groepsgespreksnaam</string>
     <string name="pref_conference_name_summary">Gebruik onderwerp van kamer ipv JID om groepsgesprekken te identificeren</string>
@@ -429,6 +430,8 @@
     <string name="pref_expert_options">Instellingen voor experts</string>
     <string name="pref_expert_options_other">Andere</string>
     <string name="pref_expert_options_summary">Wees voorzichtig met deze instellingen</string>
+    <string name="pref_export_logs">Geschiedenis exporteren</string>
+    <string name="pref_export_logs_summary">Gespreksgeschiedenis schrijven naar SD-kaart</string>
     <string name="pref_force_encryption">Verplicht end-to-end-versleuteling</string>
     <string name="pref_force_encryption_summary">Stuur berichten altijd versleuteld (behalve in groepsgesprekken)</string>
     <string name="pref_general">Algemeen</string>
@@ -464,7 +467,7 @@
     <string name="pref_show_connection_options_summary">Toon hostnaam- en poortinstellingen bij instellen van een account</string>
     <string name="pref_show_dynamic_tags">Toon dynamische tags</string>
     <string name="pref_show_dynamic_tags_summary">Toon enkel-lezen tags onder contacten</string>
-    <string name="pref_sound">Beltoon</string>
+    <string name="pref_sound">Meldingstoon</string>
     <string name="pref_sound_summary">Geluid afspelen wanneer een nieuw bericht ontvangen wordt</string>
     <string name="pref_theme_dark">Donker thema</string>
     <string name="pref_theme_light">Licht thema</string>

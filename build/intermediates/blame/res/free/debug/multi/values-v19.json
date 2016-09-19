@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/values-v19/values-v19.xml",
+        "outputFile": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\res\\merged\\free\\debug\\values-v19\\values-v19.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 102
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/exploded-aar/de.timroes.android/EnhancedListView/0.3.4/res/values-v19/values.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\exploded-aar\\de.timroes.android\\EnhancedListView\\0.3.4\\res\\values-v19\\values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,

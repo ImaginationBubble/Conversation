@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/dmitriyzaretskiy/Desktop/Conversations/build/intermediates/res/merged/free/debug/values-fa-rIR/values-fa-rIR.xml",
+        "outputFile": "C:\\AndroidProjects\\Conversations\\build\\intermediates\\res\\merged\\free\\debug\\values-fa-rIR\\values-fa-rIR.xml",
         "map": [
             {
                 "to": {
@@ -11,13 +11,13 @@
                     "endOffset": 117
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-fa-rIR/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-fa-rIR\\strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 2,
-                        "startOffset": 152,
+                        "startOffset": 156,
                         "endColumn": 64,
-                        "endOffset": 214
+                        "endOffset": 218
                     }
                 }
             },
@@ -30,13 +30,13 @@
                     "endOffset": 168
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-fa-rIR/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-fa-rIR\\strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 2,
-                        "startOffset": 103,
+                        "startOffset": 106,
                         "endColumn": 48,
-                        "endOffset": 149
+                        "endOffset": 152
                     }
                 }
             },
@@ -49,13 +49,13 @@
                     "endOffset": 238
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-fa-rIR/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-fa-rIR\\strings.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 2,
-                        "startOffset": 453,
+                        "startOffset": 462,
                         "endColumn": 67,
-                        "endOffset": 518
+                        "endOffset": 527
                     }
                 }
             },
@@ -68,13 +68,13 @@
                     "endOffset": 315
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-fa-rIR/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-fa-rIR\\strings.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 2,
-                        "startOffset": 577,
+                        "startOffset": 588,
                         "endColumn": 74,
-                        "endOffset": 649
+                        "endOffset": 660
                     }
                 }
             },
@@ -87,13 +87,13 @@
                     "endOffset": 375
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-fa-rIR/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-fa-rIR\\strings.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 2,
-                        "startOffset": 719,
+                        "startOffset": 732,
                         "endColumn": 57,
-                        "endOffset": 774
+                        "endOffset": 787
                     }
                 }
             },
@@ -106,13 +106,13 @@
                     "endOffset": 440
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-fa-rIR/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-fa-rIR\\strings.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 2,
-                        "startOffset": 846,
+                        "startOffset": 861,
                         "endColumn": 62,
-                        "endOffset": 906
+                        "endOffset": 921
                     }
                 }
             },
@@ -125,13 +125,13 @@
                     "endOffset": 504
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-fa-rIR/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-fa-rIR\\strings.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 2,
-                        "startOffset": 280,
+                        "startOffset": 286,
                         "endColumn": 61,
-                        "endOffset": 339
+                        "endOffset": 345
                     }
                 }
             },
@@ -144,13 +144,13 @@
                     "endOffset": 573
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-fa-rIR/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-fa-rIR\\strings.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 2,
-                        "startOffset": 652,
+                        "startOffset": 664,
                         "endColumn": 66,
-                        "endOffset": 716
+                        "endOffset": 728
                     }
                 }
             },
@@ -163,13 +163,13 @@
                     "endOffset": 631
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-fa-rIR/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-fa-rIR\\strings.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 2,
-                        "startOffset": 521,
+                        "startOffset": 531,
                         "endColumn": 55,
-                        "endOffset": 574
+                        "endOffset": 584
                     }
                 }
             },
@@ -182,13 +182,13 @@
                     "endOffset": 696
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-fa-rIR/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-fa-rIR\\strings.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 2,
-                        "startOffset": 217,
+                        "startOffset": 222,
                         "endColumn": 62,
-                        "endOffset": 277
+                        "endOffset": 282
                     }
                 }
             },
@@ -201,13 +201,13 @@
                     "endOffset": 758
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-fa-rIR/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-fa-rIR\\strings.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 2,
-                        "startOffset": 342,
+                        "startOffset": 349,
                         "endColumn": 59,
-                        "endOffset": 399
+                        "endOffset": 406
                     }
                 }
             },
@@ -220,13 +220,13 @@
                     "endOffset": 811
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-fa-rIR/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-fa-rIR\\strings.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 2,
-                        "startOffset": 402,
+                        "startOffset": 410,
                         "endColumn": 50,
-                        "endOffset": 450
+                        "endOffset": 458
                     }
                 }
             },
@@ -239,13 +239,13 @@
                     "endOffset": 863
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-fa-rIR/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-fa-rIR\\strings.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 2,
-                        "startOffset": 53,
+                        "startOffset": 55,
                         "endColumn": 49,
-                        "endOffset": 100
+                        "endOffset": 102
                     }
                 }
             },
@@ -258,13 +258,13 @@
                     "endOffset": 934
                 },
                 "from": {
-                    "file": "/Users/dmitriyzaretskiy/Desktop/Conversations/src/main/res/values-fa-rIR/strings.xml",
+                    "file": "C:\\AndroidProjects\\Conversations\\src\\main\\res\\values-fa-rIR\\strings.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 2,
-                        "startOffset": 777,
+                        "startOffset": 791,
                         "endColumn": 68,
-                        "endOffset": 843
+                        "endOffset": 857
                     }
                 }
             }

@@ -12,9 +12,9 @@ public final class R {
 		public static final int ic_action_cancel_launchersize_light = 0x7f020073;
 	}
 	public static final class string {
-		public static final int openpgp_install_openkeychain_via = 0x7f06029c;
-		public static final int openpgp_key_selected = 0x7f0602a9;
-		public static final int openpgp_list_preference_none = 0x7f06029d;
-		public static final int openpgp_no_key_selected = 0x7f0602aa;
+		public static final int openpgp_install_openkeychain_via = 0x7f0602a4;
+		public static final int openpgp_key_selected = 0x7f0602b1;
+		public static final int openpgp_list_preference_none = 0x7f0602a5;
+		public static final int openpgp_no_key_selected = 0x7f0602b2;
 	}
 }

@@ -113,6 +113,7 @@
     <string name="checking_x">%s egiaztatzen HTTP ostalarian</string>
     <string name="choose_file">Fitxategia aukeratu</string>
     <string name="choose_participants">Parte hartzaileak hautatu</string>
+    <string name="choose_presence">Gailua aukeratu</string>
     <string name="choose_quick_action">Ekintza azkarra aukeratu</string>
     <string name="clear_conversation_history">Elkarrizketa historia garbitu</string>
     <string name="clear_histor_msg">Elkarrizketa honetako mezu guztiak ezabatu nahi al dituzu?\n\n<b>Abisua:</b> Honek ez du beste gailu edo zerbitzarietan gordetako mezuetan eraginik izango.</string>
@@ -308,6 +309,7 @@
     <string name="mgmt_account_publish_pgp">OpenPGP gako publikoa argitaratu</string>
     <string name="minute_ago">min 1 lehenago</string>
     <string name="minutes_ago">%d min lehenago</string>
+    <string name="missing_internet_permission">Interneterako baimena falta da</string>
     <string name="missing_presence_updates">Kontaktuaren presentzia eguneraketak falta dira</string>
     <string name="missing_public_keys">Gako publikoen iragarpenak faltan</string>
     <string name="moderated">Moderatua</string>
@@ -387,6 +389,7 @@
     <string name="password_changed">Pasahitza aldatu da</string>
     <string name="password_should_not_be_empty">Pasahitza ez luke hutsik egon behar</string>
     <string name="passwords_do_not_match">Pasahitzak ez dute bat egiten</string>
+    <string name="payment_required">Ordainketa beharrezkoa da</string>
     <string name="pdf_document">PDF dokumentua</string>
     <string name="perform_action_with">Ekintza honekin egin</string>
     <string name="pgp_message">OpenPGPz enkriptatutako mezua</string>
@@ -423,6 +426,8 @@
     <string name="pref_expert_options">Adituentzako ezarpenak</string>
     <string name="pref_expert_options_other">Besteak</string>
     <string name="pref_expert_options_summary">Mesedez kontuz ibili hauekin</string>
+    <string name="pref_export_logs">Historia esportatu</string>
+    <string name="pref_export_logs_summary">Elkarrizketen historiaren erregistroak SD txartelean gorde</string>
     <string name="pref_force_encryption">End-to-end enkriptazioa behartu</string>
     <string name="pref_force_encryption_summary">Mezuak beti enkriptatuta bidali (konferentzietan izan ezik)</string>
     <string name="pref_general">Orokorrak</string>
@@ -632,6 +637,11 @@
     <string name="trust_omemo_fingerprints">OMEMO hatz-marketaz fidatu</string>
     <string name="try_again">Saiatu berriz</string>
     <string name="two_hours">2 ordu</string>
+    <string name="type_console">Kontsola</string>
+    <string name="type_pc">Ordenagailua</string>
+    <string name="type_phone">Mugikorra</string>
+    <string name="type_tablet">Tableta</string>
+    <string name="type_web">Web nabigatzailea</string>
     <string name="unable_to_connect_to_keychain">Ezin izan da OpenKeychainekin konektatu</string>
     <string name="unable_to_fetch_mam_prefs">Ezin izan dira artxibatze hobespenak eskuratu</string>
     <string name="unable_to_parse_certificate">Ezin izan da ziurtagiria aztertu</string>

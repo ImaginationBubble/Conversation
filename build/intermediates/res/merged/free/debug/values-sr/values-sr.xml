@@ -86,6 +86,7 @@
     <string name="admin">Администратор</string>
     <string name="advanced_mode">Напредни режим</string>
     <string name="all_accounts_on_this_device">Постави за све налоге на овом уређају</string>
+    <string name="allow">Дозволи</string>
     <string name="also_end_conversation">Окончај ову преписку након тога</string>
     <string name="always">увек</string>
     <string name="apk">Апликација за Андроид</string>
@@ -177,6 +178,7 @@
     <string name="connected_accounts">%1$d од %2$d налога повезано</string>
     <string name="contact_added_you">Контакт вас је додао на списак контаката</string>
     <string name="contact_already_exists">Контакт већ постоји</string>
+    <string name="contact_asks_for_presence_subscription">Контакт пита за претплату на ажурирање присутности</string>
     <string name="contact_blocked">Контакт блокиран</string>
     <string name="contact_has_no_pgp_key">Конверзација није могла да шифрује ваше поруке јер ваш контакт не објављује свој јавни кључ.\n\n<small>Замолите вашег контакта да постави ОпенПГП.</small></string>
     <string name="contact_has_read_up_to_this_point">%s је прочитао довде</string>
@@ -311,6 +313,7 @@
     <string name="mam_prefs">Поставке архивисања</string>
     <string name="manual_verification_explanation">Пажљиво упоредите отисак испод са отиском вашег контакта.\nМожете да употребите било који поверљив облик комуникације као што је шифрована е-пошта или позив телефоном да бисте разменили отиске.</string>
     <string name="manually_verify">Овери ручно</string>
+    <string name="me">Ја</string>
     <string name="member">Члан</string>
     <string name="members_only">Лична, само чланови</string>
     <string name="message_copied_to_clipboard">Порука је копирана на клипборд</string>
@@ -327,6 +330,7 @@
     <string name="mgmt_account_publish_pgp">Објави ОпенПГП јавни кључ</string>
     <string name="minute_ago">пре минут</string>
     <string name="minutes_ago">пре %d минута</string>
+    <string name="missing_internet_permission">Недостаје дозвола за интернет</string>
     <string name="missing_presence_updates">Нема ажуриране присутности од контакта</string>
     <string name="missing_public_keys">Недостају објаве јавног кључа</string>
     <string name="moderated">Уређивана</string>
@@ -348,6 +352,7 @@
     <string name="no_keys_just_confirm">Већ се поуздате у овог контакта. Избором „Готово“ само потврђујете да је %s део овог групног ћаскања.</string>
     <string name="no_more_history_on_server">Нема више историјата на серверу</string>
     <string name="no_otr_session_found">Нема исправне ОТР сесије!</string>
+    <string name="no_permission_to_access_x">Нема дозвола за приступ %s</string>
     <string name="no_pgp_key">Нема ОпенПГП кључа</string>
     <string name="no_pgp_keys">Нема ОпенПГП кључева</string>
     <string name="no_role">Ван везе</string>
@@ -432,6 +437,8 @@
     <string name="pref_expert_options">Поставке за стручњаке</string>
     <string name="pref_expert_options_other">Остало</string>
     <string name="pref_expert_options_summary">Будите пажљиви са овим</string>
+    <string name="pref_export_logs">Извези историјат</string>
+    <string name="pref_export_logs_summary">Упис историјата преписки на СД картицу</string>
     <string name="pref_force_encryption">Присили крај-на-крај шифровање</string>
     <string name="pref_force_encryption_summary">Увек шифруј поруке (осим за групна ћаскања)</string>
     <string name="pref_general">Опште</string>
@@ -525,6 +532,7 @@
     <string name="registration_password_too_weak">Регистрација није успела: лозинка преслаба</string>
     <string name="registration_please_wait">Регистрација није успела: покушајте поново касније</string>
     <string name="remote_fingerprint">Отисак удаљеног</string>
+    <string name="remote_server_not_found">Удаљени сервер није нађен</string>
     <string name="remove_admin_privileges">Одобри админ. привилегије</string>
     <string name="remove_bookmark_text">Желите ли да уклоните %s са обележивача? Преписка са овим контактом неће бити уклоњена.</string>
     <string name="remove_contact_text">Желите ли да уклоните %s са вашег списка контаката? Преписка са овим контактом неће бити уклоњена.</string>
@@ -672,6 +680,7 @@
     <string name="view_contact_details">Прикажи детаље контакта</string>
     <string name="visitor">Посетилац</string>
     <string name="waiting">чекам…</string>
+    <string name="welcome_text">ИксМПП је протокол независан од провајдера. Можете да користите овог клијента са било којим ИксМПП сервером.\nИпак, због погодности смо олакшали стварање налога на conversations.im, провајдер посебно прилагођен за коришћење са Конверзацијом.</string>
     <string name="wipe_omemo_pep">Уклони остале уређаје са ПЕП-а</string>
     <string name="without_mutual_presence_updates"><b>Упозорење:</b> Слање овога без узајамних ажурирања присутности би могло да узрокује неочекиване проблеме.\n\n<small>Идите на детаље контакта да бисте проверили претплате на присутности.</small></string>
     <string name="x_file_offered_for_download">%s понуђен за преузимање</string>

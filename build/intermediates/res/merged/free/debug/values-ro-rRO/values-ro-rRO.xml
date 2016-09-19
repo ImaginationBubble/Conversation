@@ -71,6 +71,7 @@
     <string name="admin">Administrator</string>
     <string name="advanced_mode">Mod avansat</string>
     <string name="all_accounts_on_this_device">Seteaza pentru toate conturile de pe acest dispozitiv</string>
+    <string name="allow">Permite</string>
     <string name="also_end_conversation">Dupa, incheie conversatia</string>
     <string name="always">Mereu</string>
     <string name="apk">Aplicatie Android</string>
@@ -143,6 +144,7 @@ Emitent</string>
     <string name="connected_accounts">%1$d din %2$d conturi conectate</string>
     <string name="contact_added_you">Contactul a fost adaugat in lista </string>
     <string name="contact_already_exists">Contactul exista deja</string>
+    <string name="contact_asks_for_presence_subscription">Contactul cere actualizari de prezenta</string>
     <string name="contact_blocked">Contact blocat</string>
     <string name="contact_has_no_pgp_key">Conversations nu a putut sa cripteze mesajele tale din cauza contactului care nu isi anunta cheia publica.\n\n<small>Roaga contactul sa isi configureze OpenPGP.</small></string>
     <string name="contact_has_read_up_to_this_point">%s a citit pana in acest loc</string>
@@ -277,6 +279,7 @@ Emitent</string>
     <string name="mam_prefs">Preferinte arhivare</string>
     <string name="manual_verification_explanation">Compara cu grija amprenta afisata mai jos cu amprenta contactului.\nPoti folosi orice forma de comunicare de incredere precum un e-mail criptat sau o convorbire telefonica pentru a face schimb de amprente.</string>
     <string name="manually_verify">Verifica manual</string>
+    <string name="me">Eu</string>
     <string name="member">Membru</string>
     <string name="members_only">Privat, numai pentru membri</string>
     <string name="message_copied_to_clipboard">Mesaj copiat in memorie</string>
@@ -293,6 +296,7 @@ Emitent</string>
     <string name="mgmt_account_publish_pgp">Publica cheia publica OpenPGP</string>
     <string name="minute_ago">acum un minut</string>
     <string name="minutes_ago">acum %d minute</string>
+    <string name="missing_internet_permission">Permisiuni internet lipsa</string>
     <string name="missing_presence_updates">Au lipsit actualizarile de prezenta de la contact</string>
     <string name="missing_public_keys">Cheile publice ce nu au fost anuntate</string>
     <string name="moderated">Monitorizata</string>
@@ -314,6 +318,7 @@ Emitent</string>
     <string name="no_keys_just_confirm">Deja ai incredere in acest contact. Selectand \'gata\' doar confirmi ca %s ia parte la conferinta.</string>
     <string name="no_more_history_on_server">Nu mai exista istoric pe server</string>
     <string name="no_otr_session_found">Nu s-a gasit nici o sesiune OTR valida</string>
+    <string name="no_permission_to_access_x">Nu exista permisiunea de a accesa %s</string>
     <string name="no_pgp_key">Nu am gasit cheie OpenPGP</string>
     <string name="no_pgp_keys">Nu am gasit chei OpenPGP</string>
     <string name="no_role">Deconectat</string>
@@ -394,6 +399,8 @@ Emitent</string>
     <string name="pref_expert_options">Optiuni expert</string>
     <string name="pref_expert_options_other">Altele</string>
     <string name="pref_expert_options_summary">Te rog sa fi atent cu astea</string>
+    <string name="pref_export_logs">Exporta istoric</string>
+    <string name="pref_export_logs_summary">Scrie istoricul conversatiilor pe cardul SD</string>
     <string name="pref_force_encryption">Forteaza criptarea conexiunii de la un capat la altul</string>
     <string name="pref_force_encryption_summary">Trimite mereu mesajele criptate (exceptand conferintele)</string>
     <string name="pref_general">General</string>
@@ -487,6 +494,7 @@ Emitent</string>
     <string name="registration_password_too_weak">Inregistrare esuata: Parola slaba</string>
     <string name="registration_please_wait">Inregistrarea a esuat: Incercati mai tarziu</string>
     <string name="remote_fingerprint">Amprenta la distanta</string>
+    <string name="remote_server_not_found">Serverul nu a fost gasit</string>
     <string name="remove_admin_privileges">Abroga privilegii de administrator</string>
     <string name="remove_bookmark_text">Ai dori sa stergi pe %s din semne de carte? Conversatia asociata cu acest semn de carte nu va fi stearsa.</string>
     <string name="remove_contact_text">Ai dori sa stergi %s din lista? Conversatia asociata cu acest contact nu va fi stearsa.</string>

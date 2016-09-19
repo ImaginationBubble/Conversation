@@ -86,6 +86,7 @@
     <string name="admin">Administrátor</string>
     <string name="advanced_mode">Pokročilý mód</string>
     <string name="all_accounts_on_this_device">Nastavit pro všechny účty na tomto přístroji</string>
+    <string name="allow">Povolit</string>
     <string name="also_end_conversation">Poté ukončit tuto konverzaci</string>
     <string name="always">Vždy</string>
     <string name="apk">Aplikace pro Android</string>
@@ -177,6 +178,7 @@
     <string name="connected_accounts">%1$d z %2$d účtů připojeno</string>
     <string name="contact_added_you">Kontakt přidán do seznamu</string>
     <string name="contact_already_exists">Kontakt již existuje</string>
+    <string name="contact_asks_for_presence_subscription">Kontakt žádá informace o změnách stavu</string>
     <string name="contact_blocked">Kontakty zablokovány</string>
     <string name="contact_has_no_pgp_key">Není možné zašifrovat zprávu v aplikaci Konverzace, protože druhá strana neoznamuje svůj veřejný klíč.\n\n<small>Požádejte svůj kontakt ať si nastaví OpenPGP.</small></string>
     <string name="contact_has_read_up_to_this_point">%s dočetl(a) až sem</string>
@@ -311,6 +313,7 @@
     <string name="mam_prefs">Nastavení archivace</string>
     <string name="manual_verification_explanation">Opatrně porovnejte otisk zobrazený níže s otiskem vašeho kontatku.\nMůžete využít jakoukoliv bezpečnou formu komunikace pro jejich výměnu, jako třeba šifrovaný email nebo telefonát.</string>
     <string name="manually_verify">Ruční ověření</string>
+    <string name="me">Já</string>
     <string name="member">Člen</string>
     <string name="members_only">Soukromé, pouze pro členy</string>
     <string name="message_copied_to_clipboard">Zpráva zkopírována do schránky</string>
@@ -327,6 +330,7 @@
     <string name="mgmt_account_publish_pgp">Zveřejnit OpenPGP klíč</string>
     <string name="minute_ago">před minutou</string>
     <string name="minutes_ago">před %d minutami</string>
+    <string name="missing_internet_permission">Chybí oprávnění pro internet</string>
     <string name="missing_presence_updates">Chybí informace o změnách stavu kontaktu</string>
     <string name="missing_public_keys">Chybí oznámení o veřejném klíči</string>
     <string name="moderated">Moderováno</string>
@@ -348,6 +352,7 @@
     <string name="no_keys_just_confirm">Tomuto kontaktu již důvěřujete. Vybráním možnosti \'hotovo\' jen potvrzujete, že %s je součástí této konference.</string>
     <string name="no_more_history_on_server">Na serveru není žádná další historie</string>
     <string name="no_otr_session_found">Nebylo nalezeno platné OTR sezení!</string>
+    <string name="no_permission_to_access_x">Chybí oprávnění přistupovat k %s</string>
     <string name="no_pgp_key">Nebyl nalezen žádný OpenPGP klíč</string>
     <string name="no_pgp_keys">Nebyly nalezeny žádné OpenPGP klíče</string>
     <string name="no_role">Offline</string>
@@ -430,6 +435,8 @@
     <string name="pref_expert_options">Expertní nastavení</string>
     <string name="pref_expert_options_other">Další</string>
     <string name="pref_expert_options_summary">S tímto zacházejte velmi opatrně</string>
+    <string name="pref_export_logs">Exportovat historii</string>
+    <string name="pref_export_logs_summary">Zapsat logy konverzací na SD kartu</string>
     <string name="pref_force_encryption">Vynutit šifrování</string>
     <string name="pref_force_encryption_summary">Vždy zasílat šifrované zprávy (mimo konference)</string>
     <string name="pref_general">Obecné</string>
@@ -523,6 +530,7 @@
     <string name="registration_password_too_weak">Registrace selhala: Příliš slabé heslo</string>
     <string name="registration_please_wait">Registrace selhala: Zkuste znovu později</string>
     <string name="remote_fingerprint">Vzdálený otisk</string>
+    <string name="remote_server_not_found">Vzdálený server nebyl nalezen</string>
     <string name="remove_admin_privileges">Odebrat administrátorská oprávnění</string>
     <string name="remove_bookmark_text">Chcete odstranit %s ze záložek? Konverzace spojené s touto záložkou nebudou odstraněny.</string>
     <string name="remove_contact_text">Chcete odstranit %s ze svého seznamu? Konverzace spojené s tímto kontaktem nebudou odstraněny.</string>
