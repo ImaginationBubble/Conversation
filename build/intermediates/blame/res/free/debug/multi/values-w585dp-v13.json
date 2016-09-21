@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\values-w585dp-v13\\values-w585dp-v13.xml",
+        "outputFile": "D:\\AndroidStudioProjects\\ConversatonGit\\build\\intermediates\\res\\merged\\free\\debug\\values-w585dp-v13\\values-w585dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "D:\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-w585dp\\dimens.xml",
+                    "file": "D:\\AndroidStudioProjects\\ConversatonGit\\src\\main\\res\\values-w585dp\\dimens.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 169
                 },
                 "from": {
-                    "file": "D:\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-w585dp\\dimens.xml",
+                    "file": "D:\\AndroidStudioProjects\\ConversatonGit\\src\\main\\res\\values-w585dp\\dimens.xml",
                     "position": {
                         "startLine": 1,
                         "startColumn": 1,

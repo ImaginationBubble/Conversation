@@ -1,3 +1,313 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\transforms\dex\free\debug\folders\1000\10\internal_impl-24.2.0_1436e967dde4a4174f83f215f7d28eb6ea2b0013\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\transforms\dex\free\debug\folders\1000\10\com.android.support-support-core-ui-24.2.0_e33a1fefb812c783f11a295dd6bf1c1f95c11adc\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\lababiba\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\transforms\dex\free\debug\folders\1000\10\support-annotations-24.2.0_e0c264ecdf2922d4245ca17cb83ac6f1fd9e2291\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\exploded-aar\com.android.support\support-v13\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="6bf34c4b4fcd3f6913eca652d13c51dbde51c3a4">
+        <dex dex="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\transforms\dex\free\debug\folders\1000\10\com.android.support-support-v13-24.2.0_9261505610c9e2aefbcf8b1ea865ce1f9b37f7e4\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\lababiba\.gradle\caches\modules-2\files-2.1\de.measite.minidns\minidns\0.1.7\993582d1455b93a5723d2af4b39d8679735b3550\minidns-0.1.7.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="993582d1455b93a5723d2af4b39d8679735b3550">
+        <dex dex="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\transforms\dex\free\debug\folders\1000\10\minidns-0.1.7_1f3cf6b5fbb908d98f6bfa5a881846a84154c7c4\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="59a16a4a42d25b2c243dd1e8aea87d06895b4a06">
+        <dex dex="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\transforms\dex\free\debug\folders\1000\10\com.google.android.gms-play-services-iid-9.4.0_b66a157c992d5e19341f3d87d1515af787cab7cf\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ece40b09e9d4d488bc270cf6af5a9af73bc1cfa3">
+        <dex dex="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\transforms\dex\free\debug\folders\1000\10\com.google.android.gms-play-services-gcm-9.4.0_1383595e9f154a6dc7649174df11380d347db7a2\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\lababiba\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\transforms\dex\free\debug\folders\1000\10\library-2.4.0_4f52e58dfa09f08d80d24f7b3765eec5375363ce\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\exploded-aar\com.android.support\support-v13\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="1dcb8005f460d87baed0abdc9ec997a58797856e">
+        <dex dex="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\transforms\dex\free\debug\folders\1000\10\internal_impl-24.2.0_f17a02e74be051eb9ed78ee2234c17bb198fd68f\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\lababiba\.gradle\caches\modules-2\files-2.1\com.google.zxing\android-integration\3.2.1\87a3d7da33a6c633fb1ff30023dbf0d05e8ea74c\android-integration-3.2.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="87a3d7da33a6c633fb1ff30023dbf0d05e8ea74c">
+        <dex dex="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\transforms\dex\free\debug\folders\1000\10\android-integration-3.2.1_cb348b316dc016e81efb29b9331307995ba9ffa4\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\transforms\dex\free\debug\folders\1000\10\internal_impl-24.2.0_f6752c72e84bfd3d813dc1fb2b40724ecc27ace5\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\transforms\dex\free\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.4.0_81b36b85ea691521145e232cec0b2675349d76b2\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\exploded-aar\org.whispersystems\axolotl-android\1.3.4\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4c2ad7bdcaf2c0a22a29897db269c51544c74434">
+        <dex dex="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\transforms\dex\free\debug\folders\1000\10\org.whispersystems-axolotl-android-1.3.4_5a1eb875679a3bb0177746dad58d55c17fa281cc\classes.dex" />
+    </item>
+    <item
+        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\com\intellij\annotations\12.0\annotations-12.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="bbcf6448f6d40abe506e2c83b70a3e8bfd2b4539">
+        <dex dex="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\transforms\dex\free\debug\folders\1000\10\annotations-12.0_e0fa7c64b47413623bb97d5f6a361b3c347a7145\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\transforms\dex\free\debug\folders\1000\10\com.android.support-support-compat-24.2.0_89f510ba317860e5f7db71eefa44af44a90c7b23\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\incremental-classes\free\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="1d3ab434c4dd27d6812b2df52df979eda6d26581">
+        <dex dex="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\transforms\dex\free\debug\folders\1000\10\instant-run-bootstrap_9d2fdcee2d227b00b4c9f52cee7da57fff630f39\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\transforms\dex\free\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.4.0_afc687e196f94282843f03b3316888b9ded63b7d\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\transforms\dex\free\debug\folders\1000\10\internal_impl-24.2.0_fdce1af7da474388700bae9c128715edcfe65c08\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\lababiba\.gradle\caches\modules-2\files-2.1\com.google.protobuf\protobuf-java\2.5.0\a10732c76bfacdbd633a7eb0f7968b1059a65dfa\protobuf-java-2.5.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a10732c76bfacdbd633a7eb0f7968b1059a65dfa">
+        <dex dex="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\transforms\dex\free\debug\folders\1000\10\protobuf-java-2.5.0_a55479dcbd7c62f0da0c4cd9d6e202e9a6f72864\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\transforms\dex\free\debug\folders\1000\10\internal_impl-24.2.0_d920045362ea5e43f5b5789fb69b1331b27e3d10\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\transforms\dex\free\debug\folders\1000\10\com.google.android.gms-play-services-base-9.4.0_31cc3aa34d8fceffe49dafd3ece7e79188461b0a\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\transforms\dex\free\debug\folders\1000\10\com.android.support-support-core-utils-24.2.0_aedd606a59be292cc62a7538e4954b0857fb03d3\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\lababiba\.gradle\caches\modules-2\files-2.1\org.whispersystems\curve25519-java\0.2.4\7fa461e047c17f96ac6c6d85e66bfb399b9ab887\curve25519-java-0.2.4.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="7fa461e047c17f96ac6c6d85e66bfb399b9ab887">
+        <dex dex="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\transforms\dex\free\debug\folders\1000\10\curve25519-java-0.2.4_0f5c7476cf2e6542a4b6f7c6d07109a61bd94007\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\exploded-aar\com.makeramen\roundedimageview\2.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="149d269764e1ad8d24e18e8cb71cd6b95062f3d1">
+        <dex dex="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\transforms\dex\free\debug\folders\1000\10\com.makeramen-roundedimageview-2.2.0_cea3dac9f425386abe07333fa98252f31a38d9e6\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\transforms\dex\free\debug\folders\1000\10\com.android.support-support-v4-24.2.0_b73bb21c713824971bfa5904c540d037d2c89afc\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\lababiba\.gradle\caches\modules-2\files-2.1\org.jitsi\org.otr4j\0.22\751feeb838c4a5d3499b55bbe887aebc38a4572b\org.otr4j-0.22.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="751feeb838c4a5d3499b55bbe887aebc38a4572b">
+        <dex dex="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\transforms\dex\free\debug\folders\1000\10\org.otr4j-0.22_cedde0949d8f5615fa412b28fb86e0278880e81a\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\exploded-aar\com.wefika\flowlayout\0.4.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c27d853ba7379592540b315e43df0abf3d83cf74">
+        <dex dex="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\transforms\dex\free\debug\folders\1000\10\com.wefika-flowlayout-0.4.1_57e6e2202ec00ab3c1576421cf031a5a28d3b2a5\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\exploded-aar\org.whispersystems\curve25519-android\0.2.4\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="6f8070d4d60e8d8cbb1e75243a0085076916473d">
+        <dex dex="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\transforms\dex\free\debug\folders\1000\10\org.whispersystems-curve25519-android-0.2.4_7d8f29f22b665ed65fe7caa980c4beb2a5affac8\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\exploded-aar\me.leolin\ShortcutBadger\1.1.4\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="b346a5d3fc5d6d1d36c6262c8cc865b76df9f40c">
+        <dex dex="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\transforms\dex\free\debug\folders\1000\10\me.leolin-ShortcutBadger-1.1.4_acab1d0798e68541e4da46add8720d4be1db4621\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\exploded-aar\com.soundcloud.android\android-crop\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="11a65cf2b30c192b38a881d626fa771a78a2293d">
+        <dex dex="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\transforms\dex\free\debug\folders\1000\10\com.soundcloud.android-android-crop-1.0.1_453ce05d44d5c9b261ae2e12184d8120d15bf4a4\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\lababiba\.gradle\caches\modules-2\files-2.1\org.whispersystems\axolotl-java\1.3.4\dba6947dd7f5f712052e1b54f3992b45e7642242\axolotl-java-1.3.4.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="dba6947dd7f5f712052e1b54f3992b45e7642242">
+        <dex dex="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\transforms\dex\free\debug\folders\1000\10\axolotl-java-1.3.4_d93836439f416604200fb307ae913f88ba63cd33\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\lababiba\.gradle\caches\modules-2\files-2.1\org.gnu.inet\libidn\1.15\b5bede3c1c031a827b604da31768ddaf833495c6\libidn-1.15.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="b5bede3c1c031a827b604da31768ddaf833495c6">
+        <dex dex="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\transforms\dex\free\debug\folders\1000\10\libidn-1.15_debe06e8823e5b5624eef8b636417aa5252b882a\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\transforms\dex\free\debug\folders\1000\10\com.android.support-appcompat-v7-21.0.3_12b14af840bc796bb432c19d6e067b53ee21d245\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\transforms\dex\free\debug\folders\1000\10\com.android.support-support-media-compat-24.2.0_f5f6817b91a6ea38434213729dbe41758b4ccecd\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\transforms\dex\free\debug\folders\1000\10\com.android.support-support-fragment-24.2.0_e43f1a4fbaf269d7edd588dab4fbbdd9122e9abc\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\lababiba\.gradle\caches\modules-2\files-2.1\org.bouncycastle\bcmail-jdk15on\1.52\4995a870400e1554d1c7ed2afcb5d198fae12db9\bcmail-jdk15on-1.52.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4995a870400e1554d1c7ed2afcb5d198fae12db9">
+        <dex dex="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\transforms\dex\free\debug\folders\1000\10\bcmail-jdk15on-1.52_6d157bc0d95c8b1fe3e4660832bc5d885bab0c8d\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\transforms\dex\free\debug\folders\1000\10\internal_impl-24.2.0_1b1f14858907b0d52fcd38e2dcbe476077e60e80\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\exploded-aar\org.sufficientlysecure\openpgp-api\10.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="6b2e3602300712aae3ca0a509d1cec3b0045b6f7">
+        <dex dex="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\transforms\dex\free\debug\folders\1000\10\org.sufficientlysecure-openpgp-api-10.0_d0ac64b89766f255d2910edc404bf60cb1eb020d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\lababiba\.gradle\caches\modules-2\files-2.1\org.bouncycastle\bcpkix-jdk15on\1.52\b8ffac2bbc6626f86909589c8cc63637cc936504\bcpkix-jdk15on-1.52.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="b8ffac2bbc6626f86909589c8cc63637cc936504">
+        <dex dex="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\transforms\dex\free\debug\folders\1000\10\bcpkix-jdk15on-1.52_7d650614e0fec47349477bf7c2ff76e053553639\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\exploded-aar\com.kyleduo.switchbutton\library\1.2.8\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ba391b1093df0505d6f0c56689c28384a4dafcc4">
+        <dex dex="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\transforms\dex\free\debug\folders\1000\10\com.kyleduo.switchbutton-library-1.2.8_91c09ab13676a27a4f2eb27507bba9be45c0ff5e\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\lababiba\.gradle\caches\modules-2\files-2.1\org.bouncycastle\bcprov-jdk15on\1.52\88a941faf9819d371e3174b5ed56a3f3f7d73269\bcprov-jdk15on-1.52.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="88a941faf9819d371e3174b5ed56a3f3f7d73269">
+        <dex dex="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\transforms\dex\free\debug\folders\1000\10\bcprov-jdk15on-1.52_9466c5f48e40ef889f9512cff9fa9564b242ac07\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\incremental-runtime-classes\free\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a19899c1c67bdcd7b0e89217cfe1ceae4e12c522">
+        <dex dex="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\transforms\dex\free\debug\folders\1000\10\instant-run_73a489f5d3bf0dccffdc19aee31300764dcb4ba9\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\lababiba\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.1\2287494d4f5f9f3a9a2bb6980e3f32053721b315\core-3.2.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\transforms\dex\free\debug\folders\1000\10\core-3.2.1_3ad824539531693f0db886eff9a4d0791ae6e8d0\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\exploded-aar\de.timroes.android\EnhancedListView\0.3.4\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="9cc616134ef0652ce7c534f27dbdc56115d5703c">
+        <dex dex="D:\AndroidStudioProjects\ConversatonGit\build\intermediates\transforms\dex\free\debug\folders\1000\10\de.timroes.android-EnhancedListView-0.3.4_cd2686fd8b7375b4fb5024530728d647a985c911\classes.dex" />
+    </item>
+
+</items>

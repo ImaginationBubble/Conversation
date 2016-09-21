@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\values-w300dp-v13\\values-w300dp-v13.xml",
+        "outputFile": "D:\\AndroidStudioProjects\\ConversatonGit\\build\\intermediates\\res\\merged\\free\\debug\\values-w300dp-v13\\values-w300dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 111
                 },
                 "from": {
-                    "file": "D:\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-w300dp\\dimens.xml",
+                    "file": "D:\\AndroidStudioProjects\\ConversatonGit\\src\\main\\res\\values-w300dp\\dimens.xml",
                     "position": {
                         "startLine": 1,
                         "startColumn": 1,

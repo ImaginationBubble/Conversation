@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\values-zh\\values-zh.xml",
+        "outputFile": "D:\\AndroidStudioProjects\\ConversatonGit\\build\\intermediates\\res\\merged\\free\\debug\\values-zh\\values-zh.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 163
                 },
                 "from": {
-                    "file": "D:\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.soundcloud.android\\android-crop\\1.0.1\\res\\values-zh\\values-zh.xml",
+                    "file": "D:\\AndroidStudioProjects\\ConversatonGit\\build\\intermediates\\exploded-aar\\com.soundcloud.android\\android-crop\\1.0.1\\res\\values-zh\\values-zh.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 205
                 },
                 "from": {
-                    "file": "D:\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.soundcloud.android\\android-crop\\1.0.1\\res\\values-zh\\values-zh.xml",
+                    "file": "D:\\AndroidStudioProjects\\ConversatonGit\\build\\intermediates\\exploded-aar\\com.soundcloud.android\\android-crop\\1.0.1\\res\\values-zh\\values-zh.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 256
                 },
                 "from": {
-                    "file": "D:\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.soundcloud.android\\android-crop\\1.0.1\\res\\values-zh\\values-zh.xml",
+                    "file": "D:\\AndroidStudioProjects\\ConversatonGit\\build\\intermediates\\exploded-aar\\com.soundcloud.android\\android-crop\\1.0.1\\res\\values-zh\\values-zh.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 305
                 },
                 "from": {
-                    "file": "D:\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.soundcloud.android\\android-crop\\1.0.1\\res\\values-zh\\values-zh.xml",
+                    "file": "D:\\AndroidStudioProjects\\ConversatonGit\\build\\intermediates\\exploded-aar\\com.soundcloud.android\\android-crop\\1.0.1\\res\\values-zh\\values-zh.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 349
                 },
                 "from": {
-                    "file": "D:\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.soundcloud.android\\android-crop\\1.0.1\\res\\values-zh\\values-zh.xml",
+                    "file": "D:\\AndroidStudioProjects\\ConversatonGit\\build\\intermediates\\exploded-aar\\com.soundcloud.android\\android-crop\\1.0.1\\res\\values-zh\\values-zh.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 405
                 },
                 "from": {
-                    "file": "D:\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\org.sufficientlysecure\\openpgp-api\\10.0\\res\\values-zh\\values-zh.xml",
+                    "file": "D:\\AndroidStudioProjects\\ConversatonGit\\build\\intermediates\\exploded-aar\\org.sufficientlysecure\\openpgp-api\\10.0\\res\\values-zh\\values-zh.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -125,7 +125,7 @@
                     "endOffset": 464
                 },
                 "from": {
-                    "file": "D:\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\org.sufficientlysecure\\openpgp-api\\10.0\\res\\values-zh\\values-zh.xml",
+                    "file": "D:\\AndroidStudioProjects\\ConversatonGit\\build\\intermediates\\exploded-aar\\org.sufficientlysecure\\openpgp-api\\10.0\\res\\values-zh\\values-zh.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
