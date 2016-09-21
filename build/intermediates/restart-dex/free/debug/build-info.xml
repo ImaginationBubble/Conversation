@@ -2,32 +2,37 @@
 <instant-run
     abi="arm64-v8a,armeabi-v7a,armeabi"
     api-level="23"
-    density="420dpi"
+    density="xxhdpi"
     format="7"
-    timestamp="25689254791574"
-    token="8656821372413847952" >
+    timestamp="13176477712566"
+    token="7232263040646141348" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="5403" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="32" />
     <task
         name="verifier"
-        duration="0" />
+        duration="18" />
 
     <artifact
-        location="E:\Conversation\build\outputs\apk\Conversations-1.14.1-free-debug.apk"
-        type="MAIN" />
+        location="D:\AndroidStudioProjects\Conversation\build\intermediates\transforms\dex\free\debug\folders\1000\5\slice_8\classes.dex"
+        type="DEX" />
 
-    <build timestamp="25689254791574" >
+    <build timestamp="12679313846828" >
         <artifact
-            location="E:\Conversation\build\outputs\apk\Conversations-1.14.1-free-debug.apk"
+            location="D:\AndroidStudioProjects\Conversation\build\outputs\apk\Conversations-1.14.1-free-debug.apk"
             type="MAIN" />
+    </build>
+    <build timestamp="13176477712566" >
+        <artifact
+            location="D:\AndroidStudioProjects\Conversation\build\intermediates\transforms\dex\free\debug\folders\1000\5\slice_8\classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

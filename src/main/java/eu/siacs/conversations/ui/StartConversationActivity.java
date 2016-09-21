@@ -734,7 +734,9 @@ public class StartConversationActivity extends XmppActivity implements OnRosterU
                         }
                         builder.create().show();
                     } else {
-                        requestPermissions(new String[]{Manifest.permission.READ_CONTACTS}, 0);
+                        requestPermissions(new String[]{Manifest.permission.READ_CONTACTS,Manifest.permission.RECORD_AUDIO,
+                                Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.READ_EXTERNAL_STORAGE }, 0);
+
                     }
                 }
             }

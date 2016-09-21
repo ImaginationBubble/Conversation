@@ -34,11 +34,12 @@ import android.widget.AdapterView.AdapterContextMenuInfo;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ListView;
+import android.widget.RadioButton;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.TextView.OnEditorActionListener;
 import android.widget.Toast;
-
+import eu.siacs.conversations.ui.ConversationActivity;
 import net.java.otr4j.session.SessionStatus;
 
 import java.io.File;
@@ -120,6 +121,7 @@ public class ConversationFragment extends Fragment implements EditMessage.Keyboa
 	private TextView snackbarAction;
 	private boolean messagesLoaded = true;
 	private Toast messageLoaderToast;
+
 
 	private Button voiceRecordButton;
 	private Button voiceStopButton;
@@ -421,7 +423,7 @@ public class ConversationFragment extends Fragment implements EditMessage.Keyboa
 			mEditMessage.setInputType(mEditMessage.getInputType() | InputType.TYPE_TEXT_VARIATION_SHORT_MESSAGE);
 		}
 	}
-
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
 	@Override
 	public View onCreateView(final LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		final View view = inflater.inflate(R.layout.fragment_conversation, container, false);
@@ -444,6 +446,7 @@ public class ConversationFragment extends Fragment implements EditMessage.Keyboa
 		voiceStopButton.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View view) {
+
 				audioOutputBase64.stopRecording();
 				activity.sendVoiceFuckingMessage();
 				voiceStopButton.setVisibility(View.INVISIBLE);
@@ -459,8 +462,7 @@ public class ConversationFragment extends Fragment implements EditMessage.Keyboa
 
 				voiceRecordButton.setVisibility(View.INVISIBLE);
 				voiceStopButton.setVisibility(View.VISIBLE);
-                audioOutputBase64.startRecording();
-
+                audioOutputBase64.startRecording(ConversationActivity.count_of_mess);
             }
 
 

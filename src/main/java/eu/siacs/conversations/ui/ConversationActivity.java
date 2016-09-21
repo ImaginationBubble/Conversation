@@ -1,5 +1,6 @@
 package eu.siacs.conversations.ui;
 
+import android.Manifest;
 import android.annotation.SuppressLint;
 import android.app.ActionBar;
 import android.app.AlertDialog;
@@ -11,6 +12,7 @@ import android.content.DialogInterface;
 import android.content.DialogInterface.OnClickListener;
 import android.content.Intent;
 import android.content.IntentSender.SendIntentException;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Build;
@@ -19,6 +21,7 @@ import android.os.Environment;
 import android.os.Handler;
 import android.provider.MediaStore;
 import android.provider.Settings;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.widget.SlidingPaneLayout;
 import android.support.v4.widget.SlidingPaneLayout.PanelSlideListener;
 import android.util.Log;
@@ -80,7 +83,7 @@ public class ConversationActivity extends XmppActivity
 	public static final String TEXT = "text";
 	public static final String NICK = "nick";
 	public static final String PRIVATE_MESSAGE = "pm";
-    private static final String path = "/audioTemp.mp3";
+    private static final String path = "/ConversationsTemp";
 	public static final int REQUEST_SEND_MESSAGE = 0x0201;
 	public static final int REQUEST_DECRYPT_PGP = 0x0202;
 	public static final int REQUEST_ENCRYPT_MESSAGE = 0x0207;
@@ -123,10 +126,10 @@ public class ConversationActivity extends XmppActivity
 	private boolean mActivityPaused = false;
 	private AtomicBoolean mRedirected = new AtomicBoolean(false);
 	private Pair<Integer, Intent> mPostponedActivityResult;
-
+    public boolean isRecording = false;
     AudioOutputBase64 audioOutputBase64 = new AudioOutputBase64() ;
     AudioInputBase64 audioInputBase64 ;
-    String str = null;
+    public static int count_of_mess;
 
 	public Conversation getSelectedConversation() {
 		return this.mSelectedConversation;
@@ -143,9 +146,28 @@ public class ConversationActivity extends XmppActivity
 		}
 	}
 
-    public void sendVoiceFuckingMessage(){
+    private File getLatestFilefromDir(){
+        File dir = new File(Environment.getExternalStorageDirectory().getAbsolutePath() + path);
+        File[] files = dir.listFiles();
 
-		final Uri uri = Uri.fromFile(new File(Environment.getExternalStorageDirectory().getAbsolutePath()+path));
+//        if (files == null) {
+//            return null;
+//        }
+
+        File lastModifiedFile = files[0];
+        for (int i = 0; i < files.length; i++) {
+            if (lastModifiedFile.lastModified() < files[i].lastModified()) {
+                lastModifiedFile = files[i];
+            }
+        }
+
+        return lastModifiedFile;
+    }
+
+
+    public void sendVoiceFuckingMessage(){
+        File file = getLatestFilefromDir();
+        final Uri uri = Uri.fromFile(file);
         final List<Uri> uris = new ArrayList<>();
         uris.clear();
         uris.add(uri);
@@ -170,6 +192,7 @@ public class ConversationActivity extends XmppActivity
 		} else {
 			selectPresence(c, callback);
 		}
+        count_of_mess++;
     }
 
 	@Override
@@ -209,8 +232,10 @@ public class ConversationActivity extends XmppActivity
 	@Override
 	protected void onCreate(final Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+        getActionBar().setDisplayShowTitleEnabled(false);
 		if (savedInstanceState != null) {
-			mOpenConversation = savedInstanceState.getString(STATE_OPEN_CONVERSATION, null);
+
+            mOpenConversation = savedInstanceState.getString(STATE_OPEN_CONVERSATION, null);
 			mPanelOpen = savedInstanceState.getBoolean(STATE_PANEL_OPEN, true);
 			int pos = savedInstanceState.getInt(STATE_FIRST_VISIBLE, -1);
 			int offset = savedInstanceState.getInt(STATE_OFFSET_FROM_TOP, 1);
@@ -225,9 +250,14 @@ public class ConversationActivity extends XmppActivity
 				mPendingImageUris.clear();
 				mPendingImageUris.add(Uri.parse(pending));
 			}
+
 		}
 
-		setContentView(R.layout.fragment_conversations_overview);
+        SharedPreferences settings = getSharedPreferences("MY_SP", 0);
+        count_of_mess = settings.getInt("COUNT_OFF_MESS", 0);
+
+
+        setContentView(R.layout.fragment_conversations_overview);
 
 		this.mConversationFragment = new ConversationFragment();
 		FragmentTransaction transaction = getFragmentManager().beginTransaction();
@@ -819,9 +849,9 @@ public class ConversationActivity extends XmppActivity
 		}
 		PopupMenu attachFilePopup = new PopupMenu(this, menuAttachFile);
 		attachFilePopup.inflate(R.menu.attachment_choices);
-		if (new Intent(MediaStore.Audio.Media.RECORD_SOUND_ACTION).resolveActivity(getPackageManager()) == null) {
+		/*if (new Intent(MediaStore.Audio.Media.RECORD_SOUND_ACTION).resolveActivity(getPackageManager()) == null) {
 			attachFilePopup.getMenu().findItem(R.id.attach_record_voice).setVisible(false);
-		}
+		}*/
 		if (new Intent("eu.siacs.conversations.location.request").resolveActivity(getPackageManager()) == null) {
 			attachFilePopup.getMenu().findItem(R.id.attach_location).setVisible(false);
 		}
@@ -839,9 +869,9 @@ public class ConversationActivity extends XmppActivity
 					case R.id.attach_choose_file:
 						attachFile(ATTACHMENT_CHOICE_CHOOSE_FILE);
 						break;
-					case R.id.attach_record_voice:
+					/*case R.id.attach_record_voice:
 						attachFile(ATTACHMENT_CHOICE_RECORD_VOICE);
-						break;
+						break;*/
 					case R.id.attach_location:
 						attachFile(ATTACHMENT_CHOICE_LOCATION);
 						break;
@@ -902,14 +932,16 @@ public class ConversationActivity extends XmppActivity
 				public boolean onMenuItemClick(MenuItem item) {
 					switch (item.getItemId()) {
 						case R.id.encryption_choice_none:
+
 							conversation.setNextEncryption(Message.ENCRYPTION_NONE);
 							item.setChecked(true);
 							break;
 						case R.id.encryption_choice_otr:
+							//getFragmentManager().findFragmentById(R.id.conversation_fragment).getView().findViewById(R.id.voiceRecordButton).setVisibility(View.INVISIBLE);
 							conversation.setNextEncryption(Message.ENCRYPTION_OTR);
 							item.setChecked(true);
 							break;
-						case R.id.encryption_choice_pgp:
+						/*case R.id.encryption_choice_pgp:
 							if (hasPgp()) {
 								if (conversation.getAccount().getPgpSignature() != null) {
 									conversation.setNextEncryption(Message.ENCRYPTION_PGP);
@@ -920,8 +952,9 @@ public class ConversationActivity extends XmppActivity
 							} else {
 								showInstallPgpDialog();
 							}
-							break;
+							break;*/
 						case R.id.encryption_choice_axolotl:
+							//getFragmentManager().findFragmentById(R.id.conversation_fragment).getView().findViewById(R.id.voiceRecordButton).setVisibility(View.INVISIBLE);
 							Log.d(Config.LOGTAG, AxolotlService.getLogprefix(conversation.getAccount())
 									+ "Enabled axolotl for Contact " + conversation.getContact().getJid());
 							conversation.setNextEncryption(Message.ENCRYPTION_AXOLOTL);
@@ -941,9 +974,9 @@ public class ConversationActivity extends XmppActivity
 			popup.inflate(R.menu.encryption_choices);
 			MenuItem otr = popup.getMenu().findItem(R.id.encryption_choice_otr);
 			MenuItem none = popup.getMenu().findItem(R.id.encryption_choice_none);
-			MenuItem pgp = popup.getMenu().findItem(R.id.encryption_choice_pgp);
+			//MenuItem pgp = popup.getMenu().findItem(R.id.encryption_choice_pgp);
 			MenuItem axolotl = popup.getMenu().findItem(R.id.encryption_choice_axolotl);
-			pgp.setVisible(Config.supportOpenPgp());
+			//pgp.setVisible(Config.supportOpenPgp());
 			none.setVisible(Config.supportUnencrypted() || conversation.getMode() == Conversation.MODE_MULTI);
 			otr.setVisible(Config.supportOtr());
 			axolotl.setVisible(Config.supportOmemo());
@@ -960,9 +993,9 @@ public class ConversationActivity extends XmppActivity
 				case Message.ENCRYPTION_OTR:
 					otr.setChecked(true);
 					break;
-				case Message.ENCRYPTION_PGP:
+				/*case Message.ENCRYPTION_PGP:
 					pgp.setChecked(true);
-					break;
+					break;*/
 				case Message.ENCRYPTION_AXOLOTL:
 					axolotl.setChecked(true);
 					break;
@@ -1158,6 +1191,12 @@ public class ConversationActivity extends XmppActivity
 		listView.discardUndo();
 		super.onPause();
 		this.mActivityPaused = true;
+
+        SharedPreferences preference = getSharedPreferences("MY_SP", 0);
+        SharedPreferences.Editor editor = preference.edit();
+        editor.putInt("COUNT_OFF_MESS",count_of_mess);
+        editor.commit();
+
 	}
 
 	@Override
@@ -1787,4 +1826,9 @@ public class ConversationActivity extends XmppActivity
 			mConversationFragment.updateMessages();
 		}
 	}
+
+    public static int getMes(){
+        return count_of_mess;
+    }
+
 }

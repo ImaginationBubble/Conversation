@@ -5,9 +5,7 @@
         android:id="@+id/attach_location"
         android:title="@string/send_location"/>
 
-    <item
-        android:id="@+id/attach_record_voice"
-        android:title="@string/attach_record_voice"/>
+
 
     <item
         android:id="@+id/attach_take_picture"

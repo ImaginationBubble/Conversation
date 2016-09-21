@@ -1,7 +1,6 @@
 package eu.siacs.conversations.voicemessage;
 
 
-import android.content.Context;
 import android.media.MediaRecorder;
 import android.os.Environment;
 import android.util.Log;
@@ -10,28 +9,35 @@ import android.widget.Toast;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.text.DateFormat;
+import java.util.Calendar;
+
+import eu.siacs.conversations.ui.ConversationActivity;
 
 
 public class AudioOutputBase64 {
-    private static final String path = "/audioTemp.mp3";
+
+    private String path = "/ConversationsTemp/VoiceMess";
+//    File outFile = new File(Environment.getExternalStorageDirectory().getAbsolutePath() + path + ".mp3");
     private MediaRecorder recorder = null;
     private AudioOutputDelegate delegate = null;
     //call for u need start record
 
-    public void startRecording() {
+    public void startRecording(int count_of_mess) {
         releaseRecorder();
-        File outFile = new File(Environment.getExternalStorageDirectory().getAbsolutePath()+path);
-        if (outFile.exists()) {
-            outFile.delete();
-        }
+//        File outFile = new File(Environment.getExternalStorageDirectory().getAbsolutePath()+path);
+//        if (outFile.exists()) {
+//            outFile.delete();
+//        }
+//
+//        try {
+//            outFile.createNewFile();
+//        } catch (IOException e) {
+//            Log.e("NSD AudioOutputBase64 ", "system down with exc " + e.getLocalizedMessage());
 
         try {
-            outFile.createNewFile();
-        } catch (IOException e) {
-            Log.e("NSD AudioOutputBase64 ", "system down with exc " + e.getLocalizedMessage());
-
-        }
-        try {
+            File outFile = new File(Environment.getExternalStorageDirectory().getAbsolutePath() + path + count_of_mess + ".mp3");
+            Log.e("TAG",path);
             recorder = new MediaRecorder();
             recorder.reset();
             recorder.setAudioSource(MediaRecorder.AudioSource.MIC);
@@ -50,10 +56,12 @@ public class AudioOutputBase64 {
     }
 
 
+
+
     // called if tap stop button or etc event
 
     public void stopRecording() {
-        File outFile;
+//        File outFile;
 //        if (recorder != null) {
 
 //            recorder.release();

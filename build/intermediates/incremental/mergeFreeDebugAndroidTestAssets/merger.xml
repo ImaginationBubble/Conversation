@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="E:\Conversation\src\androidTest\assets"/><source path="E:\Conversation\build\generated\assets\shaders\androidTest\free\debug"/></dataSet><dataSet config="free"><source path="E:\Conversation\src\androidTestFree\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="D:\AndroidStudioProjects\Conversation\src\androidTest\assets"/><source path="D:\AndroidStudioProjects\Conversation\build\generated\assets\shaders\androidTest\free\debug"/></dataSet><dataSet config="free"><source path="D:\AndroidStudioProjects\Conversation\src\androidTestFree\assets"/></dataSet></merger>

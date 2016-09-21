@@ -1,9 +1,11 @@
 package eu.siacs.conversations.ui;
 
+import android.Manifest;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
+import android.support.v4.app.ActivityCompat;
 import android.view.View;
 import android.widget.Button;
 
@@ -15,6 +17,9 @@ public class WelcomeActivity extends Activity {
 	protected void onCreate(final Bundle savedInstanceState) {
 		if (getResources().getBoolean(R.bool.portrait_only)) {
 			setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+			ActivityCompat.requestPermissions(WelcomeActivity.this,
+					new String[]{Manifest.permission.READ_EXTERNAL_STORAGE},
+					1);
 		}
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.welcome);
