@@ -39,10 +39,10 @@ public final class R {
 		public static final int elv_undo_popup = 0x7f03002e;
 	}
 	public static final class string {
-		public static final int elv_item_deleted = 0x7f0602b7;
-		public static final int elv_n_items_deleted = 0x7f0602b8;
-		public static final int elv_undo = 0x7f0602b9;
-		public static final int elv_undo_all = 0x7f0602ba;
+		public static final int elv_item_deleted = 0x7f0602b8;
+		public static final int elv_n_items_deleted = 0x7f0602b9;
+		public static final int elv_undo = 0x7f0602ba;
+		public static final int elv_undo_all = 0x7f0602bb;
 	}
 	public static final class style {
 		public static final int elv_fade_animation = 0x7f0b00fc;

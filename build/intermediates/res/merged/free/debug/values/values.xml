@@ -424,7 +424,8 @@
     <string name="also_end_conversation">End this conversation afterwards</string>
     <string name="always">Always</string>
     <string name="apk">Android App</string>
-    <string name="app_name" translatable="false">Conversations</string>
+    <string name="appLabel" translatable="false">Conversation</string>
+    <string name="app_name" translatable="false"/>
     <string name="are_you_sure_verify_fingerprint">Are you sure that you want to verify your contacts OTR fingerprint?</string>
     <string name="ask_for_presence_updates">Ask for presence updates</string>
     <string name="ask_question">Ask question</string>

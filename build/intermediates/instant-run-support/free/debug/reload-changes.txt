@@ -1,2 +1,0 @@
-CHANGED,D:\AndroidStudioProjects\Conversation\build\intermediates\transforms\instantRun\free\debug\folders\4000\5\enhanced\eu\siacs\conversations\voicemessage\AudioOutputBase64$override.class
-CHANGED,D:\AndroidStudioProjects\Conversation\build\intermediates\transforms\instantRun\free\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class

@@ -232,7 +232,7 @@ public class ConversationActivity extends XmppActivity
 	@Override
 	protected void onCreate(final Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-        getActionBar().setDisplayShowTitleEnabled(false);
+
 		if (savedInstanceState != null) {
 
             mOpenConversation = savedInstanceState.getString(STATE_OPEN_CONVERSATION, null);

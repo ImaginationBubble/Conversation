@@ -1,10 +1,10 @@
 [
     {
-        "merged": "D:\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\xml\\preferences.xml",
-        "source": "D:\\AndroidStudioProjects\\Conversation\\src\\main\\res\\xml\\preferences.xml"
+        "merged": "C:\\AndroidProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\xml\\preferences.xml",
+        "source": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\xml\\preferences.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\xml\\file_paths.xml",
-        "source": "D:\\AndroidStudioProjects\\Conversation\\src\\main\\res\\xml\\file_paths.xml"
+        "merged": "C:\\AndroidProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\xml\\file_paths.xml",
+        "source": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\xml\\file_paths.xml"
     }
 ]
