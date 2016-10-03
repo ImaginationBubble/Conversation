@@ -27,16 +27,16 @@ public final class R {
 		public static final int repeat = 0x7f0e0020;
 	}
 	public static final class string {
-		public static final int define_roundedimageview = 0x7f0602b7;
-		public static final int library_roundedimageview_author = 0x7f0602bc;
-		public static final int library_roundedimageview_authorWebsite = 0x7f0602bd;
-		public static final int library_roundedimageview_isOpenSource = 0x7f0602be;
-		public static final int library_roundedimageview_libraryDescription = 0x7f0602bf;
-		public static final int library_roundedimageview_libraryName = 0x7f0602c0;
-		public static final int library_roundedimageview_libraryVersion = 0x7f0602c1;
-		public static final int library_roundedimageview_libraryWebsite = 0x7f0602c2;
-		public static final int library_roundedimageview_licenseId = 0x7f0602c3;
-		public static final int library_roundedimageview_repositoryLink = 0x7f0602c4;
+		public static final int define_roundedimageview = 0x7f0602b8;
+		public static final int library_roundedimageview_author = 0x7f0602bd;
+		public static final int library_roundedimageview_authorWebsite = 0x7f0602be;
+		public static final int library_roundedimageview_isOpenSource = 0x7f0602bf;
+		public static final int library_roundedimageview_libraryDescription = 0x7f0602c0;
+		public static final int library_roundedimageview_libraryName = 0x7f0602c1;
+		public static final int library_roundedimageview_libraryVersion = 0x7f0602c2;
+		public static final int library_roundedimageview_libraryWebsite = 0x7f0602c3;
+		public static final int library_roundedimageview_licenseId = 0x7f0602c4;
+		public static final int library_roundedimageview_repositoryLink = 0x7f0602c5;
 	}
 	public static final class styleable {
 		public static final int[] RoundedImageView = { 0x0101011d, 0x7f010065, 0x7f010066, 0x7f010067, 0x7f010068, 0x7f010069, 0x7f01006a, 0x7f01006b, 0x7f01006c, 0x7f01006d, 0x7f01006e, 0x7f01006f, 0x7f010070 };

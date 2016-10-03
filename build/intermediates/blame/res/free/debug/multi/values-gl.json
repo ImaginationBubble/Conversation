@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\AndroidProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\values-gl\\values-gl.xml",
+        "outputFile": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\incremental\\mergeFreeDebugResources\\merged.dir\\values-gl\\values-gl.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 143
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 66,
                         "startColumn": 2,
@@ -30,7 +30,7 @@
                     "endOffset": 214
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 87,
                         "startColumn": 2,
@@ -49,7 +49,7 @@
                     "endOffset": 294
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 85,
                         "startColumn": 2,
@@ -68,7 +68,7 @@
                     "endOffset": 367
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 91,
                         "startColumn": 2,
@@ -87,7 +87,7 @@
                     "endOffset": 441
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 90,
                         "startColumn": 2,
@@ -106,7 +106,7 @@
                     "endOffset": 505
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 88,
                         "startColumn": 2,
@@ -125,7 +125,7 @@
                     "endOffset": 565
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 86,
                         "startColumn": 2,
@@ -144,7 +144,7 @@
                     "endOffset": 654
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 93,
                         "startColumn": 2,
@@ -163,7 +163,7 @@
                     "endOffset": 725
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 92,
                         "startColumn": 2,
@@ -182,7 +182,7 @@
                     "endOffset": 815
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 95,
                         "startColumn": 2,
@@ -201,7 +201,7 @@
                     "endOffset": 892
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 94,
                         "startColumn": 2,
@@ -220,7 +220,7 @@
                     "endOffset": 963
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 89,
                         "startColumn": 2,
@@ -239,7 +239,7 @@
                     "endOffset": 1026
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 84,
                         "startColumn": 2,
@@ -258,7 +258,7 @@
                     "endOffset": 1087
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 2,
@@ -277,7 +277,7 @@
                     "endOffset": 1140
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 2,
@@ -296,7 +296,7 @@
                     "endOffset": 1201
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 2,
@@ -315,7 +315,7 @@
                     "endOffset": 1267
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 39,
                         "startColumn": 2,
@@ -334,7 +334,7 @@
                     "endOffset": 1339
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 2,
@@ -353,7 +353,7 @@
                     "endOffset": 1416
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 2,
@@ -372,7 +372,7 @@
                     "endOffset": 1480
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 2,
@@ -391,7 +391,7 @@
                     "endOffset": 1550
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 2,
@@ -410,7 +410,7 @@
                     "endOffset": 1621
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 2,
@@ -429,7 +429,7 @@
                     "endOffset": 1679
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 2,
@@ -448,7 +448,7 @@
                     "endOffset": 1731
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 2,
@@ -467,7 +467,7 @@
                     "endOffset": 1788
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 35,
                         "startColumn": 2,
@@ -486,7 +486,7 @@
                     "endOffset": 1879
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 75,
                         "startColumn": 2,
@@ -505,7 +505,7 @@
                     "endOffset": 1947
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 76,
                         "startColumn": 2,
@@ -524,7 +524,7 @@
                     "endOffset": 1996
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 33,
                         "startColumn": 2,
@@ -543,7 +543,7 @@
                     "endOffset": 2057
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 102,
                         "startColumn": 2,
@@ -562,7 +562,7 @@
                     "endOffset": 2116
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 77,
                         "startColumn": 2,
@@ -581,7 +581,7 @@
                     "endOffset": 2160
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 2,
@@ -600,7 +600,7 @@
                     "endOffset": 2244
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 40,
                         "startColumn": 2,
@@ -619,7 +619,7 @@
                     "endOffset": 2429
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 41,
                         "startColumn": 2,
@@ -638,7 +638,7 @@
                     "endOffset": 2537
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -657,7 +657,7 @@
                     "endOffset": 2732
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -676,7 +676,7 @@
                     "endOffset": 2863
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -695,7 +695,7 @@
                     "endOffset": 2998
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -714,7 +714,7 @@
                     "endOffset": 3219
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -733,7 +733,7 @@
                     "endOffset": 3440
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -752,7 +752,7 @@
                     "endOffset": 3574
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -771,7 +771,7 @@
                     "endOffset": 3712
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -790,7 +790,7 @@
                     "endOffset": 3964
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\9.4.0\\res\\values-gl\\values.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\9.4.0\\res\\values-gl\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -809,7 +809,7 @@
                     "endOffset": 4231
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -828,7 +828,7 @@
                     "endOffset": 4358
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -847,7 +847,7 @@
                     "endOffset": 4469
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -866,7 +866,7 @@
                     "endOffset": 4669
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -885,7 +885,7 @@
                     "endOffset": 4806
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -904,7 +904,7 @@
                     "endOffset": 5030
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -923,7 +923,7 @@
                     "endOffset": 5171
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -942,7 +942,7 @@
                     "endOffset": 5353
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -961,7 +961,7 @@
                     "endOffset": 5450
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -980,7 +980,7 @@
                     "endOffset": 5549
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -999,7 +999,7 @@
                     "endOffset": 5663
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-gl\\values.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -1018,7 +1018,7 @@
                     "endOffset": 5908
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 54,
                         "startColumn": 2,
@@ -1037,7 +1037,7 @@
                     "endOffset": 6115
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 2,
@@ -1056,7 +1056,7 @@
                     "endOffset": 6185
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 2,
@@ -1075,7 +1075,7 @@
                     "endOffset": 6299
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 47,
                         "startColumn": 2,
@@ -1094,7 +1094,7 @@
                     "endOffset": 6359
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 42,
                         "startColumn": 2,
@@ -1113,7 +1113,7 @@
                     "endOffset": 6413
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 96,
                         "startColumn": 2,
@@ -1132,7 +1132,7 @@
                     "endOffset": 6471
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 97,
                         "startColumn": 2,
@@ -1151,7 +1151,7 @@
                     "endOffset": 6524
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 67,
                         "startColumn": 2,
@@ -1170,7 +1170,7 @@
                     "endOffset": 6612
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 80,
                         "startColumn": 2,
@@ -1189,7 +1189,7 @@
                     "endOffset": 6691
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 65,
                         "startColumn": 2,
@@ -1208,7 +1208,7 @@
                     "endOffset": 6760
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 81,
                         "startColumn": 2,
@@ -1227,7 +1227,7 @@
                     "endOffset": 6858
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 82,
                         "startColumn": 2,
@@ -1246,7 +1246,7 @@
                     "endOffset": 6950
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 79,
                         "startColumn": 2,
@@ -1265,7 +1265,7 @@
                     "endOffset": 7212
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 83,
                         "startColumn": 2,
@@ -1284,7 +1284,7 @@
                     "endOffset": 7257
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 51,
                         "startColumn": 2,
@@ -1303,7 +1303,7 @@
                     "endOffset": 7353
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 104,
                         "startColumn": 2,
@@ -1322,7 +1322,7 @@
                     "endOffset": 7396
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 2,
@@ -1341,7 +1341,7 @@
                     "endOffset": 7436
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 72,
                         "startColumn": 2,
@@ -1360,7 +1360,7 @@
                     "endOffset": 7499
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 99,
                         "startColumn": 2,
@@ -1379,7 +1379,7 @@
                     "endOffset": 7575
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 100,
                         "startColumn": 2,
@@ -1398,7 +1398,7 @@
                     "endOffset": 7634
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 98,
                         "startColumn": 2,
@@ -1417,7 +1417,7 @@
                     "endOffset": 7692
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 101,
                         "startColumn": 2,
@@ -1436,7 +1436,7 @@
                     "endOffset": 7736
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 2,
@@ -1455,7 +1455,7 @@
                     "endOffset": 7784
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 2,
@@ -1474,7 +1474,7 @@
                     "endOffset": 7847
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 2,
@@ -1493,7 +1493,7 @@
                     "endOffset": 7912
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 53,
                         "startColumn": 2,
@@ -1512,7 +1512,7 @@
                     "endOffset": 8006
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 34,
                         "startColumn": 2,
@@ -1531,7 +1531,7 @@
                     "endOffset": 8054
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 52,
                         "startColumn": 2,
@@ -1550,7 +1550,7 @@
                     "endOffset": 8117
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 48,
                         "startColumn": 2,
@@ -1569,7 +1569,7 @@
                     "endOffset": 8475
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 49,
                         "startColumn": 2,
@@ -1588,7 +1588,7 @@
                     "endOffset": 8547
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 64,
                         "startColumn": 2,
@@ -1607,7 +1607,7 @@
                     "endOffset": 8600
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 2,
@@ -1626,7 +1626,7 @@
                     "endOffset": 8681
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 103,
                         "startColumn": 2,
@@ -1645,7 +1645,7 @@
                     "endOffset": 8774
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 78,
                         "startColumn": 2,
@@ -1664,7 +1664,7 @@
                     "endOffset": 8837
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 57,
                         "startColumn": 2,
@@ -1683,7 +1683,7 @@
                     "endOffset": 8940
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 58,
                         "startColumn": 2,
@@ -1702,7 +1702,7 @@
                     "endOffset": 9021
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 68,
                         "startColumn": 2,
@@ -1721,7 +1721,7 @@
                     "endOffset": 9166
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 69,
                         "startColumn": 2,
@@ -1740,7 +1740,7 @@
                     "endOffset": 9246
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 62,
                         "startColumn": 2,
@@ -1759,7 +1759,7 @@
                     "endOffset": 9368
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 63,
                         "startColumn": 2,
@@ -1778,7 +1778,7 @@
                     "endOffset": 9429
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 59,
                         "startColumn": 2,
@@ -1797,7 +1797,7 @@
                     "endOffset": 9524
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 60,
                         "startColumn": 2,
@@ -1816,7 +1816,7 @@
                     "endOffset": 9572
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 61,
                         "startColumn": 2,
@@ -1835,7 +1835,7 @@
                     "endOffset": 9627
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 55,
                         "startColumn": 2,
@@ -1854,7 +1854,7 @@
                     "endOffset": 9735
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 56,
                         "startColumn": 2,
@@ -1873,7 +1873,7 @@
                     "endOffset": 9808
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 38,
                         "startColumn": 2,
@@ -1892,7 +1892,7 @@
                     "endOffset": 9891
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 30,
                         "startColumn": 2,
@@ -1911,7 +1911,7 @@
                     "endOffset": 9986
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 31,
                         "startColumn": 2,
@@ -1930,7 +1930,7 @@
                     "endOffset": 10075
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 74,
                         "startColumn": 2,
@@ -1949,7 +1949,7 @@
                     "endOffset": 10153
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 2,
@@ -1968,7 +1968,7 @@
                     "endOffset": 10289
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 2,
@@ -1987,7 +1987,7 @@
                     "endOffset": 10335
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 50,
                         "startColumn": 2,
@@ -2006,7 +2006,7 @@
                     "endOffset": 10375
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 2,
@@ -2025,7 +2025,7 @@
                     "endOffset": 10430
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 36,
                         "startColumn": 2,
@@ -2044,7 +2044,7 @@
                     "endOffset": 10491
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 2,
@@ -2063,7 +2063,7 @@
                     "endOffset": 10541
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 2,
@@ -2082,7 +2082,7 @@
                     "endOffset": 10617
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 43,
                         "startColumn": 2,
@@ -2101,7 +2101,7 @@
                     "endOffset": 10697
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 44,
                         "startColumn": 2,
@@ -2120,7 +2120,7 @@
                     "endOffset": 10782
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 73,
                         "startColumn": 2,
@@ -2139,7 +2139,7 @@
                     "endOffset": 10834
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 37,
                         "startColumn": 2,
@@ -2158,7 +2158,7 @@
                     "endOffset": 10897
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 46,
                         "startColumn": 2,
@@ -2177,7 +2177,7 @@
                     "endOffset": 10943
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 2,
@@ -2196,7 +2196,7 @@
                     "endOffset": 10996
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 2,
@@ -2215,7 +2215,7 @@
                     "endOffset": 11059
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 2,
@@ -2234,7 +2234,7 @@
                     "endOffset": 11114
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 70,
                         "startColumn": 2,
@@ -2253,7 +2253,7 @@
                     "endOffset": 11197
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 32,
                         "startColumn": 2,
@@ -2272,7 +2272,7 @@
                     "endOffset": 11264
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 2,
@@ -2291,7 +2291,7 @@
                     "endOffset": 11310
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 2,
@@ -2310,7 +2310,7 @@
                     "endOffset": 11363
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 71,
                         "startColumn": 2,
@@ -2329,7 +2329,7 @@
                     "endOffset": 11442
                 },
                 "from": {
-                    "file": "C:\\AndroidProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\values-gl\\strings.xml",
                     "position": {
                         "startLine": 45,
                         "startColumn": 2,

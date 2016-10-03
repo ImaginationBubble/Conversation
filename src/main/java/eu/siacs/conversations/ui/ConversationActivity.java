@@ -256,6 +256,10 @@ public class ConversationActivity extends XmppActivity
         SharedPreferences settings = getSharedPreferences("MY_SP", 0);
         count_of_mess = settings.getInt("COUNT_OFF_MESS", 0);
 
+        File dir = new File(Environment.getExternalStorageDirectory().getAbsolutePath() + File.separator + "ConversationsTemp");
+        if(!dir.exists()){
+            dir.mkdir();
+        }
 
         setContentView(R.layout.fragment_conversations_overview);
 
@@ -937,11 +941,10 @@ public class ConversationActivity extends XmppActivity
 							item.setChecked(true);
 							break;
 						case R.id.encryption_choice_otr:
-							//getFragmentManager().findFragmentById(R.id.conversation_fragment).getView().findViewById(R.id.voiceRecordButton).setVisibility(View.INVISIBLE);
 							conversation.setNextEncryption(Message.ENCRYPTION_OTR);
 							item.setChecked(true);
 							break;
-						/*case R.id.encryption_choice_pgp:
+						case R.id.encryption_choice_pgp:
 							if (hasPgp()) {
 								if (conversation.getAccount().getPgpSignature() != null) {
 									conversation.setNextEncryption(Message.ENCRYPTION_PGP);
@@ -952,7 +955,7 @@ public class ConversationActivity extends XmppActivity
 							} else {
 								showInstallPgpDialog();
 							}
-							break;*/
+							break;
 						case R.id.encryption_choice_axolotl:
 							//getFragmentManager().findFragmentById(R.id.conversation_fragment).getView().findViewById(R.id.voiceRecordButton).setVisibility(View.INVISIBLE);
 							Log.d(Config.LOGTAG, AxolotlService.getLogprefix(conversation.getAccount())
@@ -974,9 +977,9 @@ public class ConversationActivity extends XmppActivity
 			popup.inflate(R.menu.encryption_choices);
 			MenuItem otr = popup.getMenu().findItem(R.id.encryption_choice_otr);
 			MenuItem none = popup.getMenu().findItem(R.id.encryption_choice_none);
-			//MenuItem pgp = popup.getMenu().findItem(R.id.encryption_choice_pgp);
+			MenuItem pgp = popup.getMenu().findItem(R.id.encryption_choice_pgp);
 			MenuItem axolotl = popup.getMenu().findItem(R.id.encryption_choice_axolotl);
-			//pgp.setVisible(Config.supportOpenPgp());
+			pgp.setVisible(Config.supportOpenPgp());
 			none.setVisible(Config.supportUnencrypted() || conversation.getMode() == Conversation.MODE_MULTI);
 			otr.setVisible(Config.supportOtr());
 			axolotl.setVisible(Config.supportOmemo());
@@ -993,9 +996,9 @@ public class ConversationActivity extends XmppActivity
 				case Message.ENCRYPTION_OTR:
 					otr.setChecked(true);
 					break;
-				/*case Message.ENCRYPTION_PGP:
+				case Message.ENCRYPTION_PGP:
 					pgp.setChecked(true);
-					break;*/
+					break;
 				case Message.ENCRYPTION_AXOLOTL:
 					axolotl.setChecked(true);
 					break;
@@ -1189,6 +1192,7 @@ public class ConversationActivity extends XmppActivity
 	@Override
 	public void onPause() {
 		listView.discardUndo();
+
 		super.onPause();
 		this.mActivityPaused = true;
 

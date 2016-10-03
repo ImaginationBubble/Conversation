@@ -63,9 +63,13 @@ public class AudioOutputBase64 {
     public void stopRecording() {
 //        File outFile;
 //        if (recorder != null) {
+    try {
+        recorder.stop();
+        recorder.reset();
+    }
+    catch(Exception e){
 
-//            recorder.release();
-            recorder.stop();
+        }
 //            outFile = new File(Environment.getExternalStorageDirectory().getAbsolutePath()+path);
             }
 

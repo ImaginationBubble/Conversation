@@ -4,12 +4,15 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Fragment;
 import android.app.PendingIntent;
+import android.app.ProgressDialog;
 import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentSender.SendIntentException;
 import android.os.Bundle;
+import android.os.CountDownTimer;
+import android.os.Environment;
 import android.os.Handler;
 import android.text.Editable;
 import android.text.InputType;
@@ -46,6 +49,7 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Timer;
 import java.util.UUID;
 
 import eu.siacs.conversations.Config;
@@ -111,6 +115,7 @@ public class ConversationFragment extends Fragment implements EditMessage.Keyboa
 			});
 		}
 	};
+    Handler handler;
 	protected ListView messagesView;
 	final protected List<Message> messageList = new ArrayList<>();
 	protected MessageAdapter messageListAdapter;
@@ -121,13 +126,32 @@ public class ConversationFragment extends Fragment implements EditMessage.Keyboa
 	private TextView snackbarAction;
 	private boolean messagesLoaded = true;
 	private Toast messageLoaderToast;
+    private static final String path = "/ConversationsTemp";
 
 
-	private Button voiceRecordButton;
+    private Button voiceRecordButton;
 	private Button voiceStopButton;
     AudioOutputBase64 audioOutputBase64 = new AudioOutputBase64() ;
     AudioInputBase64 audioInputBase64 ;
     String str = null;
+
+    private File getLatestFilefromDir(){
+        File dir = new File(Environment.getExternalStorageDirectory().getAbsolutePath() + path);
+        File[] files = dir.listFiles();
+
+//        if (files == null) {
+//            return null;
+//        }
+
+        File lastModifiedFile = files[0];
+        for (int i = 0; i < files.length; i++) {
+            if (lastModifiedFile.lastModified() < files[i].lastModified()) {
+                lastModifiedFile = files[i];
+            }
+        }
+
+        return lastModifiedFile;
+    }
 
 	private OnScrollListener mOnScrollListener = new OnScrollListener() {
 
@@ -443,17 +467,19 @@ public class ConversationFragment extends Fragment implements EditMessage.Keyboa
         str = null;
 
         voiceStopButton = (Button) view.findViewById(R.id.voiceStopButton);
-		voiceStopButton.setOnClickListener(new OnClickListener() {
-			@Override
-			public void onClick(View view) {
+//		voiceStopButton.setOnClickListener(new OnClickListener() {
+//			@Override
+//			public void onClick(View view) {
+//
+//				audioOutputBase64.stopRecording();
+//				activity.sendVoiceFuckingMessage();
+//				voiceStopButton.setVisibility(View.INVISIBLE);
+//				voiceRecordButton.setVisibility(View.VISIBLE);
+//			}
+//		});
 
-				audioOutputBase64.stopRecording();
-				activity.sendVoiceFuckingMessage();
-				voiceStopButton.setVisibility(View.INVISIBLE);
-				voiceRecordButton.setVisibility(View.VISIBLE);
-				return;
-			}
-		});
+
+
 
         voiceRecordButton = (Button) view.findViewById(R.id.voiceRecordButton);
         voiceRecordButton.setOnClickListener(new OnClickListener() {
@@ -462,10 +488,71 @@ public class ConversationFragment extends Fragment implements EditMessage.Keyboa
 
 				voiceRecordButton.setVisibility(View.INVISIBLE);
 				voiceStopButton.setVisibility(View.VISIBLE);
+				final ProgressDialog alertDialog = new ProgressDialog(getActivity());
+                alertDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
+                alertDialog.setIndeterminate(true);
+                alertDialog.setProgressNumberFormat(null);
+                alertDialog.setProgressPercentFormat(null);
+                alertDialog.setMax(60);
+                alertDialog.setCanceledOnTouchOutside(false);
+                alertDialog.setCancelable(false);
+				alertDialog.setTitle("Запись...");
+                alertDialog.setMessage("");
+                alertDialog.setOnCancelListener(new DialogInterface.OnCancelListener() {
+                    @Override
+                    public void onCancel(DialogInterface dialog) {
+                        audioOutputBase64.stopRecording();
+//                        File file = getLatestFilefromDir();
+//                        file.delete();
+                        voiceStopButton.setVisibility(View.INVISIBLE);
+                        voiceRecordButton.setVisibility(View.VISIBLE);
+                    }
+                });
+                alertDialog.setButton(DialogInterface.BUTTON_POSITIVE, "Отправить", new DialogInterface.OnClickListener(){
+
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        audioOutputBase64.stopRecording();
+                        activity.sendVoiceFuckingMessage();
+                        voiceStopButton.setVisibility(View.INVISIBLE);
+                        voiceRecordButton.setVisibility(View.VISIBLE);
+                    }
+                });
+
+                alertDialog.setButton(DialogInterface.BUTTON_NEGATIVE, "Отменить", new DialogInterface.OnClickListener(){
+
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        alertDialog.dismiss();
+                        audioOutputBase64.stopRecording();
+//                        File file = getLatestFilefromDir();
+//                        file.delete();
+                        voiceStopButton.setVisibility(View.INVISIBLE);
+                        voiceRecordButton.setVisibility(View.VISIBLE);
+                    }
+                });
+
+				alertDialog.show();
+
+
+                new CountDownTimer(60000, 1000) {
+                    @Override
+                    public void onTick(long millisUntilFinished) {
+                        alertDialog.setMessage("" + (60-millisUntilFinished/1000) + " секунд записи");
+                    }
+
+                    @Override
+                    public void onFinish() {
+                        alertDialog.dismiss();
+                        audioOutputBase64.stopRecording();
+                        File file = getLatestFilefromDir();
+                        file.delete();
+                        voiceStopButton.setVisibility(View.INVISIBLE);
+                        voiceRecordButton.setVisibility(View.VISIBLE);
+                    }
+                }.start();
                 audioOutputBase64.startRecording(ConversationActivity.count_of_mess);
             }
-
-
         });
 
 
@@ -566,7 +653,6 @@ public class ConversationFragment extends Fragment implements EditMessage.Keyboa
 			populateContextMenu(menu);
 		}
 	}
-
 
 
 	private void populateContextMenu(ContextMenu menu) {

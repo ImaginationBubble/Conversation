@@ -20,6 +20,7 @@ import eu.siacs.conversations.entities.ListItem;
 import eu.siacs.conversations.entities.Message;
 import eu.siacs.conversations.entities.Presence;
 import eu.siacs.conversations.entities.Transferable;
+import eu.siacs.conversations.ui.ConversationActivity;
 import eu.siacs.conversations.ui.XmppActivity;
 import eu.siacs.conversations.xmpp.jid.Jid;
 
@@ -28,7 +29,7 @@ public class UIHelper {
 	private static String BLACK_HEART_SUIT = "\u2665";
 	private static String HEAVY_BLACK_HEART_SUIT = "\u2764";
 	private static String WHITE_HEART_SUIT = "\u2661";
-
+	static ConversationActivity activity;
 	public static final ArrayList<String> HEARTS = new ArrayList<>(Arrays.asList(BLACK_HEART_SUIT,HEAVY_BLACK_HEART_SUIT,WHITE_HEART_SUIT));
 
 	private static final ArrayList<String> LOCATION_QUESTIONS = new ArrayList<>(Arrays.asList(
@@ -207,8 +208,9 @@ public class UIHelper {
 	}
 
 	public static String getFileDescriptionString(final Context context, final Message message) {
+		String str = message.getMimeType();
 		if (message.getType() == Message.TYPE_IMAGE) {
-			return context.getString(R.string.image);
+            return context.getString(R.string.image);
 		}
 		final String mime = message.getMimeType();
 		if (mime == null) {
@@ -224,10 +226,10 @@ public class UIHelper {
 		} else if (mime.contains("application/vnd.android.package-archive")) {
 			return context.getString(R.string.apk)	;
 		} else if (mime.contains("vcard")) {
-			return context.getString(R.string.vcard)	;
-		} else {
-			return mime;
+            return context.getString(R.string.vcard)	;
 		}
+
+		return mime;
 	}
 
 	public static String getMessageDisplayName(final Message message) {
