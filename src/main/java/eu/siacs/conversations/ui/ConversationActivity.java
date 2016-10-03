@@ -45,6 +45,7 @@ import net.java.otr4j.session.SessionStatus;
 import org.openintents.openpgp.util.OpenPgpApi;
 
 import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -252,6 +253,12 @@ public class ConversationActivity extends XmppActivity
 			}
 
 		}
+
+		File dir = new File(Environment.getExternalStorageDirectory().getAbsolutePath() + File.separator + "ConversationsTemp");
+        if (!dir.exists()) {
+            dir.mkdirs();
+        }
+
 
         SharedPreferences settings = getSharedPreferences("MY_SP", 0);
         count_of_mess = settings.getInt("COUNT_OFF_MESS", 0);
