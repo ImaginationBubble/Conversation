@@ -45,7 +45,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
                 android:text="@string/create_account"
-                android:textColor="@color/accent"/>
+                android:textColor="@color/accent"
+                android:visibility="invisible" />
             <Button
                 android:id="@+id/use_own_provider"
                 style="?android:attr/borderlessButtonStyle"

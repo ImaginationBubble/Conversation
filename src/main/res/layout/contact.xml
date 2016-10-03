@@ -4,12 +4,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="?android:attr/activatedBackgroundIndicator"
-                android:padding="8dp">
+    android:longClickable="false"
+    android:paddingLeft="8dp"
+    android:paddingTop="8dp"
+    android:paddingRight="8dp">
 
     <com.makeramen.roundedimageview.RoundedImageView
         android:id="@+id/contact_photo"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
         android:layout_alignParentLeft="true"
         android:scaleType="centerCrop"
         android:src="@drawable/ic_profile"
@@ -29,7 +32,7 @@
             android:layout_height="wrap_content"
             android:singleLine="true"
             android:textColor="?attr/color_text_primary"
-            android:textSize="?attr/TextSizeHeadline" />
+            android:textSize="17dp" />
 
         <TextView
             android:id="@+id/contact_jid"
@@ -37,7 +40,7 @@
             android:layout_height="wrap_content"
             android:singleLine="true"
             android:textColor="?attr/color_text_primary"
-            android:textSize="?attr/TextSizeBody" />
+            android:textSize="14dp" />
         <com.wefika.flowlayout.FlowLayout
             android:id="@+id/tags"
             android:layout_width="wrap_content"

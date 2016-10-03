@@ -9,6 +9,8 @@ import android.graphics.Bitmap;
 import android.graphics.Typeface;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
+import android.media.AudioManager;
+import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Build;
@@ -21,6 +23,7 @@ import android.text.style.RelativeSizeSpan;
 import android.text.style.StyleSpan;
 import android.text.util.Linkify;
 import android.util.DisplayMetrics;
+import android.util.Log;
 import android.util.Patterns;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -33,6 +36,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.io.IOException;
 import java.lang.ref.WeakReference;
 import java.net.URL;
 import java.util.List;
@@ -67,7 +71,6 @@ public class MessageAdapter extends ArrayAdapter<Message> {
 					+ "|(?:\\%[a-fA-F0-9]{2}))+");
 
 	private ConversationActivity activity;
-
 	private DisplayMetrics metrics;
 
 	private OnContactPictureClicked mOnContactPictureClickedListener;
@@ -83,6 +86,7 @@ public class MessageAdapter extends ArrayAdapter<Message> {
 	};
 	private boolean mIndicateReceived = false;
 	private boolean mUseGreenBackground = false;
+	MediaPlayer mPlayer = new MediaPlayer();
 
 	public MessageAdapter(ConversationActivity activity, List<Message> messages) {
 		super(activity, 0, messages);
@@ -405,6 +409,7 @@ public class MessageAdapter extends ArrayAdapter<Message> {
 
 			@Override
 			public void onClick(View v) {
+				Log.v("Downloaable Mess", "Downloaable Mess");
 				activity.startDownloadable(message);
 			}
 		});
@@ -415,11 +420,19 @@ public class MessageAdapter extends ArrayAdapter<Message> {
 		viewHolder.image.setVisibility(View.GONE);
 		viewHolder.messageBody.setVisibility(View.GONE);
 		viewHolder.download_button.setVisibility(View.VISIBLE);
+        if (!UIHelper.getFileDescriptionString(activity,message).equals(getContext().getString(R.string.audio))){
 		viewHolder.download_button.setText(activity.getString(R.string.open_x_file, UIHelper.getFileDescriptionString(activity, message)));
+        }
+        else {
+            viewHolder.download_button.setText(activity.getString(R.string.play_x_file, UIHelper.getFileDescriptionString(activity, message)));
+
+        }
+
 		viewHolder.download_button.setOnClickListener(new OnClickListener() {
 
 			@Override
 			public void onClick(View v) {
+				Log.v("Openable Mess", "Openable Mess");
 				openDownloadable(message);
 			}
 		});
@@ -707,42 +720,62 @@ public class MessageAdapter extends ArrayAdapter<Message> {
 	}
 
 	public void openDownloadable(Message message) {
-		DownloadableFile file = activity.xmppConnectionService.getFileBackend().getFile(message);
-		if (!file.exists()) {
-			Toast.makeText(activity,R.string.file_deleted,Toast.LENGTH_SHORT).show();
-			return;
-		}
-		Intent openIntent = new Intent(Intent.ACTION_VIEW);
-		String mime = file.getMimeType();
-		if (mime == null) {
-			mime = "*/*";
-		}
-		Uri uri;
-		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-			try {
-				uri = FileProvider.getUriForFile(activity, "eu.siacs.conversations.files", file);
-			} catch (IllegalArgumentException e) {
-				Toast.makeText(activity,activity.getString(R.string.no_permission_to_access_x,file.getAbsolutePath()), Toast.LENGTH_SHORT).show();
-				return;
-			}
-			openIntent.setDataAndType(uri, mime);
-			openIntent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
-		} else {
-			uri = Uri.fromFile(file);
-		}
-		openIntent.setDataAndType(uri, mime);
-		PackageManager manager = activity.getPackageManager();
-		List<ResolveInfo> info = manager.queryIntentActivities(openIntent, 0);
-		if (info.size() == 0) {
-			openIntent.setDataAndType(Uri.fromFile(file),"*/*");
-		}
-		try {
-			getContext().startActivity(openIntent);
-		}  catch (ActivityNotFoundException e) {
-			Toast.makeText(activity,R.string.no_application_found_to_open_file,Toast.LENGTH_SHORT).show();
-		}
-	}
+        DownloadableFile file = activity.xmppConnectionService.getFileBackend().getFile(message);
+        if (!file.exists()) {
+            Toast.makeText(activity, R.string.file_deleted, Toast.LENGTH_SHORT).show();
+            return;
+        }
+        Intent openIntent = new Intent(Intent.ACTION_VIEW);
+        String mime = file.getMimeType();
+        if (mime == null) {
+            mime = "*/*";
+        }
+        Log.v("Mime type", mime);
+        Uri uri;
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+            try {
+                uri = FileProvider.getUriForFile(activity, "eu.siacs.conversations.files", file);
+            } catch (IllegalArgumentException e) {
+                Toast.makeText(activity, activity.getString(R.string.no_permission_to_access_x, file.getAbsolutePath()), Toast.LENGTH_SHORT).show();
+                return;
+            }
+            openIntent.setDataAndType(uri, mime);
+            openIntent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+        } else {
+            uri = Uri.fromFile(file);
+        }
+        if (mime.equals("audio/mpeg")) {
+            Log.v("Mime", "ITS OK!");
+//            MediaPlayer mPlayer = new MediaPlayer();
+			mPlayer.reset();
+            mPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
+            mPlayer.setVolume(1.0f , 1.0f);
 
+            try {
+                mPlayer.setDataSource(getContext().getApplicationContext(), uri);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            try {
+                mPlayer.prepare();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            mPlayer.start();
+        } else {
+            openIntent.setDataAndType(uri, mime);
+            PackageManager manager = activity.getPackageManager();
+            List<ResolveInfo> info = manager.queryIntentActivities(openIntent, 0);
+            if (info.size() == 0) {
+                openIntent.setDataAndType(Uri.fromFile(file), "*/*");
+            }
+            try {
+                getContext().startActivity(openIntent);
+            } catch (ActivityNotFoundException e) {
+                Toast.makeText(activity, R.string.no_application_found_to_open_file, Toast.LENGTH_SHORT).show();
+            }
+        }
+    }
 	public void showLocation(Message message) {
 		for(Intent intent : GeoHelper.createGeoIntentsFromMessage(message)) {
 			if (intent.resolveActivity(getContext().getPackageManager()) != null) {

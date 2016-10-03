@@ -282,7 +282,7 @@
   <string name="request_now">Запросить сейчас</string>
   <string name="delete_fingerprint">Удалить Контрольную Сумму</string>
   <string name="sure_delete_fingerprint">Вы уверены, что хотите удалить данную контрольную сумму?</string>
-  <string name="ignore">Отменить</string>
+  <string name="ignore">Разрешить</string>
   <string name="without_mutual_presence_updates"><b>Внимание:</b> Если обновления присутствия не включены на обеих сторонах, это может привести к возникновению неожиданных проблемам.\n\n<small>Уточните сведения о контакте, проверив настройки обновлений присутствия.</small></string>
   <string name="pref_security_settings">Безопасность</string>
   <string name="pref_force_encryption">Обязательное сквозное шифрование</string>
@@ -362,6 +362,7 @@
   <string name="delete_x_file">Удалить %s</string>
   <string name="file">файл</string>
   <string name="open_x_file">Открыть %s</string>
+  <string name="play_x_file">Воспроизвести %s</string>
   <string name="sending_file">отправка (%1$d%% выполнено)</string>
   <string name="preparing_file">Файл готовится для передачи</string>
   <string name="x_file_offered_for_download">%s предлагается скачать</string>

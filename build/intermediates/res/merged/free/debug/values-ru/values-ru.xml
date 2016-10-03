@@ -283,7 +283,7 @@
     <string name="hide_offline">Скрыть пользователей вне сети</string>
     <string name="hostname_example">xmpp.example.com</string>
     <string name="hostname_or_onion">Сервер- или .onion-Адрес</string>
-    <string name="ignore">Отменить</string>
+    <string name="ignore">Разрешить</string>
     <string name="image">изображение</string>
     <string name="image_transmission_failed">Передача изображения не удалась</string>
     <string name="in_progress">В ходе выполнения</string>
@@ -401,6 +401,7 @@
     <string name="perform_action_with">Взаимодействовать с</string>
     <string name="pgp_message">OpenPGP зашифрованное сообщение</string>
     <string name="pick_your_username">Выберите имя пользователя</string>
+    <string name="play_x_file">Воспроизвести %s</string>
     <string name="preemptively_grant">Удовлетворять запросы на подписки</string>
     <string name="pref_about_conversations_summary">Информация о билде и лицензировании</string>
     <string name="pref_accept_files">Принимать файлы</string>

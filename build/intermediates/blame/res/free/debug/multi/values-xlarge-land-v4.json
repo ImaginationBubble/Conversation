@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "E:\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\values-xlarge-land-v4\\values-xlarge-land-v4.xml",
+        "outputFile": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\incremental\\mergeFreeDebugResources\\merged.dir\\values-xlarge-land-v4\\values-xlarge-land-v4.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 114
                 },
                 "from": {
-                    "file": "E:\\Conversation\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values-xlarge-land\\values.xml",
+                    "file": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values-xlarge-land\\values.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,

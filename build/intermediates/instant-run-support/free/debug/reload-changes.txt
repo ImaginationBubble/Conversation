@@ -1,2 +1,0 @@
-CHANGED,E:\Conversation\build\intermediates\transforms\instantRun\free\debug\folders\4000\5\enhanced\eu\siacs\conversations\ui\ConversationFragment$override.class
-CHANGED,E:\Conversation\build\intermediates\transforms\instantRun\free\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class

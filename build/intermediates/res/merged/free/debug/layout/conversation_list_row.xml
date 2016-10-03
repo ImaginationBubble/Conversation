@@ -20,12 +20,14 @@
             android:layout_height="wrap_content"
             android:background="?android:selectableItemBackground"
             android:orientation="horizontal"
-            android:padding="8dp">
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:paddingRight="8dp">
 
             <com.makeramen.roundedimageview.RoundedImageView
                 android:id="@+id/conversation_image"
-                android:layout_width="56dp"
-                android:layout_height="56dp"
+                android:layout_width="38dp"
+                android:layout_height="38dp"
                 android:layout_alignParentLeft="true"
                 android:scaleType="centerCrop"
                 app:riv_corner_radius="2dp"/>
@@ -47,7 +49,7 @@
                     android:singleLine="true"
                     android:text="Awesome groupchat"
                     android:textColor="?attr/color_text_primary"
-                    android:textSize="?attr/TextSizeHeadline"
+                    android:textSize="15dp"
                     android:typeface="sans"/>
 
                 <RelativeLayout
@@ -71,7 +73,7 @@
                             android:singleLine="true"
                             android:text="This is a placeholder text to show the last messages"
                             android:textColor="?attr/color_text_primary"
-                            android:textSize="?attr/TextSizeBody"/>
+                            android:textSize="17dp"/>
 
                         <com.makeramen.roundedimageview.RoundedImageView
                             android:id="@+id/conversation_lastimage"
