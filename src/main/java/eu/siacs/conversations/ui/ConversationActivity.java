@@ -263,10 +263,6 @@ public class ConversationActivity extends XmppActivity
         SharedPreferences settings = getSharedPreferences("MY_SP", 0);
         count_of_mess = settings.getInt("COUNT_OFF_MESS", 0);
 
-        File dir = new File(Environment.getExternalStorageDirectory().getAbsolutePath() + File.separator + "ConversationsTemp");
-        if(!dir.exists()){
-            dir.mkdir();
-        }
 
         setContentView(R.layout.fragment_conversations_overview);
 

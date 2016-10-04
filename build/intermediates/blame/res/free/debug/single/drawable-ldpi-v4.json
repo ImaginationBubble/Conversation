@@ -1,14 +1,14 @@
 [
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\drawable-ldpi-v4\\elv_ic_action_undo.png",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\de.timroes.android\\EnhancedListView\\0.3.4\\res\\drawable-ldpi-v4\\elv_ic_action_undo.png"
+        "merged": "C:\\Users\\kosty\\Desktop\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\drawable-ldpi-v4\\common_ic_googleplayservices.png",
+        "source": "C:\\Users\\kosty\\Desktop\\Conversation\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable-ldpi-v4\\common_ic_googleplayservices.png"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\drawable-ldpi-v4\\elv_toast_frame.9.png",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\de.timroes.android\\EnhancedListView\\0.3.4\\res\\drawable-ldpi-v4\\elv_toast_frame.9.png"
+        "merged": "C:\\Users\\kosty\\Desktop\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\drawable-ldpi-v4\\elv_toast_frame.9.png",
+        "source": "C:\\Users\\kosty\\Desktop\\Conversation\\build\\intermediates\\exploded-aar\\de.timroes.android\\EnhancedListView\\0.3.4\\res\\drawable-ldpi-v4\\elv_toast_frame.9.png"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\drawable-ldpi-v4\\common_ic_googleplayservices.png",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable-ldpi-v4\\common_ic_googleplayservices.png"
+        "merged": "C:\\Users\\kosty\\Desktop\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\drawable-ldpi-v4\\elv_ic_action_undo.png",
+        "source": "C:\\Users\\kosty\\Desktop\\Conversation\\build\\intermediates\\exploded-aar\\de.timroes.android\\EnhancedListView\\0.3.4\\res\\drawable-ldpi-v4\\elv_ic_action_undo.png"
     }
 ]

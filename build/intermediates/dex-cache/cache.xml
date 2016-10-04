@@ -3,219 +3,57 @@
 
     <item
         is-multidex="false"
-        jar="C:\Users\labab\.gradle\caches\modules-2\files-2.1\org.bouncycastle\bcmail-jdk15on\1.52\4995a870400e1554d1c7ed2afcb5d198fae12db9\bcmail-jdk15on-1.52.jar"
+        jar="C:\Users\kosty\.gradle\caches\modules-2\files-2.1\org.bouncycastle\bcpkix-jdk15on\1.52\b8ffac2bbc6626f86909589c8cc63637cc936504\bcpkix-jdk15on-1.52.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
-        sha1="4995a870400e1554d1c7ed2afcb5d198fae12db9">
-        <dex dex="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\pre-dexed\free\debug\bcmail-jdk15on-1.52_d081780b6dba4bce396d06d08dcfe947ece287ad.jar" />
+        sha1="b8ffac2bbc6626f86909589c8cc63637cc936504">
+        <dex dex="C:\Users\kosty\Desktop\Conversation\build\intermediates\pre-dexed\free\debug\bcpkix-jdk15on-1.52_9ea90550c0ef95a21aa30c5f8f3d858bfaea7425.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
-        <dex dex="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\pre-dexed\free\debug\com.android.support-support-fragment-24.2.0_87c30f41380430fa44d2ff86c73074621f2f4f72.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\com\google\protobuf\protobuf-java\2.5.0\protobuf-java-2.5.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="a10732c76bfacdbd633a7eb0f7968b1059a65dfa">
-        <dex dex="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\pre-dexed\free\debug\protobuf-java-2.5.0_ea9124bfb7ed3ca8671de04a0c6b732c5dd37e4e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\labab\.gradle\caches\modules-2\files-2.1\de.measite.minidns\minidns\0.1.7\993582d1455b93a5723d2af4b39d8679735b3550\minidns-0.1.7.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="993582d1455b93a5723d2af4b39d8679735b3550">
-        <dex dex="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\pre-dexed\free\debug\minidns-0.1.7_3f0d5ce0b9b0a3fd3bb1fa72b818e3b883e7c9d2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\labab\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.1\2287494d4f5f9f3a9a2bb6980e3f32053721b315\core-3.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
-        <dex dex="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\pre-dexed\free\debug\core-3.2.1_db8a1bbc1bc37b43ada2a09c78946375f581e6f1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="59a16a4a42d25b2c243dd1e8aea87d06895b4a06">
-        <dex dex="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\pre-dexed\free\debug\com.google.android.gms-play-services-iid-9.4.0_0f917d84cf5dc24e3406cc6f1fa3ff28fce5c579.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
-        <dex dex="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\pre-dexed\free\debug\internal_impl-24.2.0_6dca1bd45bd2729be40a026058cc92a09bc647d2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\exploded-aar\com.kyleduo.switchbutton\library\1.2.8\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="ba391b1093df0505d6f0c56689c28384a4dafcc4">
-        <dex dex="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\pre-dexed\free\debug\com.kyleduo.switchbutton-library-1.2.8_dc40d24a2efff1e6680afdf47772274cc4e8864c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\exploded-aar\org.sufficientlysecure\openpgp-api\10.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="6b2e3602300712aae3ca0a509d1cec3b0045b6f7">
-        <dex dex="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\pre-dexed\free\debug\org.sufficientlysecure-openpgp-api-10.0_517577248034105e1733fadbe8186f5f415b0821.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\labab\.gradle\caches\modules-2\files-2.1\org.whispersystems\curve25519-java\0.2.4\7fa461e047c17f96ac6c6d85e66bfb399b9ab887\curve25519-java-0.2.4.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="7fa461e047c17f96ac6c6d85e66bfb399b9ab887">
-        <dex dex="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\pre-dexed\free\debug\curve25519-java-0.2.4_0ab55abc7a9e17a13de465f3aebf586d101d4648.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\exploded-aar\com.android.support\support-v13\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="1dcb8005f460d87baed0abdc9ec997a58797856e">
-        <dex dex="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\pre-dexed\free\debug\internal_impl-24.2.0_948b0424309667bc51bd854d19e02428a7923330.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
-        <dex dex="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\pre-dexed\free\debug\com.android.support-support-v4-24.2.0_07e72ec53d97adf1004539313a467749166c9c5b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
-        <dex dex="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\pre-dexed\free\debug\com.android.support-support-media-compat-24.2.0_8ea9e4ddc23fdf3c40d517065bb2465a17415d6d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
-        <dex dex="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\pre-dexed\free\debug\internal_impl-24.2.0_e398b3fcbe26f935aff7ee6041e480a54a09e97a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\exploded-aar\com.makeramen\roundedimageview\2.2.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="149d269764e1ad8d24e18e8cb71cd6b95062f3d1">
-        <dex dex="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\pre-dexed\free\debug\com.makeramen-roundedimageview-2.2.0_a99d19f8f194e55316b560a21f08f33798616a9d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
-        <dex dex="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\pre-dexed\free\debug\com.android.support-support-core-ui-24.2.0_bddcb94e9accc8dfc22f53e8a5e8776885efc5b7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\exploded-aar\me.leolin\ShortcutBadger\1.1.4\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="b346a5d3fc5d6d1d36c6262c8cc865b76df9f40c">
-        <dex dex="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\pre-dexed\free\debug\me.leolin-ShortcutBadger-1.1.4_56be88e4c830645b64b2013e73260aed39f72e69.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\exploded-aar\com.soundcloud.android\android-crop\1.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="11a65cf2b30c192b38a881d626fa771a78a2293d">
-        <dex dex="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\pre-dexed\free\debug\com.soundcloud.android-android-crop-1.0.1_1b148f28c40903b43f1c3cfbe4c9fb0903419b02.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\labab\.gradle\caches\modules-2\files-2.1\com.google.zxing\android-integration\3.2.1\87a3d7da33a6c633fb1ff30023dbf0d05e8ea74c\android-integration-3.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="87a3d7da33a6c633fb1ff30023dbf0d05e8ea74c">
-        <dex dex="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\pre-dexed\free\debug\android-integration-3.2.1_5544e08783941c4b62ddf50fd87a8bb97408dfb1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\jars\classes.jar"
+        jar="C:\Users\kosty\Desktop\Conversation\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
         sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
-        <dex dex="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\pre-dexed\free\debug\com.google.android.gms-play-services-base-9.4.0_b98faf835c26523792417354181a983f2323ae40.jar" />
+        <dex dex="C:\Users\kosty\Desktop\Conversation\build\intermediates\pre-dexed\free\debug\com.google.android.gms-play-services-base-9.4.0_5b32e64114216cd9708bde1d5dba250f2f4c9139.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\jars\classes.jar"
+        jar="C:\Users\kosty\.gradle\caches\modules-2\files-2.1\org.jitsi\org.otr4j\0.22\751feeb838c4a5d3499b55bbe887aebc38a4572b\org.otr4j-0.22.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
-        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
-        <dex dex="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\pre-dexed\free\debug\com.google.android.gms-play-services-tasks-9.4.0_5a5c95301202950114353e1bdfb2df125a2ab2eb.jar" />
+        sha1="751feeb838c4a5d3499b55bbe887aebc38a4572b">
+        <dex dex="C:\Users\kosty\Desktop\Conversation\build\intermediates\pre-dexed\free\debug\org.otr4j-0.22_606e53edc293cef9f17afff9318409df5c23337c.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jar="D:\AndroidToolsSDK\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
-        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
-        <dex dex="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\pre-dexed\free\debug\internal_impl-24.2.0_a3ca1df1c90830161f7500a3d7d7d1862deadb00.jar" />
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="C:\Users\kosty\Desktop\Conversation\build\intermediates\pre-dexed\free\debug\support-annotations-24.2.0_b94cde47365933e6bcaaca10668fbe0153dd4075.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
+        jar="C:\Users\kosty\Desktop\Conversation\build\intermediates\exploded-aar\org.whispersystems\curve25519-android\0.2.4\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
-        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
-        <dex dex="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\pre-dexed\free\debug\com.android.support-support-compat-24.2.0_eb2dc6e757b1b4765d4b21c61bc5ca9aba28486a.jar" />
+        sha1="6f8070d4d60e8d8cbb1e75243a0085076916473d">
+        <dex dex="C:\Users\kosty\Desktop\Conversation\build\intermediates\pre-dexed\free\debug\org.whispersystems-curve25519-android-0.2.4_cf688911fd2fd1bab2137e22773e18d8485abc35.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\labab\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jar="C:\Users\kosty\Desktop\Conversation\build\intermediates\exploded-aar\com.android.support\support-v13\24.2.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\pre-dexed\free\debug\library-2.4.0_c3b5d69ba1e27b2ef454676acbf2b9542d3b7b26.jar" />
+        sha1="6bf34c4b4fcd3f6913eca652d13c51dbde51c3a4">
+        <dex dex="C:\Users\kosty\Desktop\Conversation\build\intermediates\pre-dexed\free\debug\com.android.support-support-v13-24.2.0_130b786124003e75f4759aab078bfd62d8780b51.jar" />
     </item>
     <item
         is-multidex="false"
@@ -224,169 +62,331 @@
         optimize="true"
         revision="23.0.3"
         sha1="bbcf6448f6d40abe506e2c83b70a3e8bfd2b4539">
-        <dex dex="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\pre-dexed\free\debug\annotations-12.0_e0fa7c64b47413623bb97d5f6a361b3c347a7145.jar" />
+        <dex dex="C:\Users\kosty\Desktop\Conversation\build\intermediates\pre-dexed\free\debug\annotations-12.0_e0fa7c64b47413623bb97d5f6a361b3c347a7145.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\labab\.gradle\caches\modules-2\files-2.1\org.whispersystems\axolotl-java\1.3.4\dba6947dd7f5f712052e1b54f3992b45e7642242\axolotl-java-1.3.4.jar"
+        jar="C:\Users\kosty\Desktop\Conversation\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
-        sha1="dba6947dd7f5f712052e1b54f3992b45e7642242">
-        <dex dex="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\pre-dexed\free\debug\axolotl-java-1.3.4_ef5401ed8698ca918c9f760bdd2d888be8d0158e.jar" />
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="C:\Users\kosty\Desktop\Conversation\build\intermediates\pre-dexed\free\debug\internal_impl-24.2.0_84e6a6b798aa66b2ef152605ba5adb5e70662fea.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\labab\.gradle\caches\modules-2\files-2.1\org.gnu.inet\libidn\1.15\b5bede3c1c031a827b604da31768ddaf833495c6\libidn-1.15.jar"
+        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\com\google\protobuf\protobuf-java\2.5.0\protobuf-java-2.5.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
-        sha1="b5bede3c1c031a827b604da31768ddaf833495c6">
-        <dex dex="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\pre-dexed\free\debug\libidn-1.15_ffd384c258e558bed9045de85e86ce897b56a2e9.jar" />
+        sha1="a10732c76bfacdbd633a7eb0f7968b1059a65dfa">
+        <dex dex="C:\Users\kosty\Desktop\Conversation\build\intermediates\pre-dexed\free\debug\protobuf-java-2.5.0_ea9124bfb7ed3ca8671de04a0c6b732c5dd37e4e.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
+        jar="C:\Users\kosty\Desktop\Conversation\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
-        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
-        <dex dex="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\pre-dexed\free\debug\com.android.support-support-core-utils-24.2.0_eea6bb94fffd4fe4a4852e2696ea3937208bebb7.jar" />
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="C:\Users\kosty\Desktop\Conversation\build\intermediates\pre-dexed\free\debug\com.android.support-support-core-ui-24.2.0_3986b81c39a9aeb56a859a57b1e4ae18f6fc66e5.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\jars\classes.jar"
+        jar="C:\Users\kosty\Desktop\Conversation\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
-        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
-        <dex dex="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\pre-dexed\free\debug\com.google.android.gms-play-services-basement-9.4.0_51cedb463bd5d77155bd59bb1757425d5c3adf31.jar" />
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="C:\Users\kosty\Desktop\Conversation\build\intermediates\pre-dexed\free\debug\com.android.support-support-media-compat-24.2.0_ebb1fdca7f78f9f51a13e60da3ae306d45f00c32.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\exploded-aar\com.wefika\flowlayout\0.4.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="c27d853ba7379592540b315e43df0abf3d83cf74">
-        <dex dex="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\pre-dexed\free\debug\com.wefika-flowlayout-0.4.1_5bf9d5937dcb8d7c65f9820daba792eaa2c874be.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\pre-dexed\free\debug\com.android.support-appcompat-v7-21.0.3_c4def263ffb63ce3fc722dec96c6f1ce6787b017.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\exploded-aar\org.whispersystems\curve25519-android\0.2.4\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="6f8070d4d60e8d8cbb1e75243a0085076916473d">
-        <dex dex="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\pre-dexed\free\debug\org.whispersystems-curve25519-android-0.2.4_0f6e1096022a421ed43f5562db298d9d8cd046a4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\exploded-aar\Conversations.libs\MemorizingTrustManager\unspecified\jars\classes.jar"
+        jar="C:\Users\kosty\Desktop\Conversation\build\intermediates\exploded-aar\Conversations.libs\MemorizingTrustManager\unspecified\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
         sha1="6e57a0dae6fd913e09639ace17abac99eea6181c">
-        <dex dex="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\pre-dexed\free\debug\Conversations.libs-MemorizingTrustManager-unspecified_0f207f55be7c6fef922caf95b9bb85bd29b5f17f.jar" />
+        <dex dex="C:\Users\kosty\Desktop\Conversation\build\intermediates\pre-dexed\free\debug\Conversations.libs-MemorizingTrustManager-unspecified_9c03acb24dbed229d3f5d4f62427f4862e6b5494.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\labab\.gradle\caches\modules-2\files-2.1\org.jitsi\org.otr4j\0.22\751feeb838c4a5d3499b55bbe887aebc38a4572b\org.otr4j-0.22.jar"
+        jar="C:\Users\kosty\.gradle\caches\modules-2\files-2.1\org.bouncycastle\bcmail-jdk15on\1.52\4995a870400e1554d1c7ed2afcb5d198fae12db9\bcmail-jdk15on-1.52.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
-        sha1="751feeb838c4a5d3499b55bbe887aebc38a4572b">
-        <dex dex="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\pre-dexed\free\debug\org.otr4j-0.22_ac7c808c355898065628f70f6ecf91138d5e75c1.jar" />
+        sha1="4995a870400e1554d1c7ed2afcb5d198fae12db9">
+        <dex dex="C:\Users\kosty\Desktop\Conversation\build\intermediates\pre-dexed\free\debug\bcmail-jdk15on-1.52_93d2c33e4a502a59b6a9ada669425457fdbd2ee1.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\exploded-aar\de.timroes.android\EnhancedListView\0.3.4\jars\classes.jar"
+        jar="C:\Users\kosty\Desktop\Conversation\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
-        sha1="9cc616134ef0652ce7c534f27dbdc56115d5703c">
-        <dex dex="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\pre-dexed\free\debug\de.timroes.android-EnhancedListView-0.3.4_42cd03747821f24d9c21099cee58f98e8e1ea7a7.jar" />
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="C:\Users\kosty\Desktop\Conversation\build\intermediates\pre-dexed\free\debug\com.android.support-support-fragment-24.2.0_eb7a9ab58e04fb7ae966b1047cf8869ba4cff558.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\exploded-aar\org.whispersystems\axolotl-android\1.3.4\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="4c2ad7bdcaf2c0a22a29897db269c51544c74434">
-        <dex dex="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\pre-dexed\free\debug\org.whispersystems-axolotl-android-1.3.4_29225d739d41e1b890ecad4610b15374381b67a3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\labab\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
-        <dex dex="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\pre-dexed\free\debug\support-annotations-24.2.0_f2adb98ef43973e93963b65815ec1f92116e235f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
-        <dex dex="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\pre-dexed\free\debug\internal_impl-24.2.0_cf937afd1255a1ec0b4864e62dc1da5d4b17b83a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
-        <dex dex="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\pre-dexed\free\debug\internal_impl-24.2.0_cc2ba295b09b9b64ef426854e7f67e5a2a71e0c8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.4.0\jars\classes.jar"
+        jar="C:\Users\kosty\Desktop\Conversation\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.4.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
         sha1="ece40b09e9d4d488bc270cf6af5a9af73bc1cfa3">
-        <dex dex="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\pre-dexed\free\debug\com.google.android.gms-play-services-gcm-9.4.0_6d0634211fb00d00d5fa1bb3881727cab30b5486.jar" />
+        <dex dex="C:\Users\kosty\Desktop\Conversation\build\intermediates\pre-dexed\free\debug\com.google.android.gms-play-services-gcm-9.4.0_aab1eafbe75a35269cbcccd438573470366ecb70.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\labab\.gradle\caches\modules-2\files-2.1\org.bouncycastle\bcpkix-jdk15on\1.52\b8ffac2bbc6626f86909589c8cc63637cc936504\bcpkix-jdk15on-1.52.jar"
+        jar="C:\Users\kosty\Desktop\Conversation\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
-        sha1="b8ffac2bbc6626f86909589c8cc63637cc936504">
-        <dex dex="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\pre-dexed\free\debug\bcpkix-jdk15on-1.52_1b91af84eec1c047e40a748dcd1fec48dbc9f97e.jar" />
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="C:\Users\kosty\Desktop\Conversation\build\intermediates\pre-dexed\free\debug\internal_impl-24.2.0_78ac4eaeaa2d89f273946c0cd0ecb882c0c824b5.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\exploded-aar\com.android.support\support-v13\24.2.0\jars\classes.jar"
+        jar="C:\Users\kosty\Desktop\Conversation\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
-        sha1="6bf34c4b4fcd3f6913eca652d13c51dbde51c3a4">
-        <dex dex="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\pre-dexed\free\debug\com.android.support-support-v13-24.2.0_20e06c4d46a1d02172618e3aa749aee0b6badd77.jar" />
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="C:\Users\kosty\Desktop\Conversation\build\intermediates\pre-dexed\free\debug\com.android.support-support-core-utils-24.2.0_1bab73322c9ebb9a8cc2849f72212bf0ff26fab3.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\labab\.gradle\caches\modules-2\files-2.1\org.bouncycastle\bcprov-jdk15on\1.52\88a941faf9819d371e3174b5ed56a3f3f7d73269\bcprov-jdk15on-1.52.jar"
+        jar="C:\Users\kosty\Desktop\Conversation\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="59a16a4a42d25b2c243dd1e8aea87d06895b4a06">
+        <dex dex="C:\Users\kosty\Desktop\Conversation\build\intermediates\pre-dexed\free\debug\com.google.android.gms-play-services-iid-9.4.0_0bae04fe9e1b143478665c924691f9a3c9deb5cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kosty\.gradle\caches\modules-2\files-2.1\org.gnu.inet\libidn\1.15\b5bede3c1c031a827b604da31768ddaf833495c6\libidn-1.15.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b5bede3c1c031a827b604da31768ddaf833495c6">
+        <dex dex="C:\Users\kosty\Desktop\Conversation\build\intermediates\pre-dexed\free\debug\libidn-1.15_32c951ec121df920d6c4aa6b38306912a5bc3efa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kosty\Desktop\Conversation\build\intermediates\exploded-aar\com.makeramen\roundedimageview\2.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="149d269764e1ad8d24e18e8cb71cd6b95062f3d1">
+        <dex dex="C:\Users\kosty\Desktop\Conversation\build\intermediates\pre-dexed\free\debug\com.makeramen-roundedimageview-2.2.0_60808187fb99dbc24e5e831233550a7ae1fa7b86.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kosty\Desktop\Conversation\build\intermediates\exploded-aar\org.sufficientlysecure\openpgp-api\10.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6b2e3602300712aae3ca0a509d1cec3b0045b6f7">
+        <dex dex="C:\Users\kosty\Desktop\Conversation\build\intermediates\pre-dexed\free\debug\org.sufficientlysecure-openpgp-api-10.0_f9c5e930cca4189580d5bf0605a87ee08184c184.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kosty\.gradle\caches\modules-2\files-2.1\org.whispersystems\axolotl-java\1.3.4\dba6947dd7f5f712052e1b54f3992b45e7642242\axolotl-java-1.3.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="dba6947dd7f5f712052e1b54f3992b45e7642242">
+        <dex dex="C:\Users\kosty\Desktop\Conversation\build\intermediates\pre-dexed\free\debug\axolotl-java-1.3.4_f2b1817c0703a658f39f1ffb6cc3f671454674b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kosty\.gradle\caches\modules-2\files-2.1\org.whispersystems\curve25519-java\0.2.4\7fa461e047c17f96ac6c6d85e66bfb399b9ab887\curve25519-java-0.2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="7fa461e047c17f96ac6c6d85e66bfb399b9ab887">
+        <dex dex="C:\Users\kosty\Desktop\Conversation\build\intermediates\pre-dexed\free\debug\curve25519-java-0.2.4_752e6422b08a87cb0666cd6bdf7710790fdee35d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kosty\Desktop\Conversation\build\intermediates\exploded-aar\de.timroes.android\EnhancedListView\0.3.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9cc616134ef0652ce7c534f27dbdc56115d5703c">
+        <dex dex="C:\Users\kosty\Desktop\Conversation\build\intermediates\pre-dexed\free\debug\de.timroes.android-EnhancedListView-0.3.4_7f55a3d43121d49cbbc9e5c02aa38e5aed5df981.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kosty\.gradle\caches\modules-2\files-2.1\org.bouncycastle\bcprov-jdk15on\1.52\88a941faf9819d371e3174b5ed56a3f3f7d73269\bcprov-jdk15on-1.52.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
         sha1="88a941faf9819d371e3174b5ed56a3f3f7d73269">
-        <dex dex="C:\Users\labab\AndroidStudioProjects\Conversation\build\intermediates\pre-dexed\free\debug\bcprov-jdk15on-1.52_f036a16279b610d9dccfecb33c8c161b85b2aefc.jar" />
+        <dex dex="C:\Users\kosty\Desktop\Conversation\build\intermediates\pre-dexed\free\debug\bcprov-jdk15on-1.52_6637138af1ac4684956b4dad4edddacf9706f0fb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kosty\Desktop\Conversation\build\intermediates\exploded-aar\org.whispersystems\axolotl-android\1.3.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4c2ad7bdcaf2c0a22a29897db269c51544c74434">
+        <dex dex="C:\Users\kosty\Desktop\Conversation\build\intermediates\pre-dexed\free\debug\org.whispersystems-axolotl-android-1.3.4_78df4ae72f01467b968ff7a5f04afcbac4473186.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kosty\Desktop\Conversation\build\intermediates\exploded-aar\com.kyleduo.switchbutton\library\1.2.8\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ba391b1093df0505d6f0c56689c28384a4dafcc4">
+        <dex dex="C:\Users\kosty\Desktop\Conversation\build\intermediates\pre-dexed\free\debug\com.kyleduo.switchbutton-library-1.2.8_040a3e66f2e9650bc08729891df1a3d57bae5f96.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kosty\Desktop\Conversation\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="C:\Users\kosty\Desktop\Conversation\build\intermediates\pre-dexed\free\debug\com.google.android.gms-play-services-basement-9.4.0_1ddaa1d25f8f8fa4585b33082f41a888380c7cbc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kosty\Desktop\Conversation\build\intermediates\exploded-aar\me.leolin\ShortcutBadger\1.1.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b346a5d3fc5d6d1d36c6262c8cc865b76df9f40c">
+        <dex dex="C:\Users\kosty\Desktop\Conversation\build\intermediates\pre-dexed\free\debug\me.leolin-ShortcutBadger-1.1.4_bc93c2577b525853cfced2eb197b8a4e687bde2c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kosty\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.1\2287494d4f5f9f3a9a2bb6980e3f32053721b315\core-3.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="C:\Users\kosty\Desktop\Conversation\build\intermediates\pre-dexed\free\debug\core-3.2.1_d96fc2ec8cd79d6b3a50331a15b3f724468585ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kosty\Desktop\Conversation\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="C:\Users\kosty\Desktop\Conversation\build\intermediates\pre-dexed\free\debug\internal_impl-24.2.0_19ad4ae6a4b14b517ca91e537d89957cfab50710.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kosty\Desktop\Conversation\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="C:\Users\kosty\Desktop\Conversation\build\intermediates\pre-dexed\free\debug\com.google.android.gms-play-services-tasks-9.4.0_259fa8f06bba683d6938234ad05c851f67d6cd3c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kosty\.gradle\caches\modules-2\files-2.1\com.google.zxing\android-integration\3.2.1\87a3d7da33a6c633fb1ff30023dbf0d05e8ea74c\android-integration-3.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="87a3d7da33a6c633fb1ff30023dbf0d05e8ea74c">
+        <dex dex="C:\Users\kosty\Desktop\Conversation\build\intermediates\pre-dexed\free\debug\android-integration-3.2.1_e18f3732d58a6e4421c91d830dc4dcc2438eef79.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kosty\Desktop\Conversation\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\kosty\Desktop\Conversation\build\intermediates\pre-dexed\free\debug\com.android.support-appcompat-v7-21.0.3_d273762c2719c436700dab3f2cb904590c2b5407.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kosty\Desktop\Conversation\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="C:\Users\kosty\Desktop\Conversation\build\intermediates\pre-dexed\free\debug\internal_impl-24.2.0_fbc89554723745768afb26e09089f5b0f12e7d46.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kosty\.gradle\caches\modules-2\files-2.1\de.measite.minidns\minidns\0.1.7\993582d1455b93a5723d2af4b39d8679735b3550\minidns-0.1.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="993582d1455b93a5723d2af4b39d8679735b3550">
+        <dex dex="C:\Users\kosty\Desktop\Conversation\build\intermediates\pre-dexed\free\debug\minidns-0.1.7_6e783a059b19d6616dc7aed6afaa341e371ce97e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kosty\Desktop\Conversation\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="C:\Users\kosty\Desktop\Conversation\build\intermediates\pre-dexed\free\debug\com.android.support-support-compat-24.2.0_02ab51aa2edd1191b31c97cd5ee5b80ef99707da.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kosty\Desktop\Conversation\build\intermediates\exploded-aar\com.soundcloud.android\android-crop\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="11a65cf2b30c192b38a881d626fa771a78a2293d">
+        <dex dex="C:\Users\kosty\Desktop\Conversation\build\intermediates\pre-dexed\free\debug\com.soundcloud.android-android-crop-1.0.1_33923a6ff8f50fba3fb721a3190dd4c31aa3c791.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kosty\Desktop\Conversation\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="C:\Users\kosty\Desktop\Conversation\build\intermediates\pre-dexed\free\debug\internal_impl-24.2.0_433681401f4282442fb8ce51ad4063b2513d01ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kosty\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\kosty\Desktop\Conversation\build\intermediates\pre-dexed\free\debug\library-2.4.0_9f331741a0563743291061dadcacd8815f577c92.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kosty\Desktop\Conversation\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="C:\Users\kosty\Desktop\Conversation\build\intermediates\pre-dexed\free\debug\com.android.support-support-v4-24.2.0_1ba552c4831ae5d36b80b90f808b0fae2aba2bf4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kosty\Desktop\Conversation\build\intermediates\exploded-aar\com.wefika\flowlayout\0.4.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c27d853ba7379592540b315e43df0abf3d83cf74">
+        <dex dex="C:\Users\kosty\Desktop\Conversation\build\intermediates\pre-dexed\free\debug\com.wefika-flowlayout-0.4.1_b4e3b74854d8136d7a81cb504d7315b9f1b86cc8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kosty\Desktop\Conversation\build\intermediates\exploded-aar\com.android.support\support-v13\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1dcb8005f460d87baed0abdc9ec997a58797856e">
+        <dex dex="C:\Users\kosty\Desktop\Conversation\build\intermediates\pre-dexed\free\debug\internal_impl-24.2.0_06b834fe203489766d70269ef1f68266db3b2ef8.jar" />
     </item>
 
 </items>
