@@ -10,6 +10,8 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentSender.SendIntentException;
+import android.content.SharedPreferences;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.os.Environment;
@@ -78,6 +80,9 @@ import eu.siacs.conversations.voicemessage.AudioOutputBase64;
 import eu.siacs.conversations.xmpp.XmppConnection;
 import eu.siacs.conversations.xmpp.chatstate.ChatState;
 import eu.siacs.conversations.xmpp.jid.Jid;
+
+import static eu.siacs.conversations.ui.ConversationActivity.count_of_mess;
+import static eu.siacs.conversations.ui.ConversationActivity.myPath;
 
 public class ConversationFragment extends Fragment implements EditMessage.KeyboardListener {
 
@@ -465,22 +470,7 @@ public class ConversationFragment extends Fragment implements EditMessage.Keyboa
 
         audioOutputBase64 = new AudioOutputBase64() ;
         str = null;
-
         voiceStopButton = (Button) view.findViewById(R.id.voiceStopButton);
-//		voiceStopButton.setOnClickListener(new OnClickListener() {
-//			@Override
-//			public void onClick(View view) {
-//
-//				audioOutputBase64.stopRecording();
-//				activity.sendVoiceFuckingMessage();
-//				voiceStopButton.setVisibility(View.INVISIBLE);
-//				voiceRecordButton.setVisibility(View.VISIBLE);
-//			}
-//		});
-
-
-
-
         voiceRecordButton = (Button) view.findViewById(R.id.voiceRecordButton);
         voiceRecordButton.setOnClickListener(new OnClickListener() {
             @Override
@@ -513,7 +503,9 @@ public class ConversationFragment extends Fragment implements EditMessage.Keyboa
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         audioOutputBase64.stopRecording();
-                        activity.sendVoiceFuckingMessage();
+						SendTask task = new SendTask();
+                        task.execute();
+//						activity.sendVoiceFuckingMessage();
                         voiceStopButton.setVisibility(View.INVISIBLE);
                         voiceRecordButton.setVisibility(View.VISIBLE);
                     }
@@ -545,13 +537,11 @@ public class ConversationFragment extends Fragment implements EditMessage.Keyboa
                     public void onFinish() {
                         alertDialog.dismiss();
                         audioOutputBase64.stopRecording();
-                        File file = getLatestFilefromDir();
-                        file.delete();
                         voiceStopButton.setVisibility(View.INVISIBLE);
                         voiceRecordButton.setVisibility(View.VISIBLE);
                     }
                 }.start();
-                audioOutputBase64.startRecording(ConversationActivity.count_of_mess);
+                audioOutputBase64.startRecording(count_of_mess);
             }
         });
 
@@ -1559,5 +1549,31 @@ public class ConversationFragment extends Fragment implements EditMessage.Keyboa
 			}
 		}
 	}
+
+    class SendTask extends AsyncTask<Void, Void, Void> {
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+            Toast.makeText(getActivity(), "Begin", Toast.LENGTH_SHORT).show();
+        }
+
+        @Override
+        protected Void doInBackground(Void... params) {
+            try {
+                activity.sendFileToVedro();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(Void result) {
+            Toast.makeText(getActivity(), myPath, Toast.LENGTH_SHORT).show();
+        }
+    }
 
 }

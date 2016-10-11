@@ -44,8 +44,16 @@ import net.java.otr4j.session.SessionStatus;
 
 import org.openintents.openpgp.util.OpenPgpApi;
 
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.ObjectOutputStream;
+import java.io.OutputStream;
+import java.net.InetAddress;
+import java.net.Socket;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -74,6 +82,9 @@ import eu.siacs.conversations.voicemessage.AudioOutputBase64;
 import eu.siacs.conversations.xmpp.OnUpdateBlocklist;
 import eu.siacs.conversations.xmpp.jid.InvalidJidException;
 import eu.siacs.conversations.xmpp.jid.Jid;
+
+import static eu.siacs.conversations.R.id.account;
+import static java.security.AccessController.getContext;
 
 public class ConversationActivity extends XmppActivity
 	implements OnAccountUpdate, OnConversationUpdate, OnRosterUpdate, OnUpdateBlocklist, XmppConnectionService.OnShowErrorToast {
@@ -131,7 +142,8 @@ public class ConversationActivity extends XmppActivity
     AudioOutputBase64 audioOutputBase64 = new AudioOutputBase64() ;
     AudioInputBase64 audioInputBase64 ;
     public static int count_of_mess;
-
+    public static String myPath;
+    public static String userNick;
 	public Conversation getSelectedConversation() {
 		return this.mSelectedConversation;
 	}
@@ -254,15 +266,9 @@ public class ConversationActivity extends XmppActivity
 
 		}
 
-		File dir = new File(Environment.getExternalStorageDirectory().getAbsolutePath() + File.separator + "ConversationsTemp");
-        if (!dir.exists()) {
-            dir.mkdirs();
-        }
-
-
         SharedPreferences settings = getSharedPreferences("MY_SP", 0);
         count_of_mess = settings.getInt("COUNT_OFF_MESS", 0);
-
+		userNick = settings.getString("nick", "gavno");
         File dir = new File(Environment.getExternalStorageDirectory().getAbsolutePath() + File.separator + "ConversationsTemp");
         if(!dir.exists()){
             dir.mkdir();
@@ -1206,7 +1212,8 @@ public class ConversationActivity extends XmppActivity
         SharedPreferences preference = getSharedPreferences("MY_SP", 0);
         SharedPreferences.Editor editor = preference.edit();
         editor.putInt("COUNT_OFF_MESS",count_of_mess);
-        editor.commit();
+        editor.apply();
+
 
 	}
 
@@ -1363,6 +1370,7 @@ public class ConversationActivity extends XmppActivity
 					Jid jid = getSelectedConversation().getJid();
 					try {
 						Jid next = Jid.fromParts(jid.getLocalpart(), jid.getDomainpart(), nick);
+
 						this.mConversationFragment.privateMessageWith(next);
 					} catch (final InvalidJidException ignored) {
 						//do nothing
@@ -1838,8 +1846,44 @@ public class ConversationActivity extends XmppActivity
 		}
 	}
 
-    public static int getMes(){
-        return count_of_mess;
-    }
+    public void sendFileToVedro() throws Exception{
+        int serverPort = 8000; // здесь обязательно нужно указать порт к которому привязывается сервер.
+        String address = "192.168.0.107";
 
+        InetAddress ipAddress = InetAddress.getByName(address); // создаем объект который отображает вышеописанный IP-адрес.
+        Socket socket = new Socket(ipAddress, serverPort); // создаем сокет используя IP-адрес и порт сервера.
+
+        // Берем входной и выходной потоки сокета, теперь можем получать и отсылать данные клиентом.
+        InputStream sin = socket.getInputStream();
+        OutputStream sout = socket.getOutputStream();
+
+        // Конвертируем потоки в другой тип, чтоб легче обрабатывать текстовые сообщения.
+        DataInputStream in = new DataInputStream(sin);
+        DataOutputStream out = new DataOutputStream(sout);
+        File file = getLatestFilefromDir();
+        FileInputStream fis = new FileInputStream(file);
+        byte[] buffer = new byte[fis.available()];
+
+        int length = buffer.length;
+        String lengthstr = String.valueOf(length);
+       //Send username
+        out.writeUTF(userNick);
+        out.flush();
+        //Send byte[] length
+        out.writeUTF(lengthstr);
+        out.flush();
+        //Send file name
+        String filename = file.getName();
+        out.writeUTF(filename);
+        out.flush();
+        fis.read(buffer);
+        //Send file byte[]
+        ObjectOutputStream oos = new ObjectOutputStream(socket.getOutputStream()) ;
+        oos.writeObject(buffer);
+        oos.flush();
+        myPath = in.readUTF();
+        in.close();
+        count_of_mess++;
+    }
 }
+

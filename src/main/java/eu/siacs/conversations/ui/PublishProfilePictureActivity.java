@@ -2,6 +2,7 @@ package eu.siacs.conversations.ui;
 
 import android.app.PendingIntent;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.net.Uri;
@@ -16,6 +17,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.zxing.common.StringUtils;
 import com.soundcloud.android.crop.Crop;
 
 import java.io.File;
@@ -326,6 +328,15 @@ public class PublishProfilePictureActivity extends XmppActivity {
 	protected void disablePublishButton() {
 		this.publishButton.setEnabled(false);
 		this.publishButton.setTextColor(getSecondaryTextColor());
+	}
+
+	@Override
+	public void onPause() {
+		super.onPause();
+		SharedPreferences prefs = getSharedPreferences("MY_SP", 0);
+		String userFullNick = accountTextView.getText().toString();
+		String userNick = userFullNick.substring(0, userFullNick.indexOf("@"));
+		prefs.edit().putString("nick", userNick).apply();
 	}
 
 	public void refreshUiReal() {

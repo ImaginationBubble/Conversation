@@ -52,6 +52,13 @@
             </intent-filter>
         </receiver>
 
+        <activity android:name="eu.siacs.conversations.ui.PasswordActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name="eu.siacs.conversations.ui.ConversationActivity"
             android:label="Conversation"
@@ -61,8 +68,6 @@
             android:windowSoftInputMode="stateHidden" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity

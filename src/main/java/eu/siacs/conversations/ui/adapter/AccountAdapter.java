@@ -1,6 +1,7 @@
 package eu.siacs.conversations.ui.adapter;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -36,11 +37,17 @@ public class AccountAdapter extends ArrayAdapter<Account> {
 			view = inflater.inflate(R.layout.account_row, parent, false);
 		}
 		TextView jid = (TextView) view.findViewById(R.id.account_jid);
+
 		if (Config.DOMAIN_LOCK != null) {
 			jid.setText(account.getJid().getLocalpart());
+//            SharedPreferences prefs = getContext().getSharedPreferences("MY_SP", 0);
+//            prefs.edit().putString("nick", account.getJid().getLocalpart()).apply();
 		} else {
 			jid.setText(account.getJid().toBareJid().toString());
 		}
+
+
+
 		TextView statusView = (TextView) view.findViewById(R.id.account_status);
 		ImageView imageView = (ImageView) view.findViewById(R.id.account_image);
 		imageView.setImageBitmap(activity.avatarService().get(account, activity.getPixel(48)));
