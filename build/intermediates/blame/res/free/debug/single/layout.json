@@ -60,12 +60,12 @@
         "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\layout\\activity_edit_account.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\message_status.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\layout\\message_status.xml"
-    },
-    {
         "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\manage_accounts.xml",
         "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\layout\\manage_accounts.xml"
+    },
+    {
+        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\message_status.xml",
+        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\layout\\message_status.xml"
     },
     {
         "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\abc_action_mode_close_item_material.xml",

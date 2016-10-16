@@ -14,6 +14,7 @@ import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Build;
+import android.os.Environment;
 import android.support.v4.content.FileProvider;
 import android.text.Spannable;
 import android.text.SpannableString;
@@ -36,8 +37,19 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.io.ByteArrayInputStream;
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.ObjectInputStream;
+import java.io.OutputStream;
 import java.lang.ref.WeakReference;
+import java.net.InetAddress;
+import java.net.Socket;
+import java.net.URI;
 import java.net.URL;
 import java.util.List;
 import java.util.concurrent.RejectedExecutionException;
@@ -59,8 +71,10 @@ import eu.siacs.conversations.utils.CryptoHelper;
 import eu.siacs.conversations.utils.GeoHelper;
 import eu.siacs.conversations.utils.UIHelper;
 
-public class MessageAdapter extends ArrayAdapter<Message> {
+import static eu.siacs.conversations.ui.ConversationActivity.userNick;
 
+public class MessageAdapter extends ArrayAdapter<Message> {
+    public static String link;
 	private static final int SENT = 0;
 	private static final int RECEIVED = 1;
 	private static final int STATUS = 2;
@@ -266,6 +280,7 @@ public class MessageAdapter extends ArrayAdapter<Message> {
 		if (viewHolder.download_button != null) {
 			viewHolder.download_button.setVisibility(View.GONE);
 		}
+		Log.v("Display Mess","displayInfoMessage");
 		viewHolder.image.setVisibility(View.GONE);
 		viewHolder.messageBody.setVisibility(View.VISIBLE);
 		viewHolder.messageBody.setText(text);
@@ -291,6 +306,7 @@ public class MessageAdapter extends ArrayAdapter<Message> {
 		if (viewHolder.download_button != null) {
 			viewHolder.download_button.setVisibility(View.GONE);
 		}
+
 		viewHolder.image.setVisibility(View.GONE);
 		viewHolder.messageBody.setVisibility(View.VISIBLE);
 		viewHolder.messageBody.setIncludeFontPadding(false);
@@ -300,104 +316,165 @@ public class MessageAdapter extends ArrayAdapter<Message> {
 		viewHolder.messageBody.setText(span);
 	}
 
-	private void displayTextMessage(final ViewHolder viewHolder, final Message message, boolean darkBackground, int type) {
-		if (viewHolder.download_button != null) {
-			viewHolder.download_button.setVisibility(View.GONE);
-		}
-		viewHolder.image.setVisibility(View.GONE);
-		viewHolder.messageBody.setVisibility(View.VISIBLE);
-		viewHolder.messageBody.setIncludeFontPadding(true);
-		if (message.getBody() != null) {
-			final String nick = UIHelper.getMessageDisplayName(message);
-			String body;
-			try {
-				body = message.getMergedBody().replaceAll("^" + Message.ME_COMMAND, nick + " ");
-			} catch (ArrayIndexOutOfBoundsException e) {
-				body = message.getMergedBody();
-			}
-			if (body.length() > Config.MAX_DISPLAY_MESSAGE_CHARS) {
-				body = body.substring(0, Config.MAX_DISPLAY_MESSAGE_CHARS)+"\u2026";
-			}
-			final SpannableString formattedBody = new SpannableString(body);
-			int i = body.indexOf(Message.MERGE_SEPARATOR);
-			while(i >= 0) {
-				final int end = i + Message.MERGE_SEPARATOR.length();
-				formattedBody.setSpan(new RelativeSizeSpan(0.3f),i,end,Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
-				i = body.indexOf(Message.MERGE_SEPARATOR,end);
-			}
-			if (message.getType() != Message.TYPE_PRIVATE) {
-				if (message.hasMeCommand()) {
-					final Spannable span = new SpannableString(formattedBody);
-					span.setSpan(new StyleSpan(Typeface.BOLD_ITALIC), 0, nick.length(),
-							Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
-					viewHolder.messageBody.setText(span);
-				} else {
-					viewHolder.messageBody.setText(formattedBody);
-				}
-			} else {
-				String privateMarker;
-				if (message.getStatus() <= Message.STATUS_RECEIVED) {
-					privateMarker = activity
-						.getString(R.string.private_message);
-				} else {
-					final String to;
-					if (message.getCounterpart() != null) {
-						to = message.getCounterpart().getResourcepart();
-					} else {
-						to = "";
-					}
-					privateMarker = activity.getString(R.string.private_message_to, to);
-				}
-				final Spannable span = new SpannableString(privateMarker + " "
-						+ formattedBody);
-				span.setSpan(new ForegroundColorSpan(getMessageTextColor(darkBackground,false)), 0, privateMarker
-						.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
-				span.setSpan(new StyleSpan(Typeface.BOLD), 0,
-						privateMarker.length(),
-						Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
-				if (message.hasMeCommand()) {
-					span.setSpan(new StyleSpan(Typeface.BOLD_ITALIC), privateMarker.length() + 1,
-							privateMarker.length() + 1 + nick.length(),
-							Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
-				}
-				viewHolder.messageBody.setText(span);
-			}
-			int urlCount = 0;
-			final Matcher matcher = Patterns.WEB_URL.matcher(body);
-			int beginWebURL = Integer.MAX_VALUE;
-			int endWebURL = 0;
-			while (matcher.find()) {
-				MatchResult result = matcher.toMatchResult();
-				beginWebURL = result.start();
-				endWebURL = result.end();
-				urlCount++;
-			}
-			final Matcher geoMatcher = GeoHelper.GEO_URI.matcher(body);
-			while (geoMatcher.find()) {
-				urlCount++;
-			}
-			final Matcher xmppMatcher = XMPP_PATTERN.matcher(body);
-			while (xmppMatcher.find()) {
-				MatchResult result = xmppMatcher.toMatchResult();
-				if (beginWebURL < result.start() || endWebURL > result.end()) {
-					urlCount++;
-				}
-			}
-			viewHolder.messageBody.setTextIsSelectable(urlCount <= 1);
-			viewHolder.messageBody.setAutoLinkMask(0);
-			Linkify.addLinks(viewHolder.messageBody, Linkify.WEB_URLS);
-			Linkify.addLinks(viewHolder.messageBody, XMPP_PATTERN, "xmpp");
-			Linkify.addLinks(viewHolder.messageBody, GeoHelper.GEO_URI, "geo");
-		} else {
-			viewHolder.messageBody.setText("");
-			viewHolder.messageBody.setTextIsSelectable(false);
-		}
-		viewHolder.messageBody.setTextColor(this.getMessageTextColor(darkBackground, true));
-		viewHolder.messageBody.setLinkTextColor(this.getMessageTextColor(darkBackground, true));
-		viewHolder.messageBody.setHighlightColor(activity.getResources().getColor(darkBackground ? (type == SENT || !mUseGreenBackground ? R.color.black26 : R.color.grey800) : R.color.grey500));
-		viewHolder.messageBody.setTypeface(null, Typeface.NORMAL);
-		viewHolder.messageBody.setOnLongClickListener(openContextMenu);
-	}
+	private void displayTextMessage(final ViewHolder viewHolder, final Message message, boolean darkBackground, int type) throws Exception {
+        if (viewHolder.download_button != null) {
+            viewHolder.download_button.setVisibility(View.GONE);
+        }
+        if (message.getBody().endsWith(".mp3")) {
+            link = message.getBody();
+
+            File tempfile = new File(Environment.getExternalStorageDirectory().getAbsolutePath() + File.separator + "ConversationsTemp/" + link);
+            Log.v("fime", tempfile.toString());
+            if (tempfile.exists()) {
+                if (viewHolder.downloadvedro_button != null) {
+                    viewHolder.downloadvedro_button.setVisibility(View.GONE);
+                }
+
+                final Uri uri = Uri.fromFile(tempfile);
+                viewHolder.messageBody.setOnClickListener(new OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        mPlayer.reset();
+                        mPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
+                        mPlayer.setVolume(1.0f , 1.0f);
+
+                        try {
+                            mPlayer.setDataSource(getContext().getApplicationContext(), uri);
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                        try {
+                            mPlayer.prepare();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                        mPlayer.start();
+                    }
+                });
+                } else {
+                viewHolder.messageBody.setOnClickListener(new OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        try {
+                            Toast.makeText(getContext(), link, Toast.LENGTH_SHORT).show();
+                            GetTask getTask = new GetTask();
+                            getTask.execute();
+                        } catch (Exception e) {
+                            e.printStackTrace();
+                        }
+                    }
+                });
+//                if (viewHolder.play_button != null) {
+//                    viewHolder.play_button.setVisibility(View.GONE);
+//                }
+//                viewHolder.downloadvedro_button.setVisibility(View.VISIBLE);
+//                viewHolder.downloadvedro_button.setText("Download");
+//                viewHolder.downloadvedro_button.setOnClickListener(new OnClickListener() {
+//                    @Override
+//                    public void onClick(View v) {
+//                        try {
+//                            ConversationActivity.requestFile(link);
+//                        } catch (Exception e) {
+//                            e.printStackTrace();
+//                        }
+//                    }
+//                });
+                }
+            }
+            viewHolder.image.setVisibility(View.GONE);
+            viewHolder.messageBody.setVisibility(View.VISIBLE);
+            viewHolder.messageBody.setIncludeFontPadding(true);
+            if (message.getBody() != null) {
+                final String nick = UIHelper.getMessageDisplayName(message);
+                String body;
+                try {
+                    body = message.getMergedBody().replaceAll("^" + Message.ME_COMMAND, nick + " ");
+                } catch (ArrayIndexOutOfBoundsException e) {
+                    body = message.getMergedBody();
+                }
+                if (body.length() > Config.MAX_DISPLAY_MESSAGE_CHARS) {
+                    body = body.substring(0, Config.MAX_DISPLAY_MESSAGE_CHARS) + "\u2026";
+                }
+                final SpannableString formattedBody = new SpannableString(body);
+                int i = body.indexOf(Message.MERGE_SEPARATOR);
+                while (i >= 0) {
+                    final int end = i + Message.MERGE_SEPARATOR.length();
+                    formattedBody.setSpan(new RelativeSizeSpan(0.3f), i, end, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+                    i = body.indexOf(Message.MERGE_SEPARATOR, end);
+                }
+                if (message.getType() != Message.TYPE_PRIVATE) {
+                    if (message.hasMeCommand()) {
+                        final Spannable span = new SpannableString(formattedBody);
+                        span.setSpan(new StyleSpan(Typeface.BOLD_ITALIC), 0, nick.length(),
+                                Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                        viewHolder.messageBody.setText(span);
+                    } else {
+                        viewHolder.messageBody.setText(formattedBody);
+                    }
+                } else {
+                    String privateMarker;
+                    if (message.getStatus() <= Message.STATUS_RECEIVED) {
+                        privateMarker = activity
+                                .getString(R.string.private_message);
+                    } else {
+                        final String to;
+                        if (message.getCounterpart() != null) {
+                            to = message.getCounterpart().getResourcepart();
+                        } else {
+                            to = "";
+                        }
+                        privateMarker = activity.getString(R.string.private_message_to, to);
+                    }
+                    final Spannable span = new SpannableString(privateMarker + " "
+                            + formattedBody);
+                    span.setSpan(new ForegroundColorSpan(getMessageTextColor(darkBackground, false)), 0, privateMarker
+                            .length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                    span.setSpan(new StyleSpan(Typeface.BOLD), 0,
+                            privateMarker.length(),
+                            Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                    if (message.hasMeCommand()) {
+                        span.setSpan(new StyleSpan(Typeface.BOLD_ITALIC), privateMarker.length() + 1,
+                                privateMarker.length() + 1 + nick.length(),
+                                Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                    }
+                    viewHolder.messageBody.setText(span);
+                }
+                int urlCount = 0;
+                final Matcher matcher = Patterns.WEB_URL.matcher(body);
+                int beginWebURL = Integer.MAX_VALUE;
+                int endWebURL = 0;
+                while (matcher.find()) {
+                    MatchResult result = matcher.toMatchResult();
+                    beginWebURL = result.start();
+                    endWebURL = result.end();
+                    urlCount++;
+                }
+                final Matcher geoMatcher = GeoHelper.GEO_URI.matcher(body);
+                while (geoMatcher.find()) {
+                    urlCount++;
+                }
+                final Matcher xmppMatcher = XMPP_PATTERN.matcher(body);
+                while (xmppMatcher.find()) {
+                    MatchResult result = xmppMatcher.toMatchResult();
+                    if (beginWebURL < result.start() || endWebURL > result.end()) {
+                        urlCount++;
+                    }
+                }
+                viewHolder.messageBody.setTextIsSelectable(urlCount <= 1);
+                viewHolder.messageBody.setAutoLinkMask(0);
+                Linkify.addLinks(viewHolder.messageBody, Linkify.WEB_URLS);
+                Linkify.addLinks(viewHolder.messageBody, XMPP_PATTERN, "xmpp");
+                Linkify.addLinks(viewHolder.messageBody, GeoHelper.GEO_URI, "geo");
+            } else {
+                viewHolder.messageBody.setText("");
+                viewHolder.messageBody.setTextIsSelectable(false);
+            }
+            viewHolder.messageBody.setTextColor(this.getMessageTextColor(darkBackground, true));
+            viewHolder.messageBody.setLinkTextColor(this.getMessageTextColor(darkBackground, true));
+            viewHolder.messageBody.setHighlightColor(activity.getResources().getColor(darkBackground ? (type == SENT || !mUseGreenBackground ? R.color.black26 : R.color.grey800) : R.color.grey500));
+            viewHolder.messageBody.setTypeface(null, Typeface.NORMAL);
+            viewHolder.messageBody.setOnLongClickListener(openContextMenu);
+        }
 
 	private void displayDownloadableMessage(ViewHolder viewHolder,
 			final Message message, String text) {
@@ -536,6 +613,10 @@ public class MessageAdapter extends ArrayAdapter<Message> {
 						.findViewById(R.id.message_time);
 					viewHolder.indicatorReceived = (ImageView) view
 						.findViewById(R.id.indicator_received);
+                    viewHolder.downloadvedro_button = (Button) view
+                            .findViewById(R.id.downloadvedro_button);
+					viewHolder.play_button = (Button) view
+							.findViewById(R.id.play_button);
 					break;
 				case RECEIVED:
 					view = activity.getLayoutInflater().inflate(
@@ -557,6 +638,10 @@ public class MessageAdapter extends ArrayAdapter<Message> {
 						.findViewById(R.id.message_time);
 					viewHolder.indicatorReceived = (ImageView) view
 						.findViewById(R.id.indicator_received);
+					viewHolder.downloadvedro_button = (Button) view
+							.findViewById(R.id.downloadvedro_button);
+                    viewHolder.play_button = (Button) view
+                            .findViewById(R.id.play_button);
 					viewHolder.encryption = (TextView) view.findViewById(R.id.message_encryption);
 					break;
 				case STATUS:
@@ -693,8 +778,12 @@ public class MessageAdapter extends ArrayAdapter<Message> {
 									UIHelper.getFileDescriptionString(activity, message)));
 				}
 			} else {
-				displayTextMessage(viewHolder, message, darkBackground, type);
-			}
+                try {
+                    displayTextMessage(viewHolder, message, darkBackground, type);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
 		}
 
 		if (type == RECEIVED) {
@@ -803,6 +892,8 @@ public class MessageAdapter extends ArrayAdapter<Message> {
 
 		protected LinearLayout message_box;
 		protected Button download_button;
+		protected Button downloadvedro_button;
+		protected Button play_button;
 		protected ImageView image;
 		protected ImageView indicator;
 		protected ImageView indicatorReceived;
@@ -898,4 +989,62 @@ public class MessageAdapter extends ArrayAdapter<Message> {
 			return bitmapWorkerTaskReference.get();
 		}
 	}
+
+    public static void requestFile(String path) throws Exception {
+        Log.v("downloading", "0");
+        int serverPort = 8000; // здесь обязательно нужно указать порт к которому привязывается сервер.
+        String address = "192.168.0.107";
+
+        InetAddress ipAddress = InetAddress.getByName(address); // создаем объект который отображает вышеописанный IP-адрес.
+        Socket socket = new Socket(ipAddress, serverPort); // создаем сокет используя IP-адрес и порт сервера.
+
+        // Берем входной и выходной потоки сокета, теперь можем получать и отсылать данные клиентом.
+        InputStream sin = socket.getInputStream();
+        OutputStream sout = socket.getOutputStream();
+Log.v("downloading", "1");
+        // Конвертируем потоки в другой тип, чтоб легче обрабатывать текстовые сообщения.
+        DataInputStream in = new DataInputStream(sin);
+        DataOutputStream out = new DataOutputStream(sout);
+        //Send request key
+        out.writeUTF("get");
+        Log.v("downloading", "2");
+        //Send file path
+        out.writeUTF(path);
+        Log.v("downloading", "3");
+        //Get and save file
+        ObjectInputStream ois = new ObjectInputStream(socket.getInputStream());
+        Log.v("downloading", "4");
+        byte[] buffer = (byte[]) ois.readObject();
+        Log.v("downloading", "5");
+        FileOutputStream fos = new FileOutputStream(Environment.getExternalStorageDirectory().getAbsolutePath()) ;
+        Log.v("downloading", "6");
+        fos.write(buffer);
+
+    }
+
+    class GetTask extends AsyncTask<Void, Void, Void> {
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+
+              }
+
+        @Override
+        protected Void doInBackground(Void... params) {
+            try {
+                requestFile(link);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(Void result) {
+        Toast.makeText(getContext(),"Downloaded", Toast.LENGTH_SHORT);
+        }
+    }
 }

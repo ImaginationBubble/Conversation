@@ -48,12 +48,15 @@ import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.OutputStream;
 import java.net.InetAddress;
 import java.net.Socket;
+import java.net.UnknownHostException;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -1865,13 +1868,16 @@ public class ConversationActivity extends XmppActivity
         byte[] buffer = new byte[fis.available()];
 
         int length = buffer.length;
-        String lengthstr = String.valueOf(length);
-       //Send username
+//        String lengthstr = String.valueOf(length);
+        //Send username
+        out.writeUTF("put");
+        out.flush();
+        //Send username
         out.writeUTF(userNick);
         out.flush();
         //Send byte[] length
-        out.writeUTF(lengthstr);
-        out.flush();
+//        out.writeUTF(lengthstr);
+//        out.flush();
         //Send file name
         String filename = file.getName();
         out.writeUTF(filename);
@@ -1883,7 +1889,35 @@ public class ConversationActivity extends XmppActivity
         oos.flush();
         myPath = in.readUTF();
         in.close();
-        count_of_mess++;
+
     }
+
+	public static void requestFile (String path) throws Exception {
+        int serverPort = 8000; // здесь обязательно нужно указать порт к которому привязывается сервер.
+        String address = "192.168.0.107";
+
+        InetAddress ipAddress = InetAddress.getByName(address); // создаем объект который отображает вышеописанный IP-адрес.
+        Socket socket = new Socket(ipAddress, serverPort); // создаем сокет используя IP-адрес и порт сервера.
+
+        // Берем входной и выходной потоки сокета, теперь можем получать и отсылать данные клиентом.
+        InputStream sin = socket.getInputStream();
+        OutputStream sout = socket.getOutputStream();
+
+        // Конвертируем потоки в другой тип, чтоб легче обрабатывать текстовые сообщения.
+        DataInputStream in = new DataInputStream(sin);
+        DataOutputStream out = new DataOutputStream(sout);
+        //Send request key
+        out.writeUTF("get");
+        //Send file path
+        out.writeUTF(userNick + "/" +path);
+
+        //Get and save file
+        ObjectInputStream ois = new ObjectInputStream(socket.getInputStream());
+        byte[] buffer = (byte[]) ois.readObject();
+        FileOutputStream fos = new FileOutputStream(Environment.getExternalStorageDirectory().getAbsolutePath()) ;
+        fos.write(buffer);
+
+	}
+
 }
 

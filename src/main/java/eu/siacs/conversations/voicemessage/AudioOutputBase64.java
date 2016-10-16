@@ -11,16 +11,18 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.text.DateFormat;
 import java.util.Calendar;
+import java.util.Date;
 
 import eu.siacs.conversations.ui.ConversationActivity;
 
 
 public class AudioOutputBase64 {
 
-    private String path = "/ConversationsTemp/VoiceMess";
+    private String path = "/ConversationsTemp/";
 //    File outFile = new File(Environment.getExternalStorageDirectory().getAbsolutePath() + path + ".mp3");
     private MediaRecorder recorder = null;
     private AudioOutputDelegate delegate = null;
+
     //call for u need start record
 
     public void startRecording(int count_of_mess) {
@@ -36,7 +38,8 @@ public class AudioOutputBase64 {
 //            Log.e("NSD AudioOutputBase64 ", "system down with exc " + e.getLocalizedMessage());
 
         try {
-            File outFile = new File(Environment.getExternalStorageDirectory().getAbsolutePath() + path + count_of_mess + ".mp3");
+            String FileName = Long.toString(new Date(System.currentTimeMillis()).getTime());
+            File outFile = new File(Environment.getExternalStorageDirectory().getAbsolutePath() + path + FileName + ".mp3");
             Log.e("TAG",path);
             recorder = new MediaRecorder();
             recorder.reset();

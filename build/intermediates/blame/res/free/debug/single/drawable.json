@@ -24,12 +24,12 @@
         "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.kyleduo.switchbutton\\library\\1.2.8\\res\\drawable\\md_back_on.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\infocard_border.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\drawable\\infocard_border.xml"
-    },
-    {
         "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\md_back_off.xml",
         "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.kyleduo.switchbutton\\library\\1.2.8\\res\\drawable\\md_back_off.xml"
+    },
+    {
+        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\infocard_border.xml",
+        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\drawable\\infocard_border.xml"
     },
     {
         "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\drawable\\md_thumb.xml",
