@@ -402,7 +402,7 @@ public class Message extends AbstractEntity {
 				return this.remoteMsgId == null
 						&& this.counterpart.equals(message.getCounterpart())
 						&& body.equals(otherBody)
-						&& Math.abs(this.getTimeSent() - message.getTimeSent()) < Config.MESSAGE_MERGE_WINDOW * 1000;
+						&& Math.abs(this.getTimeSent() - message.getTimeSent()) < Config.MESSAGE_MERGE_WINDOW * 1000 ;
 			}
 		}
 	}
@@ -451,7 +451,10 @@ public class Message extends AbstractEntity {
 	}
 
 	public boolean mergeable(final Message message) {
-		return message != null &&
+		return false;
+	}
+    //Тут мы отключили склеивание сообщений
+		/*message != null &&
 				(message.getType() == Message.TYPE_TEXT &&
 						this.getTransferable() == null &&
 						message.getTransferable() == null &&
@@ -477,7 +480,7 @@ public class Message extends AbstractEntity {
 						this.isTrusted() == message.isTrusted()
 				);
 	}
-
+*/
 	private static boolean isStatusMergeable(int a, int b) {
 		return a == b || (
 				(a == Message.STATUS_SEND_RECEIVED && b == Message.STATUS_UNSEND)
