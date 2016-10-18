@@ -277,5 +277,14 @@
         android:summary="Установите пароль для входа в приложение"
         android:title="Пароль на вход"
         android:inputType="numberPassword"/>
-
+    <EditTextPreference
+        android:key="serverip"
+        android:summary="Установить ip сервера "
+        android:title="Ip сервера"
+        android:inputType="date"/>
+    <EditTextPreference
+        android:key="serverport"
+        android:summary="Установить порт сервера "
+        android:title="Порт сервера"
+        android:inputType="numberDecimal"/>
 </PreferenceScreen>

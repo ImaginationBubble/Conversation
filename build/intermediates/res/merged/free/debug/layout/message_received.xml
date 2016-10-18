@@ -59,11 +59,17 @@
 
             <Button
                 android:id="@+id/download_button"
-
                 style="?android:attr/buttonStyleSmall"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:visibility="gone" />
+            <Button
+                android:id="@+id/playordownload_button"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:text="Воспроизвести аудио"/>
 
             <LinearLayout
                 android:layout_width="wrap_content"

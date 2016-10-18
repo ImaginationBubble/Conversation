@@ -1,266 +1,262 @@
 [
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\activity_contact_details.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\layout\\activity_contact_details.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/enter_jid_dialog.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/layout/enter_jid_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\welcome.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\layout\\welcome.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/activity_password.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/layout/activity_password.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_action_bar_up_container.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/activity_verify_otr.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/layout/activity_verify_otr.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\magic_create.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\layout\\magic_create.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/activity_about.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/layout/activity_about.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\dialog_show_password.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\layout\\dialog_show_password.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/create_conference_dialog.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/layout/create_conference_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_action_mode_bar.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/activity_set_presence.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/layout/activity_set_presence.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_list_menu_item_layout.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\join_conference_dialog.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\layout\\join_conference_dialog.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_bar_view_list_nav_layout.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\activity_change_password.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\layout\\activity_change_password.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\create_conference_dialog.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\layout\\create_conference_dialog.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/abc_activity_chooser_view_include.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_activity_chooser_view_include.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\account_row.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\layout\\account_row.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/activity_contact_details.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/layout/activity_contact_details.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\share_with.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\layout\\share_with.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/dialog_clear_history.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/layout/dialog_clear_history.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_popup_menu_item_layout.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/quickedit.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/layout/quickedit.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\message_received.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\layout\\message_received.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\activity_edit_account.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\layout\\activity_edit_account.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\message_status.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\layout\\message_status.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_activity_chooser_view.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\manage_accounts.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\layout\\manage_accounts.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_action_mode_close_item_material.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/fragment_conversation.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/layout/fragment_conversation.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_action_menu_layout.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/message_sent.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/layout/message_sent.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\dialog_clear_history.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\layout\\dialog_clear_history.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/form_text.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/layout/form_text.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_list_menu_item_checkbox.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\activity_trust_keys.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\layout\\activity_trust_keys.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/certificate_information.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/layout/certificate_information.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\quickedit.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\layout\\quickedit.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/dialog_show_password.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/layout/dialog_show_password.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\elv_undo_popup.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\de.timroes.android\\EnhancedListView\\0.3.4\\res\\layout\\elv_undo_popup.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/form_boolean.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/layout/form_boolean.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/message_received.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/layout/message_received.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\activity_verify_otr.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\layout\\activity_verify_otr.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/abc_screen_toolbar.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_screen_toolbar.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\contact_key.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\layout\\contact_key.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/join_conference_dialog.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/layout/join_conference_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\abc_activity_chooser_view_include.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_activity_chooser_view_include.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/abc_search_view.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_search_view.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/list_item_tag.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/layout/list_item_tag.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\activity_set_presence.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\layout\\activity_set_presence.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/abc_simple_dropdown_hint.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_simple_dropdown_hint.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_action_bar_title_item.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/activity_trust_keys.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/layout/activity_trust_keys.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\simple_list_item.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\layout\\simple_list_item.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/contact_key.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/layout/contact_key.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\captcha.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\layout\\captcha.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/account_row.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/layout/account_row.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_list_menu_item_radio.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\certificate_information.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\layout\\certificate_information.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/activity_muc_details.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/layout/activity_muc_details.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\list_item_tag.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\layout\\list_item_tag.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\abc_simple_dropdown_hint.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_simple_dropdown_hint.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/activity_start_conversation.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/layout/activity_start_conversation.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/abc_screen_simple.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_screen_simple.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\presence_template.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\layout\\presence_template.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/crop__layout_done_cancel.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.soundcloud.android/android-crop/1.0.1/res/layout/crop__layout_done_cancel.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\activity_choose_contact.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\layout\\activity_choose_contact.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/welcome.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/layout/welcome.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_bar_up_container.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\form_boolean.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\layout\\form_boolean.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/captcha.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/layout/captcha.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\message_sent.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\layout\\message_sent.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/crop__activity_crop.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.soundcloud.android/android-crop/1.0.1/res/layout/crop__activity_crop.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\crop__activity_crop.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.soundcloud.android\\android-crop\\1.0.1\\res\\layout\\crop__activity_crop.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\abc_search_view.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_search_view.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/simple_list_item.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/layout/simple_list_item.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\keys_card.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\layout\\keys_card.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\fragment_conversations_overview.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\layout\\fragment_conversations_overview.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/presence_template.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/layout/presence_template.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\activity_about.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\layout\\activity_about.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/abc_action_menu_layout.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_menu_layout.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\activity_muc_details.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\layout\\activity_muc_details.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/keys_card.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/layout/keys_card.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_activity_chooser_view.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/activity_edit_account.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/layout/activity_edit_account.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\activity_start_conversation.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\layout\\activity_start_conversation.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/activity_choose_contact.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/layout/activity_choose_contact.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\abc_screen_simple.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_screen_simple.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\actionview_search.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\layout\\actionview_search.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/contact.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/layout/contact.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\form_text.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\layout\\form_text.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/share_with.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/layout/share_with.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\conversation_list_row.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\layout\\conversation_list_row.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/activity_publish_profile_picture.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/layout/activity_publish_profile_picture.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\crop__layout_done_cancel.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.soundcloud.android\\android-crop\\1.0.1\\res\\layout\\crop__layout_done_cancel.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/actionview_search.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/layout/actionview_search.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_expanded_menu_layout.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/conversation_list_row.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/layout/conversation_list_row.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\activity_publish_profile_picture.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\layout\\activity_publish_profile_picture.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/magic_create.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/layout/magic_create.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\contact.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\layout\\contact.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/fragment_conversations_overview.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/layout/fragment_conversations_overview.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/activity_change_password.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/layout/activity_change_password.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_action_menu_item_layout.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_bar_title_item.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\activity_password.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\layout\\activity_password.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_list_menu_item_icon.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/abc_action_mode_bar.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_mode_bar.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\enter_jid_dialog.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\layout\\enter_jid_dialog.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/message_status.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/layout/message_status.xml"
     },
     {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\fragment_conversation.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\src\\main\\res\\layout\\fragment_conversation.xml"
-    },
-    {
-        "merged": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\res\\merged\\free\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "C:\\Users\\labab\\AndroidStudioProjects\\Conversation\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_screen_toolbar.xml"
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/layout/manage_accounts.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/layout/manage_accounts.xml"
     }
 ]

@@ -354,6 +354,7 @@ public class ConversationFragment extends Fragment implements EditMessage.Keyboa
 							}
 							if (conversation.getMode() == Conversation.MODE_MULTI) {
 								conversation.setNextCounterpart(null);
+
 							}
 							updateChatMsgHint();
 							updateSendButton();
@@ -505,6 +506,7 @@ public class ConversationFragment extends Fragment implements EditMessage.Keyboa
                         audioOutputBase64.stopRecording();
 						SendTask task = new SendTask();
                         task.execute();
+
 //						activity.sendVoiceFuckingMessage();
                         voiceStopButton.setVisibility(View.INVISIBLE);
                         voiceRecordButton.setVisibility(View.VISIBLE);
@@ -1572,8 +1574,49 @@ public class ConversationFragment extends Fragment implements EditMessage.Keyboa
 
         @Override
         protected void onPostExecute(Void result) {
-            Toast.makeText(getActivity(), myPath, Toast.LENGTH_SHORT).show();
+            sendPath(myPath);
+
         }
     }
+
+    public void sendPath(String body){
+
+        if (body.length() == 0 || this.conversation == null) {
+            return;
+        }
+        final Message message;
+        if (conversation.getCorrectingMessage() == null) {
+            message = new Message(conversation, body, conversation.getNextEncryption());
+            if (conversation.getMode() == Conversation.MODE_MULTI) {
+                if (conversation.getNextCounterpart() != null) {
+                    message.setCounterpart(conversation.getNextCounterpart());
+                    message.setType(Message.TYPE_PRIVATE);
+                }
+            }
+        } else {
+            message = conversation.getCorrectingMessage();
+            message.setBody(body);
+            message.setEdited(message.getUuid());
+            message.setUuid(UUID.randomUUID().toString());
+            conversation.setCorrectingMessage(null);
+        }
+        switch (conversation.getNextEncryption()) {
+            case Message.ENCRYPTION_OTR:
+                sendOtrMessage(message);
+                break;
+            case Message.ENCRYPTION_PGP:
+                sendPgpMessage(message);
+                break;
+            case Message.ENCRYPTION_AXOLOTL:
+                if(!activity.trustKeysIfNeeded(ConversationActivity.REQUEST_TRUST_KEYS_TEXT)) {
+                    sendAxolotlMessage(message);
+                }
+                break;
+            default:
+                sendPlainTextMessage(message);
+        }
+    }
+
+
 
 }
