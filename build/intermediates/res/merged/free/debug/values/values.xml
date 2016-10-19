@@ -636,6 +636,7 @@
     <string name="encryption_choice_unencrypted">Unencrypted</string>
     <string name="enter_contact">Enter Contact</string>
     <string name="enter_password">Enter password</string>
+    <string name="enterkey_settings">Enter Key</string>
     <string name="error">An error has occurred</string>
     <string name="error_compressing_image">Error while converting the image file</string>
     <string name="error_decrypting_file">I/O Error decrypting file</string>

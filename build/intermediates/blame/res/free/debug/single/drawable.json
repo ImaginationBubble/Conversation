@@ -60,12 +60,12 @@
         "source": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.soundcloud.android/android-crop/1.0.1/res/drawable/crop__texture.xml"
     },
     {
-        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/drawable/common_google_signin_btn_icon_light.xml",
-        "source": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable/common_google_signin_btn_icon_light.xml"
-    },
-    {
         "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/drawable/switch_thumb.xml",
         "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/drawable/switch_thumb.xml"
+    },
+    {
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable/common_google_signin_btn_icon_light.xml"
     },
     {
         "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/drawable/abc_list_selector_holo_dark.xml",

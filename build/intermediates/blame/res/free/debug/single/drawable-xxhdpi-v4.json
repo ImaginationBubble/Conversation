@@ -108,12 +108,12 @@
         "source": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-xxhdpi-v4/common_plus_signin_btn_text_light_disabled.9.png"
     },
     {
-        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_focused.9.png",
-        "source": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_focused.9.png"
-    },
-    {
         "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/drawable-xxhdpi-v4/common_ic_googleplayservices.png",
         "source": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-xxhdpi-v4/common_ic_googleplayservices.png"
+    },
+    {
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_focused.9.png",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_focused.9.png"
     },
     {
         "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/drawable-xxhdpi-v4/common_plus_signin_btn_text_light_focused.9.png",

@@ -44,6 +44,8 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.TextView.OnEditorActionListener;
 import android.widget.Toast;
+
+import eu.siacs.conversations.cryptoAES.AES;
 import eu.siacs.conversations.ui.ConversationActivity;
 import net.java.otr4j.session.SessionStatus;
 
@@ -419,7 +421,12 @@ public class ConversationFragment extends Fragment implements EditMessage.Keyboa
 				}
 				break;
 			default:
-				sendPlainTextMessage(message);
+                try {
+                    message.setBody(AES.encryptAES(message.getBody()));
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+                sendPlainTextMessage(message);
 		}
 	}
 

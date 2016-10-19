@@ -25,6 +25,8 @@ import android.provider.Settings;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.widget.SlidingPaneLayout;
 import android.support.v4.widget.SlidingPaneLayout.PanelSlideListener;
+import android.text.InputType;
+import android.util.Base64;
 import android.util.Log;
 import android.util.Pair;
 import android.view.Gravity;
@@ -37,6 +39,7 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.CheckBox;
+import android.widget.EditText;
 import android.widget.PopupMenu;
 import android.widget.PopupMenu.OnMenuItemClickListener;
 import android.widget.Toast;
@@ -45,6 +48,8 @@ import net.java.otr4j.session.SessionStatus;
 
 import org.openintents.openpgp.util.OpenPgpApi;
 
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.File;
@@ -52,13 +57,16 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.ObjectInput;
 import java.io.ObjectInputStream;
+import java.io.ObjectOutput;
 import java.io.ObjectOutputStream;
 import java.io.OutputStream;
 import java.net.InetAddress;
 import java.net.Socket;
 import java.net.UnknownHostException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicBoolean;
@@ -68,6 +76,7 @@ import eu.siacs.conversations.Config;
 import eu.siacs.conversations.R;
 import eu.siacs.conversations.crypto.axolotl.AxolotlService;
 import eu.siacs.conversations.crypto.axolotl.XmppAxolotlSession;
+import eu.siacs.conversations.cryptoAES.AES;
 import eu.siacs.conversations.entities.Account;
 import eu.siacs.conversations.entities.Blockable;
 import eu.siacs.conversations.entities.Contact;
@@ -86,13 +95,15 @@ import eu.siacs.conversations.voicemessage.AudioOutputBase64;
 import eu.siacs.conversations.xmpp.OnUpdateBlocklist;
 import eu.siacs.conversations.xmpp.jid.InvalidJidException;
 import eu.siacs.conversations.xmpp.jid.Jid;
-
+import javax.crypto.spec.SecretKeySpec;
 import static eu.siacs.conversations.R.id.account;
 import static java.security.AccessController.getContext;
 
+
 public class ConversationActivity extends XmppActivity
 	implements OnAccountUpdate, OnConversationUpdate, OnRosterUpdate, OnUpdateBlocklist, XmppConnectionService.OnShowErrorToast {
-
+    public static String currentAesSeed;
+    public static SecretKeySpec currentKeySpec;
 	public static final String ACTION_VIEW_CONVERSATION = "eu.siacs.conversations.action.VIEW";
 	public static final String CONVERSATION = "conversationUuid";
 	public static final String EXTRA_DOWNLOAD_UUID = "eu.siacs.conversations.download_uuid";
@@ -149,6 +160,8 @@ public class ConversationActivity extends XmppActivity
     public static int count_of_mess;
     public static String myPath;
     public static String userNick;
+    public static SharedPreferences keysSP;
+    public static SharedPreferences.Editor keysSPEditor;
 	public Conversation getSelectedConversation() {
 		return this.mSelectedConversation;
 	}
@@ -271,6 +284,8 @@ public class ConversationActivity extends XmppActivity
 
 		}
 
+        keysSP = getSharedPreferences("keys", MODE_PRIVATE);
+        keysSPEditor = keysSP.edit();
         SharedPreferences settings = getSharedPreferences("MY_SP", 0);
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
 		adress = prefs.getString("serverip","");
@@ -468,7 +483,34 @@ public class ConversationActivity extends XmppActivity
 			sendReadMarkerIfNecessary(conversation);
 		}
 		listAdapter.notifyDataSetChanged();
-	}
+
+        String tempStringKeySpec = keysSP.getString(mSelectedConversation.getName(), "null");
+        byte [] tempByteKeySpec = Base64.decode(tempStringKeySpec, Base64.NO_WRAP);
+        try {
+            SecretKeySpec tempSecretKeySpec = (SecretKeySpec) convertFromByte(tempByteKeySpec);
+            AES.setKey(tempSecretKeySpec);
+            Log.e("keyspec", Arrays.toString(AES.getKey().getEncoded()));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+
+    }
+
+    public byte[] convertToBytes(Object object) throws IOException{
+        try (ByteArrayOutputStream bos = new ByteArrayOutputStream();
+             ObjectOutput out = new ObjectOutputStream(bos)){
+            out.writeObject(object);
+            return bos.toByteArray();
+        }
+    }
+
+    public Object convertFromByte(byte [] bytes) throws Exception {
+        try (ByteArrayInputStream bis = new ByteArrayInputStream(bytes);
+             ObjectInput in = new ObjectInputStream(bis)){
+            return in.readObject();
+        }
+    }
 
 	public void sendReadMarkerIfNecessary(final Conversation conversation) {
 		if (!mActivityPaused && conversation != null) {
@@ -489,6 +531,7 @@ public class ConversationActivity extends XmppActivity
 		final MenuItem menuInviteContact = menu.findItem(R.id.action_invite);
 		final MenuItem menuMute = menu.findItem(R.id.action_mute);
 		final MenuItem menuUnmute = menu.findItem(R.id.action_unmute);
+		final MenuItem enterKey = menu.findItem(R.id.enterkey_settings);
 
 		if (isConversationsOverviewVisable() && isConversationsOverviewHideable()) {
 			menuArchive.setVisible(false);
@@ -500,6 +543,7 @@ public class ConversationActivity extends XmppActivity
 			menuClearHistory.setVisible(false);
 			menuMute.setVisible(false);
 			menuUnmute.setVisible(false);
+			enterKey.setVisible(false);
 		} else {
 			menuAdd.setVisible(!isConversationsOverviewHideable());
 			if (this.getSelectedConversation() != null) {
@@ -806,6 +850,9 @@ public class ConversationActivity extends XmppActivity
 				case R.id.action_unblock:
 					BlockContactDialog.show(this, xmppConnectionService, getSelectedConversation());
 					break;
+                case R.id.enterkey_settings:
+                    setEncryptionKey();
+                    break;
 				default:
 					break;
 			}
@@ -1375,6 +1422,7 @@ public class ConversationActivity extends XmppActivity
 			this.mConversationFragment.reInit(getSelectedConversation());
 			if (nick != null) {
 				if (pm) {
+
 					Jid jid = getSelectedConversation().getJid();
 					try {
 						Jid next = Jid.fromParts(jid.getLocalpart(), jid.getDomainpart(), nick);
@@ -1923,6 +1971,44 @@ public class ConversationActivity extends XmppActivity
         fos.write(buffer);
 
 	}
+
+    public void setEncryptionKey(){
+        final EditText edittext = new EditText(this);
+        AlertDialog.Builder builder1 = new AlertDialog.Builder(this);
+        builder1.setMessage("Установите ключ шифрования ");
+        builder1.setCancelable(true);
+        builder1.setView(edittext);
+        builder1.setPositiveButton(
+                "Готово",
+                new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+
+                        currentAesSeed =  edittext.getText().toString();
+                        AES.generateKey(currentAesSeed.toCharArray(), Base64.decode(currentAesSeed,Base64.NO_WRAP));
+                        currentKeySpec = AES.getKey();
+						Log.e("keyspec", Arrays.toString(currentKeySpec.getEncoded()));
+
+                        try {
+                            byte[] byteKeySpec = convertToBytes(currentKeySpec);
+                            keysSPEditor.putString(mSelectedConversation.getName(), Base64.encodeToString(byteKeySpec, Base64.NO_WRAP)).apply();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                        dialog.cancel();
+                    }
+                });
+
+        builder1.setNegativeButton(
+                "Отмена",
+                new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        dialog.cancel();
+                    }
+                });
+
+        AlertDialog alert11 = builder1.create();
+        alert11.show();
+    }
 
 }
 

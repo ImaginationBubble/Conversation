@@ -2,34 +2,129 @@
 <project version="4">
   <component name="AndroidLayouts">
     <shared>
-      <config />
+      <config>
+        <target>android-21</target>
+      </config>
     </shared>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f2a4c7f-ac3d-45ea-8cbf-313f79a5d1ff" name="Default" comment="">
+    <list default="true" id="1f2a4c7f-ac3d-45ea-8cbf-313f79a5d1ff" name="Default" comment="encryption!!!">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/eu/siacs/conversations/cryptoAES/AES.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_libs_MemorizingTrustManager_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_libs_MemorizingTrustManager_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_libs_MemorizingTrustManager_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_libs_MemorizingTrustManager_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_libs_MemorizingTrustManager_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_libs_MemorizingTrustManager_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_libs_MemorizingTrustManager_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_libs_MemorizingTrustManager_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/mockable-android-24.jar" afterPath="$PROJECT_DIR$/build/generated/mockable-android-24.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/entities/Message$Decision.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/entities/Message$Decision.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/entities/Message$FileParams.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/entities/Message$FileParams.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/entities/Message.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/entities/Message.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/drawable-mdpi-v4/common_full_open_on_phone.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/drawable-mdpi-v4/common_full_open_on_phone.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/drawable-mdpi-v4/elv_ic_action_undo.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/drawable-mdpi-v4/elv_ic_action_undo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/com/makeramen/roundedimageview/R$string.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/com/makeramen/roundedimageview/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$id.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$integer.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$layout.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$menu.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$plurals.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$plurals.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$string.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$style.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$styleable.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$xml.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$xml.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ChooseContactActivity$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ChooseContactActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConferenceDetailsActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConferenceDetailsActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$10.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$11.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$12.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$12.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$13.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$13.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$14.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$14.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$15.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$15.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$16.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$16.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$17.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$17.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$18.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$18.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$19$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$19$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$19.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$19.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$20$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$20$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$20.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$20.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$21.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$21.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$22$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$22$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$22.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$22.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$23.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$23.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$24.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$24.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$3$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$3.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$4.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$5.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$6$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$6$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$6.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$7.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$8.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$9.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$10.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$11.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$12.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$12.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$13.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$13.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$14.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$14.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$15.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$15.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$16.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$16.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$17.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$17.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$18.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$18.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$19.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$19.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$20.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$20.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$21.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$21.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$22.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$22.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$23.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$23.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$24.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$24.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$3$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$3.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$4$1$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$4$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$4$1$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$4$1$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$4$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$4$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$4.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$5.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$6.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$7.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$8.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$9.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$SendButtonAction.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$SendButtonAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/EditAccountActivity$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/EditAccountActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/EditAccountActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/EditAccountActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ManageAccountActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ManageAccountActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/PublishProfilePictureActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/PublishProfilePictureActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/StartConversationActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/StartConversationActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/XmppActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/XmppActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/drawable-hdpi-v4/common_full_open_on_phone.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/drawable-hdpi-v4/common_full_open_on_phone.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/drawable-hdpi-v4/common_ic_googleplayservices.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/drawable-hdpi-v4/common_ic_googleplayservices.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/drawable-tvdpi-v4/common_full_open_on_phone.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/drawable-tvdpi-v4/common_full_open_on_phone.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/drawable-xhdpi-v4/common_full_open_on_phone.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/drawable-xhdpi-v4/common_full_open_on_phone.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/drawable-xhdpi-v4/common_ic_googleplayservices.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/drawable-xhdpi-v4/common_ic_googleplayservices.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/drawable-xxhdpi-v4/common_full_open_on_phone.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/drawable-xxhdpi-v4/common_full_open_on_phone.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/resources-free-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-free-debug-androidTest.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/resources-free-debug.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-free-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/apk/Conversations-1.14.1-free-debug.apk" afterPath="$PROJECT_DIR$/build/outputs/apk/Conversations-1.14.1-free-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/source/r/free/debug/com/makeramen/roundedimageview/R.java" afterPath="$PROJECT_DIR$/build/generated/source/r/free/debug/com/makeramen/roundedimageview/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/source/r/free/debug/eu/siacs/conversations/R.java" afterPath="$PROJECT_DIR$/build/generated/source/r/free/debug/eu/siacs/conversations/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/free/debug/multi/values.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/free/debug/multi/values.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/free/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/free/debug/single/drawable-xxhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/free/debug/single/drawable.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/free/debug/single/drawable.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/eu/siacs/conversations/entities/Message.java" afterPath="$PROJECT_DIR$/src/main/java/eu/siacs/conversations/entities/Message.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeFreeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeFreeDebugResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/menu/conversations.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/menu/conversations.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/values/values.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/symbols/free/debug/R.txt" afterPath="$PROJECT_DIR$/build/intermediates/symbols/free/debug/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/eu/siacs/conversations/ui/ConversationActivity.java" afterPath="$PROJECT_DIR$/src/main/java/eu/siacs/conversations/ui/ConversationActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/eu/siacs/conversations/ui/ConversationFragment.java" afterPath="$PROJECT_DIR$/src/main/java/eu/siacs/conversations/ui/ConversationFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/res/menu/conversations.xml" afterPath="$PROJECT_DIR$/src/main/res/menu/conversations.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/src/main/res/values/strings.xml" />
     </list>
     <ignored path="Conversation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,78 +157,127 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MessageAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/eu/siacs/conversations/ui/adapter/MessageAdapter.java">
+      <file leaf-file-name="AES.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/eu/siacs/conversations/cryptoAES/AES.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="864">
+              <caret line="63" column="8" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConversationFragment.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/eu/siacs/conversations/ui/ConversationFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="427" column="17" selection-start-line="427" selection-start-column="17" selection-end-line="427" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConversationActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/eu/siacs/conversations/ui/ConversationActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="386" column="46" selection-start-line="386" selection-start-column="41" selection-end-line="386" selection-end-column="46" />
+              <caret line="1671" column="50" selection-start-line="1671" selection-start-column="49" selection-end-line="1671" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3453#3618#0" expanded="true" />
-                <element signature="e#3617#3618#0" expanded="true" />
-                <element signature="e#4381#4382#0" expanded="true" />
-                <element signature="e#4405#4406#0" expanded="true" />
-                <element signature="e#4737#4738#0" expanded="true" />
-                <element signature="e#4799#4800#0" expanded="true" />
-                <element signature="e#6829#6869#0" expanded="true" />
-                <element signature="e#7054#7116#0" expanded="true" />
-                <element signature="e#7170#7210#0" expanded="true" />
-                <element signature="e#7317#7358#0" expanded="true" />
-                <element signature="e#7866#7910#0" expanded="true" />
-                <element signature="e#12236#12303#0" expanded="true" />
-                <element signature="e#13922#15440#0" expanded="true" />
-                <element signature="e#15439#15440#0" expanded="true" />
-                <element signature="e#17274#17347#0" expanded="true" />
-                <element signature="e#17664#17715#0" expanded="true" />
-                <element signature="e#20909#21137#0" expanded="true" />
-                <element signature="e#21136#21137#0" expanded="true" />
-                <element signature="e#21556#21594#0" expanded="true" />
-                <element signature="e#21646#21740#0" expanded="true" />
-                <element signature="e#21807#21901#0" expanded="true" />
-                <element signature="e#21970#22182#0" expanded="true" />
-                <element signature="e#22181#22182#0" expanded="true" />
-                <element signature="e#22571#22593#0" expanded="true" />
-                <element signature="e#22650#22801#0" expanded="true" />
-                <element signature="e#22800#22801#0" expanded="true" />
-                <element signature="e#24398#24553#0" expanded="true" />
-                <element signature="e#24552#24553#0" expanded="true" />
-                <element signature="e#25172#25209#0" expanded="true" />
-                <element signature="e#29984#30196#0" expanded="true" />
-                <element signature="e#30195#30196#0" expanded="true" />
-                <element signature="e#31067#31482#0" expanded="true" />
-                <element signature="e#31481#31482#0" expanded="true" />
-                <element signature="e#31560#32113#0" expanded="true" />
-                <element signature="e#32112#32113#0" expanded="true" />
-                <element signature="e#32420#32518#0" expanded="true" />
-                <element signature="e#32680#32779#0" expanded="true" />
-                <element signature="e#33808#33855#0" expanded="true" />
-                <element signature="e#33950#33990#0" expanded="true" />
-                <element signature="e#34095#34144#0" expanded="true" />
-                <element signature="e#34296#34557#0" expanded="true" />
-                <element signature="e#34556#34557#0" expanded="true" />
-                <element signature="e#35286#35480#0" expanded="true" />
-                <element signature="e#35647#35782#0" expanded="true" />
-                <element signature="e#37279#37300#0" expanded="true" />
-                <element signature="e#37847#37925#0" expanded="true" />
-                <element signature="e#39318#39360#0" expanded="true" />
-                <element signature="e#39765#39814#0" expanded="true" />
-                <element signature="e#44070#44071#0" expanded="true" />
-                <element signature="e#44132#44133#0" expanded="true" />
+                <element signature="e#8394#8725#0" expanded="true" />
+                <element signature="e#8724#8725#0" expanded="true" />
+                <element signature="e#11977#12461#0" expanded="true" />
+                <element signature="e#12460#12461#0" expanded="true" />
+                <element signature="e#12495#14729#0" expanded="true" />
+                <element signature="e#14539#14598#0" expanded="true" />
+                <element signature="e#14629#14697#0" expanded="true" />
+                <element signature="e#14728#14729#0" expanded="true" />
+                <element signature="e#16165#16337#0" expanded="true" />
+                <element signature="e#16336#16337#0" expanded="true" />
+                <element signature="e#17124#17141#0" expanded="true" />
+                <element signature="e#21400#21759#0" expanded="true" />
+                <element signature="e#21758#21759#0" expanded="true" />
+                <element signature="e#22189#22293#0" expanded="true" />
+                <element signature="e#22409#22496#0" expanded="true" />
+                <element signature="e#22619#22658#0" expanded="true" />
+                <element signature="e#22773#22812#0" expanded="true" />
+                <element signature="e#23138#25024#0" expanded="true" />
+                <element signature="e#24760#24799#0" expanded="true" />
+                <element signature="e#25023#25024#0" expanded="true" />
+                <element signature="e#27554#27582#0" expanded="true" />
+                <element signature="e#27984#28384#0" expanded="true" />
+                <element signature="e#28383#28384#0" expanded="true" />
+                <element signature="e#29107#29137#0" expanded="true" />
+                <element signature="e#29508#29540#0" expanded="true" />
+                <element signature="e#32640#32686#0" expanded="true" />
+                <element signature="e#32955#32981#0" expanded="true" />
+                <element signature="e#33018#33053#0" expanded="true" />
+                <element signature="e#33059#33483#0" expanded="true" />
+                <element signature="e#33482#33483#0" expanded="true" />
+                <element signature="e#34221#34871#0" expanded="true" />
+                <element signature="e#34870#34871#0" expanded="true" />
+                <element signature="e#35132#35164#0" expanded="true" />
+                <element signature="e#35373#36252#0" expanded="true" />
+                <element signature="e#36251#36252#0" expanded="true" />
+                <element signature="e#36693#38289#0" expanded="true" />
+                <element signature="e#38288#38289#0" expanded="true" />
+                <element signature="e#39679#39709#0" expanded="true" />
+                <element signature="e#39856#40451#0" expanded="true" />
+                <element signature="e#40450#40451#0" expanded="true" />
+                <element signature="e#47364#47392#0" expanded="true" />
+                <element signature="e#54729#55082#0" expanded="true" />
+                <element signature="e#55081#55082#0" expanded="true" />
+                <element signature="e#57594#57632#0" expanded="true" />
+                <element signature="e#57657#57702#0" expanded="true" />
+                <element signature="e#57734#57747#0" expanded="true" />
+                <element signature="e#57749#58270#0" expanded="true" />
+                <element signature="e#58180#58223#0" expanded="true" />
+                <element signature="e#58269#58270#0" expanded="true" />
+                <element signature="e#58376#58547#0" expanded="true" />
+                <element signature="e#58546#58547#0" expanded="true" />
+                <element signature="e#59577#59609#0" expanded="true" />
+                <element signature="e#60043#60154#0" expanded="true" />
+                <element signature="e#60153#60154#0" expanded="true" />
+                <element signature="e#60501#60534#0" expanded="true" />
+                <element signature="e#61128#61245#0" expanded="true" />
+                <element signature="e#61244#61245#0" expanded="true" />
+                <element signature="e#61385#61483#0" expanded="true" />
+                <element signature="e#61482#61483#0" expanded="true" />
+                <element signature="e#62731#62955#0" expanded="true" />
+                <element signature="e#62852#62890#0" expanded="true" />
+                <element signature="e#62954#62955#0" expanded="true" />
+                <element signature="e#69898#70790#0" expanded="true" />
+                <element signature="e#70789#70790#0" expanded="true" />
+                <element signature="e#70872#71066#0" expanded="true" />
+                <element signature="e#71065#71066#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Message.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/eu/siacs/conversations/entities/Message.java">
+      <file leaf-file-name="conversations.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/res/menu/conversations.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="455" column="43" selection-start-line="455" selection-start-column="43" selection-end-line="455" selection-end-column="43" />
-              <folding>
-                <element signature="e#12640#12641#0" expanded="true" />
-                <element signature="e#12659#12660#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="477">
+              <caret line="73" column="37" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
+              <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fragment_conversation.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/res/layout/fragment_conversation.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
           </provider>
         </entry>
       </file>
@@ -3422,13 +3566,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/eu/siacs/conversations/ui/ConversationFragment.java" />
         <option value="$PROJECT_DIR$/src/main/res/layout/message_sent.xml" />
         <option value="$PROJECT_DIR$/src/main/res/layout/message_received.xml" />
         <option value="$PROJECT_DIR$/src/main/res/xml/preferences.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/eu/siacs/conversations/ui/ConversationActivity.java" />
         <option value="$PROJECT_DIR$/src/main/java/eu/siacs/conversations/ui/adapter/MessageAdapter.java" />
         <option value="$PROJECT_DIR$/src/main/java/eu/siacs/conversations/entities/Message.java" />
+        <option value="$PROJECT_DIR$/../AES.java" />
+        <option value="$PROJECT_DIR$/src/main/res/menu/conversations.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/eu/siacs/conversations/cryptoAES/AES.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eu/siacs/conversations/ui/ConversationActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eu/siacs/conversations/ui/ConversationFragment.java" />
       </list>
     </option>
   </component>
@@ -3462,11 +3610,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView">
-        <subPane />
-      </pane>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -3709,7 +3852,12 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="AndroidView">
+        <subPane />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3717,8 +3865,13 @@
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="device.picker.selection" value="YT910X2CVM" />
+    <property name="device.picker.selection" value="192.168.0.104:5555" />
     <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/eu/siacs/conversations/cryptoAES" />
+    </key>
   </component>
   <component name="RunManager" selected="Android App.Conversations">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
@@ -4032,7 +4185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1476809885959</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="merging messages">
+      <created>1476811906374</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1476811906374</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -4041,8 +4201,8 @@
     <layout>
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5163511" sideWeight="0.5030349" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6694215" sideWeight="0.4969651" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54214877" sideWeight="0.5060698" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54214877" sideWeight="0.4939302" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -4050,18 +4210,17 @@
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3983471" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3272727" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32561985" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852808" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31570247" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852808" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44958678" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31570247" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16009104" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874355" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22913505" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -4071,6 +4230,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3272727" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -4086,23 +4246,134 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="filetransfer, ip/port selector" />
-    <option name="LAST_COMMIT_MESSAGE" value="filetransfer, ip/port selector" />
+    <MESSAGE value="merging messages" />
+    <MESSAGE value="encryption!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="encryption!!!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/eu/siacs/conversations/ui/ConversationActivity.java</url>
-          <line>1857</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="11" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/siacs/conversations/cryptoAES/AES.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="63" column="8" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/siacs/conversations/ui/ConversationFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8280">
+          <caret line="550" column="38" selection-start-line="550" selection-start-column="32" selection-end-line="550" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/siacs/conversations/ui/ConversationActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#8394#8725#0" expanded="true" />
+            <element signature="e#8724#8725#0" expanded="true" />
+            <element signature="e#11977#12461#0" expanded="true" />
+            <element signature="e#12460#12461#0" expanded="true" />
+            <element signature="e#12495#14729#0" expanded="true" />
+            <element signature="e#14539#14598#0" expanded="true" />
+            <element signature="e#14629#14697#0" expanded="true" />
+            <element signature="e#14728#14729#0" expanded="true" />
+            <element signature="e#16165#16337#0" expanded="true" />
+            <element signature="e#16336#16337#0" expanded="true" />
+            <element signature="e#17124#17141#0" expanded="true" />
+            <element signature="e#21400#21759#0" expanded="true" />
+            <element signature="e#21758#21759#0" expanded="true" />
+            <element signature="e#22189#22293#0" expanded="true" />
+            <element signature="e#22409#22496#0" expanded="true" />
+            <element signature="e#22619#22658#0" expanded="true" />
+            <element signature="e#22773#22812#0" expanded="true" />
+            <element signature="e#23138#25024#0" expanded="true" />
+            <element signature="e#24760#24799#0" expanded="true" />
+            <element signature="e#25023#25024#0" expanded="true" />
+            <element signature="e#27554#27582#0" expanded="true" />
+            <element signature="e#27984#28384#0" expanded="true" />
+            <element signature="e#28383#28384#0" expanded="true" />
+            <element signature="e#29107#29137#0" expanded="true" />
+            <element signature="e#29508#29540#0" expanded="true" />
+            <element signature="e#32640#32686#0" expanded="true" />
+            <element signature="e#32955#32981#0" expanded="true" />
+            <element signature="e#33018#33053#0" expanded="true" />
+            <element signature="e#33059#33483#0" expanded="true" />
+            <element signature="e#33482#33483#0" expanded="true" />
+            <element signature="e#34221#34871#0" expanded="true" />
+            <element signature="e#34870#34871#0" expanded="true" />
+            <element signature="e#35132#35164#0" expanded="true" />
+            <element signature="e#35373#36252#0" expanded="true" />
+            <element signature="e#36251#36252#0" expanded="true" />
+            <element signature="e#36693#38289#0" expanded="true" />
+            <element signature="e#38288#38289#0" expanded="true" />
+            <element signature="e#39679#39709#0" expanded="true" />
+            <element signature="e#39856#40451#0" expanded="true" />
+            <element signature="e#40450#40451#0" expanded="true" />
+            <element signature="e#47364#47392#0" expanded="true" />
+            <element signature="e#54729#55082#0" expanded="true" />
+            <element signature="e#55081#55082#0" expanded="true" />
+            <element signature="e#57594#57632#0" expanded="true" />
+            <element signature="e#57657#57702#0" expanded="true" />
+            <element signature="e#57734#57747#0" expanded="true" />
+            <element signature="e#57749#58270#0" expanded="true" />
+            <element signature="e#58180#58223#0" expanded="true" />
+            <element signature="e#58269#58270#0" expanded="true" />
+            <element signature="e#58376#58547#0" expanded="true" />
+            <element signature="e#58546#58547#0" expanded="true" />
+            <element signature="e#59577#59609#0" expanded="true" />
+            <element signature="e#60043#60154#0" expanded="true" />
+            <element signature="e#60153#60154#0" expanded="true" />
+            <element signature="e#60501#60534#0" expanded="true" />
+            <element signature="e#61128#61245#0" expanded="true" />
+            <element signature="e#61244#61245#0" expanded="true" />
+            <element signature="e#61385#61483#0" expanded="true" />
+            <element signature="e#61482#61483#0" expanded="true" />
+            <element signature="e#62731#62955#0" expanded="true" />
+            <element signature="e#62852#62890#0" expanded="true" />
+            <element signature="e#62954#62955#0" expanded="true" />
+            <element signature="e#69898#70790#0" expanded="true" />
+            <element signature="e#70789#70790#0" expanded="true" />
+            <element signature="e#70872#71066#0" expanded="true" />
+            <element signature="e#71065#71066#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/siacs/conversations/ui/adapter/MessageAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5580">
+          <caret line="386" column="46" selection-start-line="386" selection-start-column="41" selection-end-line="386" selection-end-column="46" />
+          <folding>
+            <element signature="e#22737#22738#0" expanded="false" />
+            <element signature="e#22790#22791#0" expanded="false" />
+            <element signature="e#24485#24486#0" expanded="false" />
+            <element signature="e#24542#24543#0" expanded="false" />
+            <element signature="e#30086#30087#0" expanded="false" />
+            <element signature="e#30177#30178#0" expanded="false" />
+            <element signature="e#34423#34424#0" expanded="false" />
+            <element signature="e#34526#34527#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/siacs/conversations/entities/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/eu/siacs/conversations/ui/ConversationFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26406">
@@ -4116,57 +4387,14 @@
         <state relative-caret-position="17280">
           <caret line="968" column="9" selection-start-line="968" selection-start-column="9" selection-end-line="968" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3453#3618#0" expanded="true" />
-            <element signature="e#3617#3618#0" expanded="true" />
-            <element signature="e#4381#4382#0" expanded="true" />
-            <element signature="e#4405#4406#0" expanded="true" />
-            <element signature="e#4737#4738#0" expanded="true" />
-            <element signature="e#4799#4800#0" expanded="true" />
-            <element signature="e#6829#6869#0" expanded="true" />
-            <element signature="e#7054#7116#0" expanded="true" />
-            <element signature="e#7170#7210#0" expanded="true" />
-            <element signature="e#7317#7358#0" expanded="true" />
-            <element signature="e#7866#7910#0" expanded="true" />
-            <element signature="e#12236#12303#0" expanded="true" />
-            <element signature="e#13922#15440#0" expanded="true" />
-            <element signature="e#15439#15440#0" expanded="true" />
-            <element signature="e#17274#17347#0" expanded="true" />
-            <element signature="e#17664#17715#0" expanded="true" />
-            <element signature="e#20909#21137#0" expanded="true" />
-            <element signature="e#21136#21137#0" expanded="true" />
-            <element signature="e#21556#21594#0" expanded="true" />
-            <element signature="e#21646#21740#0" expanded="true" />
-            <element signature="e#21807#21901#0" expanded="true" />
-            <element signature="e#21970#22182#0" expanded="true" />
-            <element signature="e#22181#22182#0" expanded="true" />
-            <element signature="e#22571#22593#0" expanded="true" />
-            <element signature="e#22650#22801#0" expanded="true" />
-            <element signature="e#22800#22801#0" expanded="true" />
-            <element signature="e#24398#24553#0" expanded="true" />
-            <element signature="e#24552#24553#0" expanded="true" />
-            <element signature="e#25172#25209#0" expanded="true" />
-            <element signature="e#29984#30196#0" expanded="true" />
-            <element signature="e#30195#30196#0" expanded="true" />
-            <element signature="e#31067#31482#0" expanded="true" />
-            <element signature="e#31481#31482#0" expanded="true" />
-            <element signature="e#31560#32113#0" expanded="true" />
-            <element signature="e#32112#32113#0" expanded="true" />
-            <element signature="e#32420#32518#0" expanded="true" />
-            <element signature="e#32680#32779#0" expanded="true" />
-            <element signature="e#33808#33855#0" expanded="true" />
-            <element signature="e#33950#33990#0" expanded="true" />
-            <element signature="e#34095#34144#0" expanded="true" />
-            <element signature="e#34296#34557#0" expanded="true" />
-            <element signature="e#34556#34557#0" expanded="true" />
-            <element signature="e#35286#35480#0" expanded="true" />
-            <element signature="e#35647#35782#0" expanded="true" />
-            <element signature="e#37279#37300#0" expanded="true" />
-            <element signature="e#37847#37925#0" expanded="true" />
-            <element signature="e#39318#39360#0" expanded="true" />
-            <element signature="e#39765#39814#0" expanded="true" />
-            <element signature="e#44070#44071#0" expanded="true" />
-            <element signature="e#44132#44133#0" expanded="true" />
+            <element signature="e#22737#22738#0" expanded="false" />
+            <element signature="e#22790#22791#0" expanded="false" />
+            <element signature="e#24485#24486#0" expanded="false" />
+            <element signature="e#24542#24543#0" expanded="false" />
+            <element signature="e#30086#30087#0" expanded="false" />
+            <element signature="e#30177#30178#0" expanded="false" />
+            <element signature="e#34423#34424#0" expanded="false" />
+            <element signature="e#34526#34527#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -4180,14 +4408,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
           <caret line="221" column="0" selection-start-line="221" selection-start-column="0" selection-end-line="221" selection-end-column="0" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/eu/siacs/conversations/services/XmppConnectionService.java">
@@ -4231,14 +4459,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/message_sent.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="73" column="49" selection-start-line="73" selection-start-column="49" selection-end-line="73" selection-end-column="49" />
-          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/values/themes.xml">
@@ -4252,14 +4479,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-54">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -4282,116 +4501,367 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/message_received.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="57" column="47" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eu/siacs/conversations/ui/ConversationActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="276" column="62" selection-start-line="276" selection-start-column="62" selection-end-line="276" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eu/siacs/conversations/ui/ConversationFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="1201" column="34" selection-start-line="1201" selection-start-column="27" selection-end-line="1201" selection-end-column="34" />
-          <folding>
-            <element signature="e#3945#4385#0" expanded="true" />
-            <element signature="e#4384#4385#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/xml/preferences.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/xml/preferences.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="272" column="22" selection-start-line="272" selection-start-column="22" selection-end-line="272" selection-end-column="22" />
           <folding>
-            <element signature="e#13814#13844#0" expanded="true" />
+            <element signature="e#13814#13844#0" expanded="false" />
           </folding>
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/eu/siacs/conversations/ui/adapter/MessageAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="5580">
           <caret line="386" column="46" selection-start-line="386" selection-start-column="41" selection-end-line="386" selection-end-column="46" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3453#3618#0" expanded="true" />
-            <element signature="e#3617#3618#0" expanded="true" />
-            <element signature="e#4381#4382#0" expanded="true" />
-            <element signature="e#4405#4406#0" expanded="true" />
-            <element signature="e#4737#4738#0" expanded="true" />
-            <element signature="e#4799#4800#0" expanded="true" />
-            <element signature="e#6829#6869#0" expanded="true" />
-            <element signature="e#7054#7116#0" expanded="true" />
-            <element signature="e#7170#7210#0" expanded="true" />
-            <element signature="e#7317#7358#0" expanded="true" />
-            <element signature="e#7866#7910#0" expanded="true" />
-            <element signature="e#12236#12303#0" expanded="true" />
-            <element signature="e#13922#15440#0" expanded="true" />
-            <element signature="e#15439#15440#0" expanded="true" />
-            <element signature="e#17274#17347#0" expanded="true" />
-            <element signature="e#17664#17715#0" expanded="true" />
-            <element signature="e#20909#21137#0" expanded="true" />
-            <element signature="e#21136#21137#0" expanded="true" />
-            <element signature="e#21556#21594#0" expanded="true" />
-            <element signature="e#21646#21740#0" expanded="true" />
-            <element signature="e#21807#21901#0" expanded="true" />
-            <element signature="e#21970#22182#0" expanded="true" />
-            <element signature="e#22181#22182#0" expanded="true" />
-            <element signature="e#22571#22593#0" expanded="true" />
-            <element signature="e#22650#22801#0" expanded="true" />
-            <element signature="e#22800#22801#0" expanded="true" />
-            <element signature="e#24398#24553#0" expanded="true" />
-            <element signature="e#24552#24553#0" expanded="true" />
-            <element signature="e#25172#25209#0" expanded="true" />
-            <element signature="e#29984#30196#0" expanded="true" />
-            <element signature="e#30195#30196#0" expanded="true" />
-            <element signature="e#31067#31482#0" expanded="true" />
-            <element signature="e#31481#31482#0" expanded="true" />
-            <element signature="e#31560#32113#0" expanded="true" />
-            <element signature="e#32112#32113#0" expanded="true" />
-            <element signature="e#32420#32518#0" expanded="true" />
-            <element signature="e#32680#32779#0" expanded="true" />
-            <element signature="e#33808#33855#0" expanded="true" />
-            <element signature="e#33950#33990#0" expanded="true" />
-            <element signature="e#34095#34144#0" expanded="true" />
-            <element signature="e#34296#34557#0" expanded="true" />
-            <element signature="e#34556#34557#0" expanded="true" />
-            <element signature="e#35286#35480#0" expanded="true" />
-            <element signature="e#35647#35782#0" expanded="true" />
-            <element signature="e#37279#37300#0" expanded="true" />
-            <element signature="e#37847#37925#0" expanded="true" />
-            <element signature="e#39318#39360#0" expanded="true" />
-            <element signature="e#39765#39814#0" expanded="true" />
-            <element signature="e#44070#44071#0" expanded="true" />
-            <element signature="e#44132#44133#0" expanded="true" />
+            <element signature="e#22737#22738#0" expanded="false" />
+            <element signature="e#22790#22791#0" expanded="false" />
+            <element signature="e#24485#24486#0" expanded="false" />
+            <element signature="e#24542#24543#0" expanded="false" />
+            <element signature="e#30086#30087#0" expanded="false" />
+            <element signature="e#30177#30178#0" expanded="false" />
+            <element signature="e#34423#34424#0" expanded="false" />
+            <element signature="e#34526#34527#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/eu/siacs/conversations/entities/Message.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="455" column="43" selection-start-line="455" selection-start-column="43" selection-end-line="455" selection-end-column="43" />
+        <state relative-caret-position="216">
+          <caret line="481" column="5" selection-start-line="481" selection-start-column="5" selection-end-line="481" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/menu/manageaccounts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/menu/verification_choices.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/menu/share_with.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/menu/select_multiple.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/menu/publish_avatar.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/menu/muc_details_context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/menu/muc_details.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/menu/attachment_choices.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/menu/choose_contact.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/menu/start_conversation.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/menu/manageaccounts_context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/menu/editaccount.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/menu/contact_details.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/menu/conference_context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="662" column="46" selection-start-line="662" selection-start-column="46" selection-end-line="662" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/menu/contact_context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/menu/message_context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/menu/encryption_choices.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/siacs/conversations/cryptoAES/AES.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="63" column="8" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Android/Sdk/sources/android-19/android/util/Base64.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="160" column="0" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/menu/conversations.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="73" column="37" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/fragment_conversation.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/siacs/conversations/ui/ConversationActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="1671" column="50" selection-start-line="1671" selection-start-column="49" selection-end-line="1671" selection-end-column="50" />
           <folding>
-            <element signature="e#12640#12641#0" expanded="true" />
-            <element signature="e#12659#12660#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#8394#8725#0" expanded="true" />
+            <element signature="e#8724#8725#0" expanded="true" />
+            <element signature="e#11977#12461#0" expanded="true" />
+            <element signature="e#12460#12461#0" expanded="true" />
+            <element signature="e#12495#14729#0" expanded="true" />
+            <element signature="e#14539#14598#0" expanded="true" />
+            <element signature="e#14629#14697#0" expanded="true" />
+            <element signature="e#14728#14729#0" expanded="true" />
+            <element signature="e#16165#16337#0" expanded="true" />
+            <element signature="e#16336#16337#0" expanded="true" />
+            <element signature="e#17124#17141#0" expanded="true" />
+            <element signature="e#21400#21759#0" expanded="true" />
+            <element signature="e#21758#21759#0" expanded="true" />
+            <element signature="e#22189#22293#0" expanded="true" />
+            <element signature="e#22409#22496#0" expanded="true" />
+            <element signature="e#22619#22658#0" expanded="true" />
+            <element signature="e#22773#22812#0" expanded="true" />
+            <element signature="e#23138#25024#0" expanded="true" />
+            <element signature="e#24760#24799#0" expanded="true" />
+            <element signature="e#25023#25024#0" expanded="true" />
+            <element signature="e#27554#27582#0" expanded="true" />
+            <element signature="e#27984#28384#0" expanded="true" />
+            <element signature="e#28383#28384#0" expanded="true" />
+            <element signature="e#29107#29137#0" expanded="true" />
+            <element signature="e#29508#29540#0" expanded="true" />
+            <element signature="e#32640#32686#0" expanded="true" />
+            <element signature="e#32955#32981#0" expanded="true" />
+            <element signature="e#33018#33053#0" expanded="true" />
+            <element signature="e#33059#33483#0" expanded="true" />
+            <element signature="e#33482#33483#0" expanded="true" />
+            <element signature="e#34221#34871#0" expanded="true" />
+            <element signature="e#34870#34871#0" expanded="true" />
+            <element signature="e#35132#35164#0" expanded="true" />
+            <element signature="e#35373#36252#0" expanded="true" />
+            <element signature="e#36251#36252#0" expanded="true" />
+            <element signature="e#36693#38289#0" expanded="true" />
+            <element signature="e#38288#38289#0" expanded="true" />
+            <element signature="e#39679#39709#0" expanded="true" />
+            <element signature="e#39856#40451#0" expanded="true" />
+            <element signature="e#40450#40451#0" expanded="true" />
+            <element signature="e#47364#47392#0" expanded="true" />
+            <element signature="e#54729#55082#0" expanded="true" />
+            <element signature="e#55081#55082#0" expanded="true" />
+            <element signature="e#57594#57632#0" expanded="true" />
+            <element signature="e#57657#57702#0" expanded="true" />
+            <element signature="e#57734#57747#0" expanded="true" />
+            <element signature="e#57749#58270#0" expanded="true" />
+            <element signature="e#58180#58223#0" expanded="true" />
+            <element signature="e#58269#58270#0" expanded="true" />
+            <element signature="e#58376#58547#0" expanded="true" />
+            <element signature="e#58546#58547#0" expanded="true" />
+            <element signature="e#59577#59609#0" expanded="true" />
+            <element signature="e#60043#60154#0" expanded="true" />
+            <element signature="e#60153#60154#0" expanded="true" />
+            <element signature="e#60501#60534#0" expanded="true" />
+            <element signature="e#61128#61245#0" expanded="true" />
+            <element signature="e#61244#61245#0" expanded="true" />
+            <element signature="e#61385#61483#0" expanded="true" />
+            <element signature="e#61482#61483#0" expanded="true" />
+            <element signature="e#62731#62955#0" expanded="true" />
+            <element signature="e#62852#62890#0" expanded="true" />
+            <element signature="e#62954#62955#0" expanded="true" />
+            <element signature="e#69898#70790#0" expanded="true" />
+            <element signature="e#70789#70790#0" expanded="true" />
+            <element signature="e#70872#71066#0" expanded="true" />
+            <element signature="e#71065#71066#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/siacs/conversations/ui/ConversationFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="427" column="17" selection-start-line="427" selection-start-column="17" selection-end-line="427" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
