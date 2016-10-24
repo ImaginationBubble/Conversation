@@ -40,6 +40,7 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/appLabel"
+        android:supportsRtl="true"
         android:theme="@style/ConversationsTheme" >
         <service android:name="eu.siacs.conversations.services.XmppConnectionService" />
 

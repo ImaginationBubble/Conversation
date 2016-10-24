@@ -41,6 +41,7 @@ dependencies {
     compile 'com.makeramen:roundedimageview:2.2.0'
     compile 'com.google.android.gms:play-services-gcm:9.4.0'
     compile "com.wefika:flowlayout:0.4.1"
+    compile 'com.kailashdabhi:om-recorder:1.1.0'
 }
 
 ext {

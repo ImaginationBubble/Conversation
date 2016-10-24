@@ -12,6 +12,10 @@
         "source": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_edit_text_material.xml"
     },
     {
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/drawable/mic_pressed.png",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/drawable/mic_pressed.png"
+    },
+    {
         "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/drawable/elv_undo_btn_bg_pressed.xml",
         "source": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/de.timroes.android/EnhancedListView/0.3.4/res/drawable/elv_undo_btn_bg_pressed.xml"
     },
@@ -60,12 +64,12 @@
         "source": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.soundcloud.android/android-crop/1.0.1/res/drawable/crop__texture.xml"
     },
     {
-        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/drawable/switch_thumb.xml",
-        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/drawable/switch_thumb.xml"
-    },
-    {
         "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/drawable/common_google_signin_btn_icon_light.xml",
         "source": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/drawable/switch_thumb.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/drawable/switch_thumb.xml"
     },
     {
         "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/drawable/abc_list_selector_holo_dark.xml",
@@ -74,6 +78,10 @@
     {
         "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/drawable/common_google_signin_btn_icon_dark.xml",
         "source": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/drawable/mic.png",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/drawable/mic.png"
     },
     {
         "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
@@ -116,6 +124,14 @@
         "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/drawable/switch_back_off.xml"
     },
     {
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/drawable/slidearrow.png",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/drawable/slidearrow.png"
+    },
+    {
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/drawable/ripple_effect.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/drawable/ripple_effect.xml"
+    },
+    {
         "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/drawable/abc_cab_background_internal_bg.xml",
         "source": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_cab_background_internal_bg.xml"
     },
@@ -146,6 +162,10 @@
     {
         "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/drawable/common_google_signin_btn_text_dark.xml",
         "source": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/drawable/rec.png",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/drawable/rec.png"
     },
     {
         "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/drawable/elv_popup_bg.xml",

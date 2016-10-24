@@ -431,6 +431,7 @@ public class MessageParser extends AbstractParser implements OnMessagePacketRece
 				}
 			} else {
 				message = new Message(conversation, body, Message.ENCRYPTION_NONE, status);
+
 			}
 
 			if (serverMsgId == null) {

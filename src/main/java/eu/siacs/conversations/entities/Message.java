@@ -36,6 +36,7 @@ public class Message extends AbstractEntity {
 	public static final int ENCRYPTION_DECRYPTED = 3;
 	public static final int ENCRYPTION_DECRYPTION_FAILED = 4;
 	public static final int ENCRYPTION_AXOLOTL = 5;
+	public static final int ENCRYPTION_AES = 6;
 
 	public static final int TYPE_TEXT = 0;
 	public static final int TYPE_IMAGE = 1;
@@ -59,9 +60,18 @@ public class Message extends AbstractEntity {
 	public static final String RELATIVE_FILE_PATH = "relativeFilePath";
 	public static final String FINGERPRINT = "axolotl_fingerprint";
 	public static final String READ = "read";
+
+	public boolean isEncrypted() {
+		return encrypted;
+	}
+
+	public void setEncrypted(boolean encrypted) {
+		this.encrypted = encrypted;
+	}
+
 	public static final String ME_COMMAND = "/me ";
 
-
+	public boolean encrypted = false;
 	public boolean markable = false;
 	protected String conversationUuid;
 	protected Jid counterpart;

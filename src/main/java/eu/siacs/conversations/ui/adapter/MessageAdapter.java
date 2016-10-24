@@ -61,6 +61,7 @@ import java.util.regex.Pattern;
 import eu.siacs.conversations.Config;
 import eu.siacs.conversations.R;
 import eu.siacs.conversations.crypto.axolotl.XmppAxolotlSession;
+import eu.siacs.conversations.cryptoAES.AES;
 import eu.siacs.conversations.entities.Account;
 import eu.siacs.conversations.entities.Conversation;
 import eu.siacs.conversations.entities.DownloadableFile;
@@ -324,7 +325,14 @@ public class MessageAdapter extends ArrayAdapter<Message> {
             viewHolder.download_button.setVisibility(View.GONE);
             viewHolder.playordownload_button.setVisibility(View.GONE);
         }
-        if (message.getBody().endsWith(".mp3")) {
+
+        if (message.getBody().endsWith(".enc")){
+            String newbody = message.getBody().substring(0, message.getBody().indexOf(".enc"));
+            Log.e("encrypted", AES.decryptAES(newbody));
+            message.setBody(AES.decryptAES(newbody));
+        }
+
+        if (message.getBody().endsWith(".mp3") || message.getBody().endsWith(".wav")) {
             viewHolder.playordownload_button.setVisibility(View.VISIBLE);
             viewHolder.messageBody.setTextSize(0);
 
@@ -334,7 +342,7 @@ public class MessageAdapter extends ArrayAdapter<Message> {
                     link = message.getBody();
                     requiredString = link.substring(link.indexOf(".") - 13, link.indexOf("."));
                     Log.e("aaa", requiredString);
-                    File file = new File(Environment.getExternalStorageDirectory().getAbsolutePath() + "/ConversationsTemp/" + requiredString + ".mp3");
+                    File file = new File(Environment.getExternalStorageDirectory().getAbsolutePath() + "/ConversationsTemp/" + requiredString + ".wav");
                     Log.v("file", file.toString());
                     if (file.exists()) {
                         mPlayer.reset();
@@ -342,6 +350,7 @@ public class MessageAdapter extends ArrayAdapter<Message> {
                         Log.v("uri", uri.toString());
                         mPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
                         mPlayer.setVolume(1.0f, 1.0f);
+
                         try {
                             mPlayer.setDataSource(getContext().getApplicationContext(), uri);
                         } catch (IOException e) {
@@ -357,8 +366,6 @@ public class MessageAdapter extends ArrayAdapter<Message> {
                      else {
                         GetTask getTask = new GetTask();
                         getTask.execute(file);
-
-
                     }
                 }
             }
@@ -989,6 +996,9 @@ public class MessageAdapter extends ArrayAdapter<Message> {
         out.writeUTF(path);
         //Get filename
         String filename = in.readUTF();
+        if (filename.endsWith(".wav")){
+            filename = filename.replaceAll(".wav", ".mp3");
+        }
         //Get and save file
         ObjectInputStream ois = new ObjectInputStream(socket.getInputStream());
         byte[] buffer = (byte[]) ois.readObject();
@@ -1004,7 +1014,9 @@ public class MessageAdapter extends ArrayAdapter<Message> {
         protected Void doInBackground(File... params) {
             try {
                 requestFile(link);
-                mPlayer.reset();
+                if (mPlayer.isPlaying()) {
+                    mPlayer.reset();
+                }
                 Uri uri = Uri.fromFile(params[0]);
                 Log.v("uri", uri.toString());
                 mPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
@@ -1019,6 +1031,13 @@ public class MessageAdapter extends ArrayAdapter<Message> {
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
+                mPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+                    @Override
+                    public void onCompletion(MediaPlayer mp) {
+                        mp.reset();
+                    }
+                });
+
                 mPlayer.start();
             } catch (InterruptedException e) {
                 e.printStackTrace();

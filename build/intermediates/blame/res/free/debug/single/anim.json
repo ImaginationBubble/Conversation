@@ -12,6 +12,10 @@
         "source": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/anim/abc_fade_in.xml"
     },
     {
+        "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/anim/shake.xml",
+        "source": "/home/lababiba/AndroidStudioProjects/Conversation/src/main/res/anim/shake.xml"
+    },
+    {
         "merged": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/res/merged/free/debug/anim/abc_fade_out.xml",
         "source": "/home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/anim/abc_fade_out.xml"
     },

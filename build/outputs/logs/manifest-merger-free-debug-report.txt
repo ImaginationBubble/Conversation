@@ -17,10 +17,12 @@ ADDED from /home/lababiba/AndroidStudioProjects/Conversation/src/main/AndroidMan
 		INJECTED from /home/lababiba/AndroidStudioProjects/Conversation/src/main/AndroidManifest.xml
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from /home/lababiba/AndroidStudioProjects/Conversation/src/main/AndroidManifest.xml:6:5-81
+MERGED from [com.kailashdabhi:om-recorder:1.1.0] /home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.kailashdabhi/om-recorder/1.1.0/AndroidManifest.xml:10:5-81
 	android:name
 		ADDED from /home/lababiba/AndroidStudioProjects/Conversation/src/main/AndroidManifest.xml:6:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
 ADDED from /home/lababiba/AndroidStudioProjects/Conversation/src/main/AndroidManifest.xml:7:5-80
+MERGED from [com.kailashdabhi:om-recorder:1.1.0] /home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.kailashdabhi/om-recorder/1.1.0/AndroidManifest.xml:11:5-80
 	android:name
 		ADDED from /home/lababiba/AndroidStudioProjects/Conversation/src/main/AndroidManifest.xml:7:22-77
 uses-permission#android.permission.READ_CONTACTS
@@ -62,7 +64,8 @@ ADDED from /home/lababiba/AndroidStudioProjects/Conversation/src/main/AndroidMan
 	android:name
 		ADDED from /home/lababiba/AndroidStudioProjects/Conversation/src/main/AndroidManifest.xml:16:22-92
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from /home/lababiba/AndroidStudioProjects/Conversation/src/main/AndroidManifest.xml:17:5-87
+ADDED from /home/lababiba/AndroidStudioProjects/Conversation/src/main/AndroidManifest.xml:17:5-70
+MERGED from [com.kailashdabhi:om-recorder:1.1.0] /home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.kailashdabhi/om-recorder/1.1.0/AndroidManifest.xml:9:5-71
 	android:name
 		ADDED from /home/lababiba/AndroidStudioProjects/Conversation/src/main/AndroidManifest.xml:17:22-68
 uses-permission#android.permission.READ_PHONE_STATE
@@ -92,10 +95,14 @@ MERGED from [com.google.android.gms:play-services-basement:9.4.0] /home/lababiba
 MERGED from [com.google.android.gms:play-services-tasks:9.4.0] /home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.4.0/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-iid:9.4.0] /home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/9.4.0/AndroidManifest.xml:24:5-20
 MERGED from [com.wefika:flowlayout:0.4.1] /home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.wefika/flowlayout/0.4.1/AndroidManifest.xml:11:5-20
+MERGED from [com.kailashdabhi:om-recorder:1.1.0] /home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.kailashdabhi/om-recorder/1.1.0/AndroidManifest.xml:13:5-17:19
 	android:label
 		ADDED from /home/lababiba/AndroidStudioProjects/Conversation/src/main/AndroidManifest.xml:26:9-41
 		REJECTED from [Conversations.libs:MemorizingTrustManager:unspecified] /home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/Conversations.libs/MemorizingTrustManager/unspecified/AndroidManifest.xml:11:18-56
 		REJECTED from [com.kyleduo.switchbutton:library:1.2.8] /home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.kyleduo.switchbutton/library/1.2.8/AndroidManifest.xml:13:9-41
+		REJECTED from [com.kailashdabhi:om-recorder:1.1.0] /home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.kailashdabhi/om-recorder/1.1.0/AndroidManifest.xml:15:9-41
+	android:supportsRtl
+		ADDED from [com.kailashdabhi:om-recorder:1.1.0] /home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.kailashdabhi/om-recorder/1.1.0/AndroidManifest.xml:16:9-35
 	android:allowBackup
 		ADDED from /home/lababiba/AndroidStudioProjects/Conversation/src/main/AndroidManifest.xml:24:9-35
 	android:icon
@@ -413,6 +420,7 @@ MERGED from [com.google.android.gms:play-services-basement:9.4.0] /home/lababiba
 MERGED from [com.google.android.gms:play-services-tasks:9.4.0] /home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.4.0/AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-iid:9.4.0] /home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/9.4.0/AndroidManifest.xml:18:5-42
 MERGED from [com.wefika:flowlayout:0.4.1] /home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.wefika/flowlayout/0.4.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kailashdabhi:om-recorder:1.1.0] /home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.kailashdabhi/om-recorder/1.1.0/AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
 		ADDED from [com.android.support:support-v13:24.2.0] /home/lababiba/AndroidStudioProjects/Conversation/build/intermediates/exploded-aar/com.android.support/support-v13/24.2.0/AndroidManifest.xml:23:9-52
 	android:targetSdkVersion

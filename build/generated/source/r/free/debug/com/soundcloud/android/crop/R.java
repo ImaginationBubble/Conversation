@@ -9,10 +9,10 @@ package com.soundcloud.android.crop;
 public final class R {
 	public static final class attr {
 		public static final int cropImageStyle = 0x7f010008;
-		public static final int highlightColor = 0x7f01004c;
-		public static final int showCircle = 0x7f01004e;
-		public static final int showHandles = 0x7f01004f;
-		public static final int showThirds = 0x7f01004d;
+		public static final int highlightColor = 0x7f01004f;
+		public static final int showCircle = 0x7f010051;
+		public static final int showHandles = 0x7f010052;
+		public static final int showThirds = 0x7f010050;
 	}
 	public static final class color {
 		public static final int crop__button_bar = 0x7f0c0029;
@@ -60,7 +60,7 @@ public final class R {
 		public static final int Crop_DoneCancelBar = 0x7f0b008b;
 	}
 	public static final class styleable {
-		public static final int[] CropImageView = { 0x7f01004c, 0x7f01004d, 0x7f01004e, 0x7f01004f };
+		public static final int[] CropImageView = { 0x7f01004f, 0x7f010050, 0x7f010051, 0x7f010052 };
 		public static final int CropImageView_highlightColor = 0;
 		public static final int CropImageView_showCircle = 2;
 		public static final int CropImageView_showHandles = 3;

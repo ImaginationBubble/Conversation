@@ -325,6 +325,7 @@ public class NotificationService {
 					mBuilder.addPerson(systemAccount.toString());
 				}
 			}
+
 			mBuilder.setWhen(conversation.getLatestMessage().getTimeSent());
 			mBuilder.setSmallIcon(R.drawable.ic_notification);
 			mBuilder.setDeleteIntent(createDeleteIntent(conversation));
@@ -378,6 +379,7 @@ public class NotificationService {
 			builder.setStyle(new NotificationCompat.BigTextStyle().bigText(getMergedBodies(messages)));
 			builder.setContentText(UIHelper.getMessagePreview(mXmppConnectionService, messages.get((messages.size()-1))).first);
 		}
+
 	}
 
 	private Message getImage(final Iterable<Message> messages) {

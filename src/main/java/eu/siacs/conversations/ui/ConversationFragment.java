@@ -16,6 +16,8 @@ import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.os.Environment;
 import android.os.Handler;
+import android.os.SystemClock;
+import android.os.Vibrator;
 import android.text.Editable;
 import android.text.InputType;
 import android.text.TextWatcher;
@@ -27,9 +29,13 @@ import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.view.animation.BounceInterpolator;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.AbsListView;
@@ -37,6 +43,7 @@ import android.widget.AbsListView.OnScrollListener;
 import android.widget.AdapterView;
 import android.widget.AdapterView.AdapterContextMenuInfo;
 import android.widget.Button;
+import android.widget.FrameLayout;
 import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.RadioButton;
@@ -54,7 +61,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Timer;
+import java.util.TimerTask;
 import java.util.UUID;
+import java.util.concurrent.TimeUnit;
 
 import eu.siacs.conversations.Config;
 import eu.siacs.conversations.R;
@@ -79,11 +88,13 @@ import eu.siacs.conversations.utils.GeoHelper;
 import eu.siacs.conversations.utils.UIHelper;
 import eu.siacs.conversations.voicemessage.AudioInputBase64;
 import eu.siacs.conversations.voicemessage.AudioOutputBase64;
+import eu.siacs.conversations.voicemessage.WaveRecording;
 import eu.siacs.conversations.xmpp.XmppConnection;
 import eu.siacs.conversations.xmpp.chatstate.ChatState;
 import eu.siacs.conversations.xmpp.jid.Jid;
 
 import static eu.siacs.conversations.ui.ConversationActivity.count_of_mess;
+import static eu.siacs.conversations.ui.ConversationActivity.keysSP;
 import static eu.siacs.conversations.ui.ConversationActivity.myPath;
 
 public class ConversationFragment extends Fragment implements EditMessage.KeyboardListener {
@@ -134,10 +145,23 @@ public class ConversationFragment extends Fragment implements EditMessage.Keyboa
 	private boolean messagesLoaded = true;
 	private Toast messageLoaderToast;
     private static final String path = "/ConversationsTemp";
-
-
+    private WaveRecording waveRecorder;
+    private boolean isSpeakButtonLongPressed = false;
+	private TextView recordTimeText;
+	private SexyButton audioSendButton;
+	private View recordPanel;
+	private View slideText;
+	private float startedDraggingX = -1;
+	private float distCanMove = dp(700);
+	private long startTime = 0L;
+	long timeInMilliseconds = 0L;
+	long timeSwapBuff = 0L;
+	long updatedTime = 0L;
+	private Timer timer;
+    boolean send = true;
+    boolean sendtext = true;
     private Button voiceRecordButton;
-	private Button voiceStopButton;
+
     AudioOutputBase64 audioOutputBase64 = new AudioOutputBase64() ;
     AudioInputBase64 audioInputBase64 ;
     String str = null;
@@ -388,10 +412,21 @@ public class ConversationFragment extends Fragment implements EditMessage.Keyboa
 	}
 
 	private void sendMessage() {
-		final String body = mEditMessage.getText().toString();
+		 String body = mEditMessage.getText().toString();
 		if (body.length() == 0 || this.conversation == null) {
 			return;
 		}
+
+        if (!keysSP.getString(conversation.getName(),"null").equals("null")){
+            try {
+
+                body = AES.encryptAES(body) + ".enc";
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+        }
+
 		final Message message;
 		if (conversation.getCorrectingMessage() == null) {
 			message = new Message(conversation, body, conversation.getNextEncryption());
@@ -421,11 +456,7 @@ public class ConversationFragment extends Fragment implements EditMessage.Keyboa
 				}
 				break;
 			default:
-                try {
-                    message.setBody(AES.encryptAES(message.getBody()));
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
+
                 sendPlainTextMessage(message);
 		}
 	}
@@ -465,6 +496,12 @@ public class ConversationFragment extends Fragment implements EditMessage.Keyboa
 	public View onCreateView(final LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		final View view = inflater.inflate(R.layout.fragment_conversation, container, false);
 		view.setOnClickListener(null);
+        recordPanel = view.findViewById(R.id.record_panel);
+        recordTimeText = (TextView) view.findViewById(R.id.recording_time_text);
+        slideText = view.findViewById(R.id.slideText);
+        audioSendButton = (SexyButton) view.findViewById(R.id.voiceRecordButton);
+        TextView textView = (TextView) view.findViewById(R.id.slideToCancelTextView);
+        textView.setText("SlideToCancel");
 		mEditMessage = (EditMessage) view.findViewById(R.id.textinput);
 		mEditMessage.setOnClickListener(new OnClickListener() {
 
@@ -475,84 +512,245 @@ public class ConversationFragment extends Fragment implements EditMessage.Keyboa
 				}
 			}
 		});
-
-        audioOutputBase64 = new AudioOutputBase64() ;
-        str = null;
-        voiceStopButton = (Button) view.findViewById(R.id.voiceStopButton);
-        voiceRecordButton = (Button) view.findViewById(R.id.voiceRecordButton);
-        voiceRecordButton.setOnClickListener(new OnClickListener() {
+        mEditMessage.addTextChangedListener(new TextWatcher() {
             @Override
-            public void onClick(View v) {
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
 
-				voiceRecordButton.setVisibility(View.INVISIBLE);
-				voiceStopButton.setVisibility(View.VISIBLE);
-				final ProgressDialog alertDialog = new ProgressDialog(getActivity());
-                alertDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
-                alertDialog.setIndeterminate(true);
-                alertDialog.setProgressNumberFormat(null);
-                alertDialog.setProgressPercentFormat(null);
-                alertDialog.setMax(60);
-                alertDialog.setCanceledOnTouchOutside(false);
-                alertDialog.setCancelable(false);
-				alertDialog.setTitle("Запись...");
-                alertDialog.setMessage("");
-                alertDialog.setOnCancelListener(new DialogInterface.OnCancelListener() {
-                    @Override
-                    public void onCancel(DialogInterface dialog) {
-                        audioOutputBase64.stopRecording();
-//                        File file = getLatestFilefromDir();
-//                        file.delete();
-                        voiceStopButton.setVisibility(View.INVISIBLE);
-                        voiceRecordButton.setVisibility(View.VISIBLE);
-                    }
-                });
-                alertDialog.setButton(DialogInterface.BUTTON_POSITIVE, "Отправить", new DialogInterface.OnClickListener(){
+            }
 
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        audioOutputBase64.stopRecording();
-						SendTask task = new SendTask();
-                        task.execute();
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
 
-//						activity.sendVoiceFuckingMessage();
-                        voiceStopButton.setVisibility(View.INVISIBLE);
-                        voiceRecordButton.setVisibility(View.VISIBLE);
-                    }
-                });
+            }
 
-                alertDialog.setButton(DialogInterface.BUTTON_NEGATIVE, "Отменить", new DialogInterface.OnClickListener(){
-
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        alertDialog.dismiss();
-                        audioOutputBase64.stopRecording();
-//                        File file = getLatestFilefromDir();
-//                        file.delete();
-                        voiceStopButton.setVisibility(View.INVISIBLE);
-                        voiceRecordButton.setVisibility(View.VISIBLE);
-                    }
-                });
-
-				alertDialog.show();
-
-
-                new CountDownTimer(60000, 1000) {
-                    @Override
-                    public void onTick(long millisUntilFinished) {
-                        alertDialog.setMessage("" + (60-millisUntilFinished/1000) + " секунд записи");
-                    }
-
-                    @Override
-                    public void onFinish() {
-                        alertDialog.dismiss();
-                        audioOutputBase64.stopRecording();
-                        voiceStopButton.setVisibility(View.INVISIBLE);
-                        voiceRecordButton.setVisibility(View.VISIBLE);
-                    }
-                }.start();
-                audioOutputBase64.startRecording(count_of_mess);
+            @Override
+            public void afterTextChanged(Editable s) {
+                audioSendButton.goToState(mEditMessage.getText().toString().equals("") ? SexyButton.FIRST_STATE : SexyButton.SECOND_STATE);
             }
         });
+
+        /*audioOutputBase64 = new AudioOutputBase64() ;*/
+        str = null;
+
+//        voiceRecordButton = (Button) view.findViewById(R.id.voiceRecordButton);
+        audioSendButton.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View view, MotionEvent motionEvent) {
+
+                if (motionEvent.getAction() == MotionEvent.ACTION_DOWN) {
+                    if (audioSendButton.getState() == 1){
+                        sendtext = false;
+                    }
+                    else {
+                        sendtext = true;
+                    }
+                    if (audioSendButton.getState() == 2){
+                        sendtext = true;
+                        Object tag = view.getTag();
+                        if (tag instanceof SendButtonAction) {
+                            SendButtonAction action = (SendButtonAction) tag;
+                            switch (action) {
+                                case TAKE_PHOTO:
+                                    activity.attachFile(ConversationActivity.ATTACHMENT_CHOICE_TAKE_PHOTO);
+                                    break;
+                                case SEND_LOCATION:
+                                    activity.attachFile(ConversationActivity.ATTACHMENT_CHOICE_LOCATION);
+                                    break;
+                                case RECORD_VOICE:
+                                    activity.attachFile(ConversationActivity.ATTACHMENT_CHOICE_RECORD_VOICE);
+                                    break;
+                                case CHOOSE_PICTURE:
+                                    activity.attachFile(ConversationActivity.ATTACHMENT_CHOICE_CHOOSE_IMAGE);
+                                    break;
+                                case CANCEL:
+                                    if (conversation != null) {
+                                        if (conversation.getCorrectingMessage() != null) {
+                                            conversation.setCorrectingMessage(null);
+                                            mEditMessage.getEditableText().clear();
+                                        }
+                                        if (conversation.getMode() == Conversation.MODE_MULTI) {
+                                            conversation.setNextCounterpart(null);
+
+                                        }
+                                        updateChatMsgHint();
+                                        updateSendButton();
+                                    }
+                                    break;
+                                default:
+                                    sendMessage();
+                            }
+                        } else {
+                            sendMessage();
+                        }
+                    }
+                    else {
+                        sendtext = false;
+                        send = true;
+                        waveRecorder = new WaveRecording();
+                        waveRecorder.setupRecorder();
+                        waveRecorder.recorder.startRecording();
+
+                        recordPanel.setVisibility(View.VISIBLE);
+                        FrameLayout.LayoutParams params = (FrameLayout.LayoutParams) slideText
+                                .getLayoutParams();
+                        params.leftMargin = dp(30);
+                        slideText.setLayoutParams(params);
+                        ViewProxy.setAlpha(slideText, 1);
+                        startedDraggingX = -1;
+                        // startRecording();
+                        startrecord();
+                        audioSendButton.getParent()
+                                .requestDisallowInterceptTouchEvent(true);
+                        recordPanel.setVisibility(View.VISIBLE);
+                    }
+                } else if (motionEvent.getAction() == MotionEvent.ACTION_UP
+                        || motionEvent.getAction() == MotionEvent.ACTION_CANCEL) {
+
+                    //audioSendButton.clearAnimation();
+                    if (!sendtext) {
+                        waveRecorder.recorder.stopRecording();
+                        if (send) {
+                            SendTask sendTask = new SendTask();
+                            sendTask.execute();
+                        }
+                        startedDraggingX = -1;
+                        stoprecord();
+                        recordPanel.setVisibility(View.GONE);
+                        Log.v("finger", "up,cancel");
+                        // stopRecording(true);
+                    }
+                } else if (motionEvent.getAction() == MotionEvent.ACTION_MOVE) {
+                    float x = motionEvent.getX();
+                    if (x < -distCanMove) {
+                        Log.v("finger", "move");
+                        if (!sendtext) {
+                            send = false;
+                            waveRecorder.recorder.stopRecording();
+                            stoprecord();
+                            recordPanel.setVisibility(View.GONE);
+                            // stopRecording(false);
+                        }
+                    }
+                    x = x + ViewProxy.getX(audioSendButton);
+                    FrameLayout.LayoutParams params = (FrameLayout.LayoutParams) slideText
+                            .getLayoutParams();
+                    if (startedDraggingX != -1) {
+                        float dist = (x - startedDraggingX);
+                        params.leftMargin = dp(30) + (int) dist;
+                        slideText.setLayoutParams(params);
+                        float alpha = 1.0f + dist / distCanMove;
+                        if (alpha > 1) {
+                            alpha = 1;
+                        } else if (alpha < 0) {
+                            alpha = 0;
+                        }
+                        ViewProxy.setAlpha(slideText, alpha);
+                    }
+                    if (x <= ViewProxy.getX(slideText) + slideText.getWidth()
+                            + dp(30)) {
+                        if (startedDraggingX == -1) {
+                            startedDraggingX = x;
+                            distCanMove = (recordPanel.getMeasuredWidth()
+                                    - slideText.getMeasuredWidth() - dp(48)) / 2.0f;
+                            if (distCanMove <= 0) {
+                                distCanMove = dp(80);
+                            } else if (distCanMove > dp(80)) {
+                                distCanMove = dp(80);
+                            }
+                        }
+                    }
+                    if (params.leftMargin > dp(30)) {
+                        params.leftMargin = dp(30);
+                        slideText.setLayoutParams(params);
+                        ViewProxy.setAlpha(slideText, 1);
+                        startedDraggingX = -1;
+                    }
+                }
+                view.onTouchEvent(motionEvent);
+                return true;
+            }
+        });
+
+
+//        voiceRecordButton.setOnClickListener(new OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                waveRecorder = new WaveRecording();
+//                waveRecorder.setupRecorder();
+//                Log.e("Record", "Setup recorder");
+//                waveRecorder.recorder.startRecording();
+//                Log.e("Start","");
+//				voiceRecordButton.setVisibility(View.INVISIBLE);
+//				voiceStopButton.setVisibility(View.VISIBLE);
+//				final ProgressDialog alertDialog = new ProgressDialog(getActivity());
+//                alertDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
+//                alertDialog.setIndeterminate(true);
+//                alertDialog.setProgressNumberFormat(null);
+//                alertDialog.setProgressPercentFormat(null);
+//                alertDialog.setMax(60);
+//                alertDialog.setCanceledOnTouchOutside(false);
+//                alertDialog.setCancelable(false);
+//				alertDialog.setTitle("Запись...");
+//                alertDialog.setMessage("");
+//                alertDialog.setOnCancelListener(new DialogInterface.OnCancelListener() {
+//                    @Override
+//                    public void onCancel(DialogInterface dialog) {
+////                        File file = getLatestFilefromDir();
+////                        file.delete();
+//                        voiceStopButton.setVisibility(View.INVISIBLE);
+//                        voiceRecordButton.setVisibility(View.VISIBLE);
+//                    }
+//                });
+//                alertDialog.setButton(DialogInterface.BUTTON_POSITIVE, "Отправить", new DialogInterface.OnClickListener(){
+//
+//                    @Override
+//                    public void onClick(DialogInterface dialog, int which) {
+//                        waveRecorder.recorder.stopRecording();
+//                        Log.e("STOP","In send Button");
+//                        SendTask task = new SendTask();
+//                        task.execute();
+//
+////						activity.sendVoiceFuckingMessage();
+//                        voiceStopButton.setVisibility(View.INVISIBLE);
+//                        voiceRecordButton.setVisibility(View.VISIBLE);
+//                    }
+//                });
+//
+//                alertDialog.setButton(DialogInterface.BUTTON_NEGATIVE, "Отменить", new DialogInterface.OnClickListener(){
+//
+//                    @Override
+//                    public void onClick(DialogInterface dialog, int which) {
+//                        alertDialog.dismiss();
+//                        waveRecorder.recorder.stopRecording();
+//                        Log.e("STOP", "in Cancel");
+////                        File file = getLatestFilefromDir();
+////                        file.delete();
+//                        voiceStopButton.setVisibility(View.INVISIBLE);
+//                        voiceRecordButton.setVisibility(View.VISIBLE);
+//                    }
+//                });
+//
+//				alertDialog.show();
+//
+//
+//                new CountDownTimer(60000, 1000) {
+//                    @Override
+//                    public void onTick(long millisUntilFinished) {
+//                        alertDialog.setMessage("" + (60-millisUntilFinished/1000) + " секунд записи");
+//                    }
+//
+//                    @Override
+//                    public void onFinish() {
+//                        alertDialog.dismiss();
+//                        waveRecorder.recorder.stopRecording();
+//                        Log.e("STOP"," onFinish");
+//                        voiceStopButton.setVisibility(View.INVISIBLE);
+//                        voiceRecordButton.setVisibility(View.VISIBLE);
+//                    }
+//                }.start();
+//
+//            }
+//        });
 
 
 		mEditMessage.setOnEditorActionListener(mEditorActionListener);
@@ -1624,6 +1822,73 @@ public class ConversationFragment extends Fragment implements EditMessage.Keyboa
         }
     }
 
+	private void startrecord() {
+		// TODO Auto-generated method stub
+		startTime = SystemClock.uptimeMillis();
+		timer = new Timer();
+		MyTimerTask myTimerTask = new MyTimerTask();
+		timer.schedule(myTimerTask, 1000, 1000);
+		vibrate();
+	}
 
+	private void stoprecord() {
+		// TODO Auto-generated method stub
+		if (timer != null) {
+			timer.cancel();
+		}
+		if (recordTimeText.getText().toString().equals("00:00")) {
+			return;
+		}
+		recordTimeText.setText("00:00");
+		vibrate();
+	}
+
+	private void vibrate() {
+		// TODO Auto-generated method stub
+		try {
+			Vibrator v = (Vibrator) getActivity().getApplicationContext().getSystemService(Context.VIBRATOR_SERVICE);
+			v.vibrate(25);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	public static int dp(float value) {
+		return (int) Math.ceil(1 * value);
+	}
+
+	class MyTimerTask extends TimerTask {
+
+		@Override
+		public void run() {
+			timeInMilliseconds = SystemClock.uptimeMillis() - startTime;
+			updatedTime = timeSwapBuff + timeInMilliseconds;
+			final String hms = String.format(
+					"%02d:%02d",
+					TimeUnit.MILLISECONDS.toMinutes(updatedTime)
+							- TimeUnit.HOURS.toMinutes(TimeUnit.MILLISECONDS
+							.toHours(updatedTime)),
+					TimeUnit.MILLISECONDS.toSeconds(updatedTime)
+							- TimeUnit.MINUTES.toSeconds(TimeUnit.MILLISECONDS
+							.toMinutes(updatedTime)));
+			long lastsec = TimeUnit.MILLISECONDS.toSeconds(updatedTime)
+					- TimeUnit.MINUTES.toSeconds(TimeUnit.MILLISECONDS
+					.toMinutes(updatedTime));
+			System.out.println(lastsec + " hms " + hms);
+			getActivity().runOnUiThread(new Runnable() {
+
+				@Override
+				public void run() {
+					try {
+						if (recordTimeText != null)
+							recordTimeText.setText(hms);
+					} catch (Exception e) {
+						// TODO: handle exception
+					}
+
+				}
+			});
+		}
+	}
 
 }

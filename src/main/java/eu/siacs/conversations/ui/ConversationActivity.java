@@ -1012,25 +1012,8 @@ public class ConversationActivity extends XmppActivity
 							conversation.setNextEncryption(Message.ENCRYPTION_OTR);
 							item.setChecked(true);
 							break;
-						case R.id.encryption_choice_pgp:
-							if (hasPgp()) {
-								if (conversation.getAccount().getPgpSignature() != null) {
-									conversation.setNextEncryption(Message.ENCRYPTION_PGP);
-									item.setChecked(true);
-								} else {
-									announcePgp(conversation.getAccount(), conversation, onOpenPGPKeyPublished);
-								}
-							} else {
-								showInstallPgpDialog();
-							}
-							break;
-						case R.id.encryption_choice_axolotl:
-							//getFragmentManager().findFragmentById(R.id.conversation_fragment).getView().findViewById(R.id.voiceRecordButton).setVisibility(View.INVISIBLE);
-							Log.d(Config.LOGTAG, AxolotlService.getLogprefix(conversation.getAccount())
-									+ "Enabled axolotl for Contact " + conversation.getContact().getJid());
-							conversation.setNextEncryption(Message.ENCRYPTION_AXOLOTL);
-							item.setChecked(true);
-							break;
+
+
 						default:
 							conversation.setNextEncryption(Message.ENCRYPTION_NONE);
 							break;
@@ -1045,17 +1028,17 @@ public class ConversationActivity extends XmppActivity
 			popup.inflate(R.menu.encryption_choices);
 			MenuItem otr = popup.getMenu().findItem(R.id.encryption_choice_otr);
 			MenuItem none = popup.getMenu().findItem(R.id.encryption_choice_none);
-			MenuItem pgp = popup.getMenu().findItem(R.id.encryption_choice_pgp);
-			MenuItem axolotl = popup.getMenu().findItem(R.id.encryption_choice_axolotl);
-			pgp.setVisible(Config.supportOpenPgp());
+			//MenuItem pgp = popup.getMenu().findItem(R.id.encryption_choice_pgp);
+			//MenuItem axolotl = popup.getMenu().findItem(R.id.encryption_choice_axolotl);
+			//pgp.setVisible(Config.supportOpenPgp());
 			none.setVisible(Config.supportUnencrypted() || conversation.getMode() == Conversation.MODE_MULTI);
 			otr.setVisible(Config.supportOtr());
-			axolotl.setVisible(Config.supportOmemo());
+			//axolotl.setVisible(Config.supportOmemo());
 			if (conversation.getMode() == Conversation.MODE_MULTI) {
 				otr.setVisible(false);
 			}
 			if (!conversation.getAccount().getAxolotlService().isConversationAxolotlCapable(conversation)) {
-				axolotl.setEnabled(false);
+				//axolotl.setEnabled(false);
 			}
 			switch (conversation.getNextEncryption()) {
 				case Message.ENCRYPTION_NONE:
@@ -1064,12 +1047,7 @@ public class ConversationActivity extends XmppActivity
 				case Message.ENCRYPTION_OTR:
 					otr.setChecked(true);
 					break;
-				case Message.ENCRYPTION_PGP:
-					pgp.setChecked(true);
-					break;
-				case Message.ENCRYPTION_AXOLOTL:
-					axolotl.setChecked(true);
-					break;
+
 				default:
 					none.setChecked(true);
 					break;
@@ -1983,17 +1961,24 @@ public class ConversationActivity extends XmppActivity
                 new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
 
-                        currentAesSeed =  edittext.getText().toString();
-                        AES.generateKey(currentAesSeed.toCharArray(), Base64.decode(currentAesSeed,Base64.NO_WRAP));
-                        currentKeySpec = AES.getKey();
-						Log.e("keyspec", Arrays.toString(currentKeySpec.getEncoded()));
+                        if (!edittext.getText().toString().equals("")) {
+                            currentAesSeed = edittext.getText().toString();
+							byte[] currentSeedByte = currentAesSeed.getBytes();
+							AES.generateKey(currentAesSeed.toCharArray(), currentSeedByte);
+							currentKeySpec = AES.getKey();
+							Log.e("keyspec", Arrays.toString(currentKeySpec.getEncoded()));
 
-                        try {
-                            byte[] byteKeySpec = convertToBytes(currentKeySpec);
-                            keysSPEditor.putString(mSelectedConversation.getName(), Base64.encodeToString(byteKeySpec, Base64.NO_WRAP)).apply();
-                        } catch (IOException e) {
-                            e.printStackTrace();
+							try {
+								byte[] byteKeySpec = convertToBytes(currentKeySpec);
+								keysSPEditor.putString(mSelectedConversation.getName(), Base64.encodeToString(byteKeySpec, Base64.NO_WRAP)).apply();
+							} catch (IOException e) {
+								e.printStackTrace();
+							}
                         }
+                        else {
+                            keysSPEditor.putString(mSelectedConversation.getName(), "null").apply();
+                        }
+
                         dialog.cancel();
                     }
                 });

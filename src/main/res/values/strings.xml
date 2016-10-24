@@ -661,4 +661,5 @@
 	<string name="wrong_conference_configuration">This is not a private, non-anonymous conference.</string>
 	<string name="this_conference_has_no_members">There are no members in this conference.</string>
 	<string name="enterkey_settings">Enter Key</string>
+	<string name="lastAudioMessage">Аудиосообщение</string>
 </resources>

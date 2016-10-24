@@ -301,6 +301,7 @@
     <string name="joining_conference">Вход в конференцию...</string>
     <string name="just_now">только что</string>
     <string name="keys">Ключи</string>
+    <string name="lastAudioMessage">Аудиосообщение</string>
     <string name="last_seen_day">Присутствие: 1 день назад</string>
     <string name="last_seen_days">Присутствие: %d дн. назад</string>
     <string name="last_seen_hour">Присутствие: 1 час назад</string>
@@ -560,7 +561,7 @@
     <string name="send_now">Отправить сейчас</string>
     <string name="send_omemo_message">Отправить OMEMO защифрованное сообщение</string>
     <string name="send_omemo_x509_message">Послать v\\OMEMO зашифрованное сообщение</string>
-    <string name="send_otr_message">Отправить OTR защифрованное сообщение</string>
+    <string name="send_otr_message"/>
     <string name="send_pgp_message">Отправить OpenPGP защифрованное сообщение</string>
     <string name="send_presence_updates">Анонсировать статус присутствия</string>
     <string name="send_private_message">Отправить частное сообщение</string>

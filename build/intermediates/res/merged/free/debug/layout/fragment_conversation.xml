@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="?attr/color_background_secondary">
 
     <ListView
@@ -36,8 +37,6 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_alignParentTop="true"
-            android:layout_toEndOf="@+id/voiceRecordButton"
-            android:layout_toRightOf="@+id/voiceRecordButton"
             android:background="?attr/color_background_primary"
             android:ems="10"
             android:imeOptions="flagNoExtractUi|actionSend"
@@ -48,12 +47,14 @@
             android:paddingLeft="8dp"
             android:paddingRight="8dp"
             android:paddingTop="12dp"
-            android:textColor="?attr/color_text_primary">
+            android:textColor="?attr/color_text_primary"
+            android:layout_alignParentStart="true">
 
             <requestFocus />
         </eu.siacs.conversations.ui.EditMessage>
 
         <ImageButton
+            android:visibility="invisible"
             android:id="@+id/textSendButton"
             android:layout_width="48dp"
             android:layout_height="48dp"
@@ -62,30 +63,91 @@
             android:background="?attr/color_background_primary"
             android:src="?attr/ic_send_text_offline" />
 
-        <Button
+
+
+        <FrameLayout
+            android:layout_marginRight="48dp"
+            android:id="@+id/record_panel"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="bottom"
+            android:background="#ffffff"
+            android:visibility="invisible" >
+
+            <LinearLayout
+                android:id="@+id/slideText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="1dp"
+                    android:src="@drawable/slidearrow" />
+
+                <TextView
+                    android:id="@+id/slideToCancelTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:textColor="#999999"
+                    android:textSize="12dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="#ffffffff"
+                android:orientation="horizontal"
+                android:paddingLeft="13dp" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="1dp"
+                    android:src="@drawable/rec" />
+
+                <TextView
+                    android:id="@+id/recording_time_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:text="00:00"
+                    android:textColor="#4d4c4b"
+                    android:textSize="16dp" />
+            </LinearLayout>
+        </FrameLayout>
+<!--        <ImageButton
+            android:visibility="visible"
             android:id="@+id/voiceRecordButton"
             android:layout_width="48dp"
             android:layout_height="48dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_margin="2dp"
-            android:background="@null"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
             android:clickable="true"
-            android:drawableBottom="@drawable/ic_send_voice_offline" />
+            android:background="@drawable/ripple_effect"
+            android:src="@drawable/ic_send_voice_offline"
+            />-->
 
-        <Button
-            android:id="@+id/voiceStopButton"
+        <eu.siacs.conversations.ui.SexyButton
+
+            android:background="@drawable/ripple_effect"
+            android:id="@+id/voiceRecordButton"
             android:layout_width="48dp"
             android:layout_height="48dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_margin="2dp"
-            android:background="@null"
-            android:clickable="true"
-            android:drawableBottom="@drawable/ic_send_voice_online"
-            android:visibility="invisible"/>
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            app:second="?attr/ic_send_text_offline"
+            app:first="@drawable/ic_send_voice_offline"
+            />
 
     </RelativeLayout>
 
@@ -126,6 +188,8 @@
             android:textColor="@color/white"
             android:textSize="?attr/TextSizeBody"
             android:textStyle="bold" />
+
     </RelativeLayout>
+
 
 </RelativeLayout>

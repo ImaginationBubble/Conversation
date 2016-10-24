@@ -22,6 +22,8 @@ public class AudioOutputBase64 {
 //    File outFile = new File(Environment.getExternalStorageDirectory().getAbsolutePath() + path + ".mp3");
     private MediaRecorder recorder = null;
     private AudioOutputDelegate delegate = null;
+    private static final int SAMPLING_RATE = 48000;
+
 
     //call for u need start record
 
@@ -44,8 +46,11 @@ public class AudioOutputBase64 {
             recorder = new MediaRecorder();
             recorder.reset();
             recorder.setAudioSource(MediaRecorder.AudioSource.MIC);
-            recorder.setOutputFormat(MediaRecorder.OutputFormat.DEFAULT);
-            recorder.setAudioEncoder(MediaRecorder.AudioEncoder.AMR_NB);
+            recorder.setAudioSamplingRate(44100);
+            recorder.setAudioEncodingBitRate(160 * 1024);
+            recorder.setAudioChannels(2);
+            recorder.setOutputFormat(MediaRecorder.OutputFormat.MPEG_4);
+            recorder.setAudioEncoder(MediaRecorder.AudioEncoder.AMR_WB);
             recorder.setOutputFile(outFile.getAbsolutePath());
             recorder.prepare();
             recorder.start();

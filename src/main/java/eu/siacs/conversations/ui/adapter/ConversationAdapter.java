@@ -76,25 +76,28 @@ public class ConversationAdapter extends ArrayAdapter<Conversation> {
 			imagePreview.setVisibility(View.VISIBLE);
 			activity.loadBitmap(message, imagePreview);
 		} else {
-			Pair<String,Boolean> preview = UIHelper.getMessagePreview(activity,message);
-			mLastMessage.setVisibility(View.VISIBLE);
-			imagePreview.setVisibility(View.GONE);
-			mLastMessage.setText(preview.first);
-			if (preview.second) {
-				if (conversation.isRead()) {
-					mLastMessage.setTypeface(null, Typeface.ITALIC);
-				} else {
-					mLastMessage.setTypeface(null,Typeface.BOLD_ITALIC);
-				}
-			} else {
-				if (conversation.isRead()) {
-					mLastMessage.setTypeface(null,Typeface.NORMAL);
-				} else {
-					mLastMessage.setTypeface(null,Typeface.BOLD);
-				}
-			}
-		}
-
+            Pair<String, Boolean> preview = UIHelper.getMessagePreview(activity, message);
+            mLastMessage.setVisibility(View.VISIBLE);
+            imagePreview.setVisibility(View.GONE);
+            if (preview.first.endsWith(".mp3") || preview.first.endsWith(".wav")) {
+                mLastMessage.setText(R.string.lastAudioMessage);
+            } else {
+                mLastMessage.setText(preview.first);
+                if (preview.second) {
+                    if (conversation.isRead()) {
+                        mLastMessage.setTypeface(null, Typeface.ITALIC);
+                    } else {
+                        mLastMessage.setTypeface(null, Typeface.BOLD_ITALIC);
+                    }
+                } else {
+                    if (conversation.isRead()) {
+                        mLastMessage.setTypeface(null, Typeface.NORMAL);
+                    } else {
+                        mLastMessage.setTypeface(null, Typeface.BOLD);
+                    }
+                }
+            }
+        }
 		long muted_till = conversation.getLongAttribute(Conversation.ATTRIBUTE_MUTED_TILL,0);
 		if (muted_till == Long.MAX_VALUE) {
 			notificationStatus.setVisibility(View.VISIBLE);

@@ -80,7 +80,7 @@
   <string name="also_end_conversation">Закончить эту беседу впоследствии</string>
   <string name="send_unencrypted_message">Отправить нешифрованное сообщение</string>
   <string name="send_message_to_x">Отправить сообщение для %s</string>
-  <string name="send_otr_message">Отправить OTR защифрованное сообщение</string>
+  <string name="send_otr_message"></string>
   <string name="send_omemo_message">Отправить OMEMO защифрованное сообщение</string>
   <string name="send_omemo_x509_message">Послать v\\OMEMO зашифрованное сообщение</string>
   <string name="send_pgp_message">Отправить OpenPGP защифрованное сообщение</string>
@@ -632,4 +632,5 @@
   <string name="pref_theme_dark">Тёмная тема</string>
   <string name="pref_use_green_background">Зелёный Фон</string>
   <string name="pref_use_green_background_summary">Использовать зелёный фон для полученных сообщений</string>
+  <string name="lastAudioMessage">Аудиосообщение</string>
 </resources>
