@@ -37,7 +37,7 @@
             </intent-filter>
         </receiver>
 
-        <activity android:name=".ui.PasswordActivity">
+        <!--<activity android:name=".ui.PasswordActivity">
 
 
             <intent-filter>
@@ -46,7 +46,7 @@
 
 
             </intent-filter>
-        </activity>
+        </activity>-->
         <activity
             android:name=".ui.ConversationActivity"
             android:label="Conversation"
@@ -56,6 +56,7 @@
             android:windowSoftInputMode="stateHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
 
             </intent-filter>
         </activity>
