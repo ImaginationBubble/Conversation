@@ -1,4 +1,4 @@
-package eu.siacs.conversations.ui;
+﻿package eu.siacs.conversations.ui;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -296,7 +296,6 @@ public class ConversationActivity extends XmppActivity
         if(!dir.exists()){
             dir.mkdir();
         }
-
         setContentView(R.layout.fragment_conversations_overview);
 
 		this.mConversationFragment = new ConversationFragment();
