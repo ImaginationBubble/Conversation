@@ -14,246 +14,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4216f76-09d8-4a7d-b3f2-b8c7fe6cde96" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-hdpi/ic_action_name.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-hdpi/rec.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-hdpi/slidearrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-mdpi/ic_action_name.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-mdpi/rec.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-mdpi/slidearrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_action_name.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/rec.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/slidearrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xxhdpi/ic_action_name.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xxhdpi/rec.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xxhdpi/slidearrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/eu/siacs/conversations/ui/SexyButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/eu/siacs/conversations/ui/View10.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/eu/siacs/conversations/ui/ViewProxy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/eu/siacs/conversations/voicemessage/BounceInterpolator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/eu/siacs/conversations/voicemessage/WaveRecording.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable/ripple_effect.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/EnhancedListView_0_3_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/ShortcutBadger_1_1_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/android_crop_1_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/android_integration_3_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/annotations_12_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_21_0_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/axolotl_android_1_3_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/axolotl_java_1_3_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/bcmail_jdk15on_1_52.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/bcpkix_jdk15on_1_52.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/bcprov_jdk15on_1_52.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/core_3_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/curve25519_android_0_2_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/curve25519_java_0_2_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/flowlayout_0_4_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/libidn_1_15.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/library_1_2_8.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/library_2_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/minidns_0_1_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/openpgp_api_10_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/org_otr4j_0_22.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_base_9_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_basement_9_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_gcm_9_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_iid_9_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_tasks_9_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/protobuf_java_2_5_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/roundedimageview_2_2_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_24_2_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_compat_24_2_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_ui_24_2_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_utils_24_2_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_fragment_24_2_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_media_compat_24_2_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v13_24_2_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_24_2_0.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_libs_MemorizingTrustManager_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_libs_MemorizingTrustManager_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_libs_MemorizingTrustManager_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_libs_MemorizingTrustManager_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_libs_MemorizingTrustManager_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_libs_MemorizingTrustManager_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_libs_MemorizingTrustManager_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_libs_MemorizingTrustManager_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/mockable-android-24.jar" afterPath="$PROJECT_DIR$/build/generated/mockable-android-24.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/android/support/v7/appcompat/R$attr.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/android/support/v7/appcompat/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/android/support/v7/appcompat/R$string.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/android/support/v7/appcompat/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/android/support/v7/appcompat/R$styleable.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/android/support/v7/appcompat/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/com/google/android/gms/R$attr.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/com/google/android/gms/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/com/google/android/gms/R$styleable.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/com/google/android/gms/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/com/kyleduo/switchbutton/R$attr.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/com/kyleduo/switchbutton/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/com/kyleduo/switchbutton/R$drawable.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/com/kyleduo/switchbutton/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/com/kyleduo/switchbutton/R$string.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/com/kyleduo/switchbutton/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/com/kyleduo/switchbutton/R$styleable.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/com/kyleduo/switchbutton/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/com/makeramen/roundedimageview/R$attr.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/com/makeramen/roundedimageview/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/com/makeramen/roundedimageview/R$string.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/com/makeramen/roundedimageview/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/com/makeramen/roundedimageview/R$styleable.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/com/makeramen/roundedimageview/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/com/soundcloud/android/crop/R$attr.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/com/soundcloud/android/crop/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/com/soundcloud/android/crop/R$styleable.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/com/soundcloud/android/crop/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/de/timroes/android/listview/R$string.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/de/timroes/android/listview/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$anim.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$anim.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$array.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$array.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$attr.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$bool.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$bool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$color.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$dimen.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$dimen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$drawable.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$id.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$integer.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$layout.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$menu.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$plurals.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$plurals.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$string.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$style.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$styleable.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$xml.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/R$xml.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/entities/Message$Decision.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/entities/Message$Decision.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/entities/Message$FileParams.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/entities/Message$FileParams.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/entities/Message.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/entities/Message.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/generator/AbstractGenerator.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/generator/AbstractGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/generator/IqGenerator.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/generator/IqGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/parser/MessageParser.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/parser/MessageParser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/persistance/FileBackend.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/persistance/FileBackend.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/services/ExportLogsService.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/services/ExportLogsService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/services/NotificationService.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/services/NotificationService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/services/XmppConnectionService.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/services/XmppConnectionService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/AbstractSearchableListItemActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/AbstractSearchableListItemActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ChooseContactActivity$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ChooseContactActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ChooseContactActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ChooseContactActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConferenceDetailsActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConferenceDetailsActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ContactDetailsActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ContactDetailsActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$11.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$12.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$13.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$13.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$14.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$14.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$15.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$15.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$16.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$16.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$17.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$17.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$18.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$18.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$19$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$19$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$19.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$19.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$20$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$20$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$20.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$20.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$21.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$21.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$22$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$22$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$22.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$22.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$23.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$23.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$24.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$24.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$6.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$10.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$11.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$12.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$13.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$13.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$14.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$14.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$15.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$15.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$16.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$16.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$17.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$17.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$18.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$18.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$19.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$19.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$20.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$20.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$21.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$21.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$22.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$22.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$23.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$23.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$24.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$24.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$3$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$3$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$3.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$4$1$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$4$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$4$1$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$4$1$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$4$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$4$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$4.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$5.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$6.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$7.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$8.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$9.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$SendButtonAction.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment$SendButtonAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ConversationFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/EditAccountActivity$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/EditAccountActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/EditAccountActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/EditAccountActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/MagicCreateActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/MagicCreateActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ManageAccountActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ManageAccountActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/PublishProfilePictureActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/PublishProfilePictureActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/SetPresenceActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/SetPresenceActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ShareWithActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/ShareWithActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/StartConversationActivity$MyListFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/StartConversationActivity$MyListFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/StartConversationActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/StartConversationActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/TrustKeysActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/TrustKeysActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/WelcomeActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/WelcomeActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/XmppActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/XmppActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/adapter/ConversationAdapter$AsyncDrawable.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/adapter/ConversationAdapter$AsyncDrawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/adapter/ConversationAdapter$BitmapWorkerTask.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/adapter/ConversationAdapter$BitmapWorkerTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/adapter/ConversationAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/adapter/ConversationAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/adapter/MessageAdapter$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/adapter/MessageAdapter$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/adapter/MessageAdapter$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/adapter/MessageAdapter$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/adapter/MessageAdapter$3.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/adapter/MessageAdapter$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/adapter/MessageAdapter$4.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/adapter/MessageAdapter$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/adapter/MessageAdapter$5.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/adapter/MessageAdapter$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/adapter/MessageAdapter$6.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/adapter/MessageAdapter$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/adapter/MessageAdapter$7.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/adapter/MessageAdapter$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/adapter/MessageAdapter$8.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/adapter/MessageAdapter$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/adapter/MessageAdapter$9.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/adapter/MessageAdapter$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/adapter/MessageAdapter$AsyncDrawable.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/adapter/MessageAdapter$AsyncDrawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/adapter/MessageAdapter$BitmapWorkerTask.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/adapter/MessageAdapter$BitmapWorkerTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/adapter/MessageAdapter$ViewHolder.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/adapter/MessageAdapter$ViewHolder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/adapter/MessageAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/ui/adapter/MessageAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/voicemessage/AudioOutputBase64.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/free/debug/eu/siacs/conversations/voicemessage/AudioOutputBase64.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/drawable-hdpi-v4/common_full_open_on_phone.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/drawable-hdpi-v4/common_full_open_on_phone.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/drawable-hdpi-v4/common_ic_googleplayservices.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/drawable-hdpi-v4/common_ic_googleplayservices.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/drawable-mdpi-v4/common_full_open_on_phone.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/drawable-mdpi-v4/common_full_open_on_phone.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/drawable-mdpi-v4/elv_ic_action_undo.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/drawable-mdpi-v4/elv_ic_action_undo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/drawable-xhdpi-v4/common_full_open_on_phone.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/drawable-xhdpi-v4/common_full_open_on_phone.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/drawable-xhdpi-v4/common_ic_googleplayservices.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/drawable-xhdpi-v4/common_ic_googleplayservices.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/resources-free-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-free-debug-androidTest.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/resources-free-debug.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-free-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/apk/Conversations-1.14.1-free-debug.apk" afterPath="$PROJECT_DIR$/build/outputs/apk/Conversations-1.14.1-free-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conversations.iml" afterPath="$PROJECT_DIR$/Conversations.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/source/r/free/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/build/generated/source/r/free/debug/android/support/v7/appcompat/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/source/r/free/debug/com/google/android/gms/R.java" afterPath="$PROJECT_DIR$/build/generated/source/r/free/debug/com/google/android/gms/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/source/r/free/debug/com/kyleduo/switchbutton/R.java" afterPath="$PROJECT_DIR$/build/generated/source/r/free/debug/com/kyleduo/switchbutton/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/source/r/free/debug/com/makeramen/roundedimageview/R.java" afterPath="$PROJECT_DIR$/build/generated/source/r/free/debug/com/makeramen/roundedimageview/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/source/r/free/debug/com/soundcloud/android/crop/R.java" afterPath="$PROJECT_DIR$/build/generated/source/r/free/debug/com/soundcloud/android/crop/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/source/r/free/debug/de/timroes/android/listview/R.java" afterPath="$PROJECT_DIR$/build/generated/source/r/free/debug/de/timroes/android/listview/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/source/r/free/debug/eu/siacs/conversations/R.java" afterPath="$PROJECT_DIR$/build/generated/source/r/free/debug/eu/siacs/conversations/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/free/debug/multi/values-ru.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/free/debug/multi/values-ru.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/free/debug/multi/values.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/free/debug/multi/values.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/free/debug/single/anim.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/free/debug/single/anim.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/free/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/free/debug/single/drawable-xxhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/free/debug/single/drawable.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/free/debug/single/drawable.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeFreeDebugAssets/merger.xml" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeFreeDebugAssets/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeFreeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeFreeDebugResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/manifests/full/free/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/build/intermediates/manifests/full/free/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/layout/account_row.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/layout/account_row.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/layout/fragment_conversation.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/layout/fragment_conversation.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/layout/message_received.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/layout/message_received.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/layout/message_sent.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/layout/message_sent.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/menu/encryption_choices.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/menu/encryption_choices.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/values-ru/values-ru.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/values-ru/values-ru.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/values/values.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/free/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/symbols/free/debug/R.txt" afterPath="$PROJECT_DIR$/build/intermediates/symbols/free/debug/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/logs/manifest-merger-free-debug-report.txt" afterPath="$PROJECT_DIR$/build/outputs/logs/manifest-merger-free-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/eu/siacs/conversations/entities/Message.java" afterPath="$PROJECT_DIR$/src/main/java/eu/siacs/conversations/entities/Message.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/eu/siacs/conversations/parser/MessageParser.java" afterPath="$PROJECT_DIR$/src/main/java/eu/siacs/conversations/parser/MessageParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/eu/siacs/conversations/services/NotificationService.java" afterPath="$PROJECT_DIR$/src/main/java/eu/siacs/conversations/services/NotificationService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/eu/siacs/conversations/ui/ConversationActivity.java" afterPath="$PROJECT_DIR$/src/main/java/eu/siacs/conversations/ui/ConversationActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/eu/siacs/conversations/ui/ConversationFragment.java" afterPath="$PROJECT_DIR$/src/main/java/eu/siacs/conversations/ui/ConversationFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/eu/siacs/conversations/ui/adapter/ConversationAdapter.java" afterPath="$PROJECT_DIR$/src/main/java/eu/siacs/conversations/ui/adapter/ConversationAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/eu/siacs/conversations/ui/adapter/MessageAdapter.java" afterPath="$PROJECT_DIR$/src/main/java/eu/siacs/conversations/ui/adapter/MessageAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/eu/siacs/conversations/voicemessage/AudioOutputBase64.java" afterPath="$PROJECT_DIR$/src/main/java/eu/siacs/conversations/voicemessage/AudioOutputBase64.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/res/layout/account_row.xml" afterPath="$PROJECT_DIR$/src/main/res/layout/account_row.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/res/layout/fragment_conversation.xml" afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_conversation.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/res/layout/message_received.xml" afterPath="$PROJECT_DIR$/src/main/res/layout/message_received.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/res/layout/message_sent.xml" afterPath="$PROJECT_DIR$/src/main/res/layout/message_sent.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/res/menu/encryption_choices.xml" afterPath="$PROJECT_DIR$/src/main/res/menu/encryption_choices.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/res/values-ru/strings.xml" afterPath="$PROJECT_DIR$/src/main/res/values-ru/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/res/values/attrs.xml" afterPath="$PROJECT_DIR$/src/main/res/values/attrs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/src/main/res/values/strings.xml" />
     </list>
     <ignored path="Conversation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -478,11 +257,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/res/values-ru/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="82" column="34" selection-start-line="82" selection-start-column="34" selection-end-line="82" selection-end-column="34" />
+            <state relative-caret-position="124">
+              <caret line="83" column="36" selection-start-line="83" selection-start-column="36" selection-end-line="83" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -501,11 +280,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="account_row.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="account_row.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/res/layout/account_row.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+            <state relative-caret-position="250">
+              <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
               <folding>
                 <element signature="e#1833#1865#0" expanded="true" />
               </folding>
@@ -3828,9 +3607,9 @@
         <option value="$PROJECT_DIR$/src/main/res/layout/message_received.xml" />
         <option value="$PROJECT_DIR$/src/main/res/menu/encryption_choices.xml" />
         <option value="$PROJECT_DIR$/src/main/java/eu/siacs/conversations/ui/ConversationActivity.java" />
-        <option value="$PROJECT_DIR$/src/main/res/values-ru/strings.xml" />
         <option value="$PROJECT_DIR$/src/main/res/layout/manage_accounts.xml" />
         <option value="$PROJECT_DIR$/src/main/res/layout/account_row.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/values-ru/strings.xml" />
       </list>
     </option>
   </component>
@@ -4083,7 +3862,7 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/AnimButton-master" />
-    <property name="device.picker.selection" value="192.168.0.101:5555" />
+    <property name="device.picker.selection" value="39c82163" />
     <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
     <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlEditorPanel.WIDTH" value="329" />
   </component>
@@ -4392,16 +4171,24 @@
       <option name="presentableId" value="Default" />
       <updated>1477165757957</updated>
     </task>
+    <task id="LOCAL-00001" summary="New AMAZING SEXUALITY button for  sending text and voice messages with BEAUTIFUL animation&#10;Support Wave audio format">
+      <created>1477327426586</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1477327426586</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="1" width="1366" height="767" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32561985" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47272727" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -4413,7 +4200,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32852808" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852808" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -4442,6 +4229,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="New AMAZING SEXUALITY button for  sending text and voice messages with BEAUTIFUL animation&#10;Support Wave audio format" />
+    <option name="LAST_COMMIT_MESSAGE" value="New AMAZING SEXUALITY button for  sending text and voice messages with BEAUTIFUL animation&#10;Support Wave audio format" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -4882,14 +4673,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/values-ru/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="82" column="34" selection-start-line="82" selection-start-column="34" selection-end-line="82" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/manage_accounts.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -4903,8 +4686,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/account_row.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+        <state relative-caret-position="250">
+          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
           <folding>
             <element signature="e#1833#1865#0" expanded="true" />
           </folding>
@@ -4912,6 +4695,14 @@
       </provider>
       <provider editor-type-id="android-designer2">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/values-ru/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="83" column="36" selection-start-line="83" selection-start-column="36" selection-end-line="83" selection-end-column="36" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
