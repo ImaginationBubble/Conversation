@@ -18,6 +18,7 @@ public class AboutActivity extends Activity {
         int mTheme = dark ? R.style.ConversationsTheme_Dark : R.style.ConversationsTheme;
         setTheme(mTheme);
 
+
         setContentView(R.layout.activity_about);
     }
 }
